@@ -12,12 +12,12 @@ struct ClinicalAdviceView: View {
                 HStack {
                     Text("Guía Clínica de Seguridad")
                         .font(.system(size: 24, weight: .bold, design: .rounded))
-                        .foregroundStyle(AppTheme.primaryText(for: colorScheme))
+                        .foregroundStyle(colorScheme == .dark ? .white : .black)
                     Spacer()
                     Button { dismiss() } label: {
                         Image(systemName: "xmark.circle.fill")
                             .font(.title2)
-                            .foregroundStyle(AppTheme.tertiaryText(for: colorScheme))
+                            .foregroundStyle((colorScheme == .dark ? Color.white : Color.black).opacity(0.3))
                     }
                 }
                 .padding(.top, 40)
@@ -60,7 +60,7 @@ struct AdviceCard: View {
                     .foregroundStyle(color)
                 Text(description)
                     .font(.system(size: 14))
-                    .foregroundStyle(AppTheme.secondaryText(for: colorScheme))
+                    .foregroundStyle((colorScheme == .dark ? Color.white : Color.black).opacity(0.8))
                     .lineSpacing(4)
             }
         }
@@ -102,11 +102,11 @@ struct WorkoutSummaryView: View {
                 VStack(spacing: 12) {
                     Text("¡Excelente trabajo!")
                         .font(.system(size: 32, weight: .bold, design: .rounded))
-                        .foregroundStyle(AppTheme.primaryText(for: colorScheme))
+                        .foregroundStyle(colorScheme == .dark ? .white : .black)
                     
                     Text("Has sumado puntos a tu racha de recuperación.")
                         .font(.system(size: 16))
-                        .foregroundStyle(AppTheme.secondaryText(for: colorScheme))
+                        .foregroundStyle(.secondary)
                         .multilineTextAlignment(.center)
                 }
                 
@@ -140,10 +140,10 @@ struct SummaryMetric: View {
                 .foregroundStyle(color)
             Text(value)
                 .font(.system(size: 24, weight: .black, design: .rounded))
-                .foregroundStyle(AppTheme.primaryText(for: colorScheme))
+                .foregroundStyle(colorScheme == .dark ? .white : .black)
             Text(label)
                 .font(.system(size: 10, weight: .bold))
-                .foregroundStyle(AppTheme.tertiaryText(for: colorScheme))
+                .foregroundStyle((colorScheme == .dark ? Color.white : Color.black).opacity(0.4))
         }
         .frame(maxWidth: .infinity)
         .padding(.vertical, 24)

@@ -191,30 +191,9 @@ final class LocalInferenceService: LocalInferenceServiceProtocol {
         var containsStructuralKeywords: Bool = false
     }
     
-    private func analyzeText(_ text: String) -> TextAnalysis {
-        var result = TextAnalysis()
-        let tagger = NLTagger(tagSchemes: [.lemma])
-        tagger.string = text
-        
-        let structuralKeywords = Set(["rotura", "fractura", "grado", "rupture", "fracture", "grade", "tear"])
-        let acuteKeywords = Set(["agudo", "reciente", "fuerte", "acute", "recent", "sharp", "level"])
-        
-        tagger.enumerateTags(in: text.startIndex..<text.endIndex, unit: .word, scheme: .lemma, options: [.omitWhitespace, .omitPunctuation]) { tag, range in
-            let word = String(text[range]).lowercased()
-            if structuralKeywords.contains(word) { result.containsStructuralKeywords = true }
-            if acuteKeywords.contains(word) { result.containsAcuteKeywords = true }
-            return true
-        }
-        
-        // Fallback to simple contains if tagger is not conclusive or for idioms
-        if !result.containsStructuralKeywords {
-            result.containsStructuralKeywords = structuralKeywords.contains { text.contains($0) }
-        }
-        if !result.containsAcuteKeywords {
-            result.containsAcuteKeywords = acuteKeywords.contains { text.contains($0) }
-        }
-        
-        return result
+    private func analyzeText(_ text: String) -> (containsStructuralKeywords: Bool, containsAcuteKeywords: Bool) {
+        let analysis = MedicalAnalysis.analyze(text)
+        return (analysis.isStructural, analysis.isAcute)
     }
     
     @MainActor func generatePrehabRoutine(for bodyPart: String) async -> [Exercise] {

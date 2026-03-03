@@ -1,7 +1,0 @@
-Command line invocation:
-    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild test -scheme RehApp -destination "platform=iOS Simulator,name=iPhone 17 Pro"
-
-2026-03-03 16:41:27.032 xcodebuild[29391:608154] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
-2026-03-03 16:41:27.035 xcodebuild[29391:608154] Writing error result bundle to /var/folders/9b/1vm674511_n3mbcq2_1z9jl80000gn/T/ResultBundle_2026-03-03_16-41-0027.xcresult
-xcodebuild: error: Scheme RehApp is not currently configured for the test action.
-
