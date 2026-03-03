@@ -1,0 +1,23 @@
+{
+  "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/RehApp/Services/SymptomAnalyzerService.swift" : {
+    "const-values" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/arm64/SymptomAnalyzerService.swiftconstvalues",
+    "dependencies" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/arm64/SymptomAnalyzerService.d",
+    "diagnostics" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/arm64/SymptomAnalyzerService.dia",
+    "object" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/arm64/SymptomAnalyzerService.o",
+    "swift-dependencies" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/arm64/SymptomAnalyzerService.swiftdeps"
+  },
+  "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/RehApp/ViewModels/DashboardViewModel.swift" : {
+    "const-values" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/arm64/DashboardViewModel.swiftconstvalues",
+    "dependencies" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/arm64/DashboardViewModel.d",
+    "diagnostics" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/arm64/DashboardViewModel.dia",
+    "object" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/arm64/DashboardViewModel.o",
+    "swift-dependencies" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/arm64/DashboardViewModel.swiftdeps"
+  },
+  "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/RehApp/ViewModels/ExercisePlayerViewModel.swift" : {
+    "const-values" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/arm64/ExercisePlayerViewModel.swiftconstvalues",
+    "dependencies" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/arm64/ExercisePlayerViewModel.d",
+    "diagnostics" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/arm64/ExercisePlayerViewModel.dia",
+    "object" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/arm64/ExercisePlayerViewModel.o",
+    "swift-dependencies" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/arm64/ExercisePlayerViewModel.swiftdeps"
+  }
+}

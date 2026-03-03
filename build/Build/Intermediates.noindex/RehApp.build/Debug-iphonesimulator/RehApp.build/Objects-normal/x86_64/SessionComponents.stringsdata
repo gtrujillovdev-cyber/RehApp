@@ -1,0 +1,56 @@
+{
+  "source": "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/RehApp/Views/SessionComponents.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "ENTENDIDO",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "Guía Clínica de Seguridad",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 12
+        }
+      },
+      {
+        "comment": "",
+        "key": "FINALIZAR",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 118
+        }
+      },
+      {
+        "comment": "",
+        "key": "SESIÓN COMPLETADA",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 91
+        }
+      },
+      {
+        "comment": "",
+        "key": "¡Excelente trabajo!",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 100
+        }
+      },
+      {
+        "comment": "",
+        "key": "Has sumado puntos a tu racha de recuperación.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 104
+        }
+      }
+    ]
+  },
+  "version": 1
+}

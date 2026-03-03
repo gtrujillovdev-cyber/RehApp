@@ -1,0 +1,96 @@
+{
+  "source": "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/RehApp/Views/DashboardView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Bienvenido, Atleta",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 61
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tus Recuperaciones",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 78
+        }
+      },
+      {
+        "comment": "",
+        "key": "Editar Recuperación",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 100
+        }
+      },
+      {
+        "comment": "",
+        "key": "Eliminar Recuperación",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 106
+        }
+      },
+      {
+        "comment": "",
+        "key": "Nueva Recuperación",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 113
+        }
+      },
+      {
+        "comment": "",
+        "key": "COACH PREVENTIVO",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 138
+        }
+      },
+      {
+        "comment": "",
+        "key": "Mantenimiento Diario",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 141
+        }
+      },
+      {
+        "comment": "",
+        "key": "INICIAR",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 155
+        }
+      },
+      {
+        "comment": "",
+        "key": "Actividad Semanal",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 183
+        }
+      },
+      {
+        "comment": "",
+        "key": "Día",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 190
+        }
+      },
+      {
+        "comment": "",
+        "key": "Score",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 191
+        }
+      }
+    ]
+  },
+  "version": 1
+}

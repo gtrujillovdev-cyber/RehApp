@@ -1,0 +1,216 @@
+{
+  "source": "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/RehApp/Views/ExercisePlayerView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Serie %lld de %lld",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 102
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tiempo Transcurrido",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 154
+        }
+      },
+      {
+        "comment": "",
+        "key": "Repeticiones",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 163
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld / %lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 166
+        }
+      },
+      {
+        "comment": "",
+        "key": "Calentamiento",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 178
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tiempo restante: %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 182
+        }
+      },
+      {
+        "comment": "",
+        "key": "Descanso",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 192
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tiempo restante: %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 196
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enfriamiento",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 206
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tiempo restante: %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 210
+        }
+      },
+      {
+        "comment": "",
+        "key": "Calentamiento",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 253
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tiempo restante: %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 257
+        }
+      },
+      {
+        "comment": "",
+        "key": "Descanso",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 261
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tiempo restante: %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 265
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enfriamiento",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 269
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tiempo restante: %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 273
+        }
+      },
+      {
+        "comment": "",
+        "key": "DESCRIPCIÓN TÉCNICA",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 290
+        }
+      },
+      {
+        "comment": "",
+        "key": "N/A",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 304
+        }
+      },
+      {
+        "comment": "",
+        "key": "N/A",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 324
+        }
+      },
+      {
+        "comment": "",
+        "key": "INICIAR SESIÓN",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 358
+        }
+      },
+      {
+        "comment": "",
+        "key": "VER RESUMEN",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 400
+        }
+      },
+      {
+        "comment": "",
+        "key": "PAUSAR",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 365
+        }
+      },
+      {
+        "comment": "",
+        "key": "COMPLETAR SERIE",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 371
+        }
+      },
+      {
+        "comment": "",
+        "key": "REANUDAR",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 379
+        }
+      },
+      {
+        "comment": "",
+        "key": "SALTAR BLOQUE",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 385
+        }
+      },
+      {
+        "comment": "",
+        "key": "SALTAR BLOQUE",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 393
+        }
+      }
+    ]
+  },
+  "version": 1
+}

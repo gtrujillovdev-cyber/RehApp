@@ -1,0 +1,72 @@
+{
+  "source": "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/RehApp/Views/MainTabView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Completa una rehabilitación para generar informes.",
+        "location": {
+          "startingColumn": 96,
+          "startingLine": 33
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ajustes",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 40
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sin Datos",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 33
+        }
+      },
+      {
+        "comment": "",
+        "key": "Dashboard",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 19
+        }
+      },
+      {
+        "comment": "",
+        "key": "Mi Plan",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "Informe",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "Informe",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 35
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ajustes",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 42
+        }
+      }
+    ]
+  },
+  "version": 1
+}

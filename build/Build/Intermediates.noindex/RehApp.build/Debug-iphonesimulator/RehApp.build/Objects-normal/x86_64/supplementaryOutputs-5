@@ -1,0 +1,23 @@
+{
+  "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/RehApp/Services/GamificationEngineService.swift" : {
+    "const-values" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/GamificationEngineService.swiftconstvalues",
+    "dependencies" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/GamificationEngineService.d",
+    "diagnostics" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/GamificationEngineService.dia",
+    "object" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/GamificationEngineService.o",
+    "swift-dependencies" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/GamificationEngineService.swiftdeps"
+  },
+  "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/RehApp/Services/HealthKitService.swift" : {
+    "const-values" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/HealthKitService.swiftconstvalues",
+    "dependencies" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/HealthKitService.d",
+    "diagnostics" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/HealthKitService.dia",
+    "object" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/HealthKitService.o",
+    "swift-dependencies" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/HealthKitService.swiftdeps"
+  },
+  "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/RehApp/Services/LocalInferenceService.swift" : {
+    "const-values" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/LocalInferenceService.swiftconstvalues",
+    "dependencies" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/LocalInferenceService.d",
+    "diagnostics" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/LocalInferenceService.dia",
+    "object" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/LocalInferenceService.o",
+    "swift-dependencies" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/LocalInferenceService.swiftdeps"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/RehApp/Models/Exercise.swift" : {
+    "const-values" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/Exercise.swiftconstvalues",
+    "dependencies" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/Exercise.d",
+    "diagnostics" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/Exercise.dia",
+    "object" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/Exercise.o",
+    "swift-dependencies" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/Exercise.swiftdeps"
+  },
+  "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/RehApp/Models/InjuryProfile.swift" : {
+    "const-values" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/InjuryProfile.swiftconstvalues",
+    "dependencies" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/InjuryProfile.d",
+    "diagnostics" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/InjuryProfile.dia",
+    "object" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/InjuryProfile.o",
+    "swift-dependencies" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/InjuryProfile.swiftdeps"
+  },
+  "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/RehApp/Models/Milestone.swift" : {
+    "const-values" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/Milestone.swiftconstvalues",
+    "dependencies" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/Milestone.d",
+    "diagnostics" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/Milestone.dia",
+    "object" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/Milestone.o",
+    "swift-dependencies" : "/Users/gabrieltrujillovallejo/Documents/GtrujilloMacDoc/GitHub/GitGa/Developer/Projects/SwiftProjects/RehApp1.0/RehApp/build/Build/Intermediates.noindex/RehApp.build/Debug-iphonesimulator/RehApp.build/Objects-normal/x86_64/Milestone.swiftdeps"
+  }
+}
