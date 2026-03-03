@@ -5,12 +5,12 @@
 ![Platform](https://img.shields.io/badge/Platform-iOS%2017%2B-black.svg)
 ![Privacy](https://img.shields.io/badge/Privacy-Local--First-green.svg)
 
-**RehApp** es una plataforma nativa de iOS diseñada para la rehabilitación física profesional, impulsada por IA local y centrada en la privacidad del usuario. La aplicación permite generar hojas de ruta de recuperación personalizadas de 12 semanas basadas en el perfil clínico del deportista.
+**RehApp** es una plataforma nativa de iOS diseñada para la rehabilitación física profesional, impulsada por IA local y centrada en la privacidad del usuario. La aplicación permite generar hojas de ruta de recuperación personalizadas adaptadas a la gravedad y el perfil clínico del deportista.
 
 ## 🌟 Características Principales
 
 - **IA Local (Privacy-First)**: Procesamiento de informes médicos y síntomas directamente en el dispositivo mediante `NaturalLanguage` y modelos de inferencia locales.
-- **Hoja de Ruta de 12 Semanas**: Planificación dinámica dividida en 4 fases clínicas (Control, Activación, Carga y Rendimiento).
+- **Hoja de Ruta Adaptativa**: Planificación dinámica ajustada a la gravedad de la lesión (desde 4 semanas para esguinces leves hasta 12+ semanas para casos estructurales).
 - **Motor de Ejercicios Inteligente**: Generación de hasta 5 ejercicios técnicos por sesión con variabilidad y progresión mecánica.
 - **Dashboard de Rendimiento**: Seguimiento de "Recovery Score", rachas diarias y gráficos de actividad semanal.
 - **Integración con Apple Health**: Sincronización de entrenamientos y quema calórica mediante `HealthKit`.

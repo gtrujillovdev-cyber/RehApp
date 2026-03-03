@@ -22,7 +22,7 @@ struct RecoveryPlanView: View {
                     // Full Strategy Overview
                         HStack {
                             VStack(alignment: .leading, spacing: 4) {
-                                Text("ESTRATEGIA 12 SEMANAS")
+                                Text("ESTRATEGIA \(roadmap.estimatedWeeks) SEMANAS")
                                     .font(.system(size: 10, weight: .black))
                                     .tracking(1.2)
                                     .foregroundStyle(AppTheme.athleteOrange)

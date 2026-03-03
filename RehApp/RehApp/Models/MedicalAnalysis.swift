@@ -38,4 +38,14 @@ enum MedicalAnalysis {
         
         return (structural, acute, Array(foundSymptoms))
     }
+    
+    static func estimateWeeks(isStructural: Bool, isAcute: Bool, painLevel: Int) -> Int {
+        if isStructural {
+            return 12 // Severe cases like fractures or ruptures
+        } else if isAcute || painLevel > 7 {
+            return 6  // Moderate cases with high pain or acute symptoms
+        } else {
+            return 4  // Minor functional cases (sprains grade 1, etc.)
+        }
+    }
 }

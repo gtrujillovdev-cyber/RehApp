@@ -8,8 +8,6 @@ protocol LocalInferenceServiceProtocol: Sendable {
 
 final class LocalInferenceService: LocalInferenceServiceProtocol {
     @MainActor func generateRoadmap(for injury: InjuryProfile) async -> RecoveryRoadmap {
-        let roadmap = RecoveryRoadmap(estimatedWeeks: 12)
-        
         let reportText = injury.medicalReportText ?? ""
         let symptoms = injury.symptomsDescription
         let combinedText = "\(reportText) \(symptoms)".lowercased()
@@ -17,6 +15,11 @@ final class LocalInferenceService: LocalInferenceServiceProtocol {
         let analysis = analyzeText(combinedText)
         let isAcute = analysis.containsAcuteKeywords || injury.painLevel > 7
         let isStructural = analysis.containsStructuralKeywords
+        
+        let estimatedWeeks = MedicalAnalysis.estimateWeeks(isStructural: isStructural, isAcute: isAcute, painLevel: injury.painLevel)
+        let roadmap = RecoveryRoadmap(estimatedWeeks: estimatedWeeks)
+        
+        let weeksPerPhase = max(1, estimatedWeeks / 4)
         
         let baseReasoning = String(format: NSLocalizedString("REASONING_BASE", comment: ""), injury.bodyPart, injury.sport, roadmap.estimatedWeeks)
         var detailedReasoning = ""
@@ -31,48 +34,55 @@ final class LocalInferenceService: LocalInferenceServiceProtocol {
         
         roadmap.aiReasoning = "\(baseReasoning) \(detailedReasoning)"
         
-        // Phase 1: Protection & Pain Control (Weeks 1-3)
+        // Phase 1: Protection & Pain Control
+        let p1End = weeksPerPhase
         let phase1 = RecoveryPhase(
             title: "Control y Protección",
-            phaseDescription: "Semanas 1-3. Reducción de inflamación y protección del tejido lesionado. Carga mínima.",
+            phaseDescription: "Semanas 1-\(p1End). Reducción de inflamación y protección del tejido lesionado. Carga mínima.",
             order: 1
         )
-        phase1.dailyRoutines = generateDynamicRoutines(for: injury, factor: 0.5, phase: 1)
+        phase1.dailyRoutines = generateDynamicRoutines(for: injury, factor: 0.5, phase: 1, weeksInPhase: weeksPerPhase)
         
-        // Phase 2: Mobility & Muscle Activation (Weeks 4-6)
+        // Phase 2: Mobility & Muscle Activation
+        let p2Start = p1End + 1
+        let p2End = p1End + weeksPerPhase
         let phase2 = RecoveryPhase(
             title: "Movilidad y Activación",
-            phaseDescription: "Semanas 4-6. Recuperación del rango de movimiento y activación muscular neuromuscular.",
+            phaseDescription: "Semanas \(p2Start)-\(p2End). Recuperación del rango de movimiento y activación muscular neuromuscular.",
             order: 2
         )
-        phase2.dailyRoutines = generateDynamicRoutines(for: injury, factor: 0.7, phase: 2)
+        phase2.dailyRoutines = generateDynamicRoutines(for: injury, factor: 0.7, phase: 2, weeksInPhase: weeksPerPhase)
         
-        // Phase 3: Progressive Loading (Weeks 7-9)
+        // Phase 3: Progressive Loading
+        let p3Start = p2End + 1
+        let p3End = p2End + weeksPerPhase
         let phase3 = RecoveryPhase(
             title: "Carga Progresiva",
-            phaseDescription: "Semanas 7-9. Fortalecimiento específico y adaptación a la carga mecánica.",
+            phaseDescription: "Semanas \(p3Start)-\(p3End). Fortalecimiento específico y adaptación a la carga mecánica.",
             order: 3
         )
-        phase3.dailyRoutines = generateDynamicRoutines(for: injury, factor: 0.9, phase: 3)
+        phase3.dailyRoutines = generateDynamicRoutines(for: injury, factor: 0.9, phase: 3, weeksInPhase: weeksPerPhase)
         
-        // Phase 4: Sport-Specific Performance (Weeks 10-12)
+        // Phase 4: Sport-Specific Performance
+        let p4Start = p3End + 1
+        let p4End = estimatedWeeks
         let phase4 = RecoveryPhase(
             title: "Retorno al Rendimiento",
-            phaseDescription: "Semanas 10-12. Gestos técnicos del \(injury.sport) y preparación para el alta competitiva.",
+            phaseDescription: "Semanas \(p4Start)-\(p4End). Gestos técnicos del \(injury.sport) y preparación para el alta competitiva.",
             order: 4
         )
-        phase4.dailyRoutines = generateDynamicRoutines(for: injury, factor: 1.2, phase: 4)
+        phase4.dailyRoutines = generateDynamicRoutines(for: injury, factor: 1.2, phase: 4, weeksInPhase: weeksPerPhase)
         
         roadmap.phases = [phase1, phase2, phase3, phase4]
         return roadmap
     }
     
-    private func generateDynamicRoutines(for injury: InjuryProfile, factor: Double, phase: Int) -> [DailyRoutine] {
+    private func generateDynamicRoutines(for injury: InjuryProfile, factor: Double, phase: Int, weeksInPhase: Int) -> [DailyRoutine] {
         var routines: [DailyRoutine] = []
         let dayShortcuts = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
         
-        // Each phase represents 3 weeks of the 12-week plan
-        let weeksPerPhase = 3
+        // Each phase represents weeksInPhase weeks
+        let weeksPerPhase = weeksInPhase
         let preferredDays = injury.daysPerWeek
         let interval = max(1, 7 / preferredDays)
         
