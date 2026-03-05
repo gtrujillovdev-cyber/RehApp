@@ -2,13 +2,15 @@ import Foundation
 import SwiftData
 import Observation
 
+/// ViewModel para la pantalla principal (Dashboard).
+/// Gestiona la lista de perfiles de lesión y la selección del plan activo.
 @MainActor
 @Observable
 final class DashboardViewModel {
-    var allProfiles: [InjuryProfile] = []
-    var selectedProfile: InjuryProfile?
-    var currentRoadmap: RecoveryRoadmap?
-    var prehabRoutine: [Exercise] = []
+    var allProfiles: [InjuryProfile] = [] // Todos los perfiles guardados en SwiftData
+    var selectedProfile: InjuryProfile? // El perfil que el usuario está viendo actualmente
+    var currentRoadmap: RecoveryRoadmap? // El plan de recuperación activo para el perfil seleccionado
+    var prehabRoutine: [Exercise] = [] // Rutina preventiva generada dinámicamente
     
     let repository: RecoveryRepositoryProtocol
     private let inferenceService: LocalInferenceServiceProtocol
@@ -19,17 +21,20 @@ final class DashboardViewModel {
         fetchLatestData()
     }
     
+    /// Carga los datos más recientes desde el repositorio (SwiftData).
     func fetchLatestData() {
         allProfiles = (try? repository.fetchInjuryProfiles()) ?? []
         
+        // Si no hay perfil seleccionado, cogemos el primero por defecto
         if selectedProfile == nil {
             selectedProfile = allProfiles.first
         }
         
         currentRoadmap = selectedProfile?.roadmaps.last
-        loadPrehab()
+        loadPrehab() // Cargamos la rutina preventiva para la zona afectada
     }
     
+    /// Carga una rutina de pre-habilitación (preventiva) usando el motor de IA.
     func loadPrehab() {
         Task {
             if let bodyPart = selectedProfile?.bodyPart {
@@ -41,12 +46,14 @@ final class DashboardViewModel {
         }
     }
     
+    /// Cambia el perfil activo y actualiza la interfaz.
     func selectProfile(_ profile: InjuryProfile) {
         selectedProfile = profile
         currentRoadmap = profile.roadmaps.last
         loadPrehab()
     }
     
+    /// Añade un nuevo perfil de lesión y lo establece como activo.
     func addInjuryProfile(_ profile: InjuryProfile) {
         try? repository.saveInjuryProfile(profile)
         selectedProfile = profile
@@ -54,6 +61,7 @@ final class DashboardViewModel {
         fetchLatestData()
     }
     
+    /// Elimina un perfil y sus datos asociados.
     func deleteInjuryProfile(_ profile: InjuryProfile) {
         try? repository.deleteInjuryProfile(profile)
         if selectedProfile?.id == profile.id {
@@ -62,10 +70,7 @@ final class DashboardViewModel {
         fetchLatestData()
     }
     
-    // For editing, SwiftData automatically tracks changes to @Model objects,
-    // so no explicit 'edit' method is strictly necessary in the ViewModel for simple property changes.
-    // Changes to properties of 'selectedProfile' will persist when the context saves.
-    
+    /// Estadísticas rápidas para las tarjetas del Dashboard.
     var stats: (score: Int, streak: Int) {
         (selectedProfile?.recoveryScore ?? 0, selectedProfile?.currentStreak ?? 0)
     }

@@ -1,5 +1,7 @@
 import SwiftUI
 
+/// Vista detallada del Reporte de Recuperación generado por la IA.
+/// Presenta el razonamiento clínico, las fases del plan y advertencias de seguridad.
 struct RecoveryReportView: View {
     @Environment(\.colorScheme) private var colorScheme
     let profile: InjuryProfile
@@ -8,9 +10,9 @@ struct RecoveryReportView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 32) {
-                headerSection
+                headerSection // Título y metadatos de la lesión
                 
-                // AI Reasoning Block
+                // Bloque de Razonamiento de la IA
                 VStack(alignment: .leading, spacing: 16) {
                     HStack(spacing: 8) {
                         Image(systemName: "brain.head.profile")
@@ -36,7 +38,7 @@ struct RecoveryReportView: View {
                         .glassCard(cornerRadius: 28)
                 }
                 
-                // Strategy Matrix
+                // Matriz de Estrategia (Fases)
                 VStack(alignment: .leading, spacing: 20) {
                     Text("HOJA DE RUTA GENERADA")
                         .font(.system(size: 11, weight: .black))
@@ -54,7 +56,7 @@ struct RecoveryReportView: View {
                     }
                 }
                 
-                // Safety & Ethics
+                // Protocolo de Seguridad y Ética
                 VStack(alignment: .leading, spacing: 16) {
                     Label {
                         Text("PROTOCOLO DE SEGURIDAD")
@@ -83,6 +85,7 @@ struct RecoveryReportView: View {
         .background((colorScheme == .dark ? AppTheme.deepSlate : Color(white: 0.95)).ignoresSafeArea())
     }
     
+    /// Cabecera con el nombre de la parte del cuerpo y el deporte.
     private var headerSection: some View {
         VStack(alignment: .leading, spacing: 6) {
             Text("Estrategia Clínica")

@@ -2,6 +2,9 @@ import SwiftUI
 import SwiftData
 import Charts
 
+/// Vista principal de la aplicación (Dashboard).
+/// Proporciona un resumen del estado de recuperación, estadísticas de gamificación
+/// y acceso a rutinas preventivas diarias.
 @MainActor
 struct DashboardView: View {
     @Environment(\.modelContext) private var context
@@ -11,7 +14,7 @@ struct DashboardView: View {
     @State private var showOnboarding = false
     @State private var showSettings = false
     @State private var isEditingProfile = false
-    @State private var profileToEdit: InjuryProfile? // To pass to the editor
+    @State private var profileToEdit: InjuryProfile? 
     
     init(viewModel: DashboardViewModel) {
         self.viewModel = viewModel
@@ -20,25 +23,24 @@ struct DashboardView: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 28) {
-                headerActionSection
+                headerActionSection // Saludo y selector de perfiles
                 
-                statsGrid
+                statsGrid // Tarjetas de Score y Racha
                 
                 if !viewModel.prehabRoutine.isEmpty {
-                    prehabSection
+                    prehabSection // Sección de Coach Preventivo
                 }
                 
-                progressChartSection
+                progressChartSection // Gráfico de actividad semanal
                 
-                // Extra space at bottom for tab bar
                 Color.clear.frame(height: 40)
             }
             .padding(.vertical, 20)
         }
         .background(
             ZStack {
+                // Fondo adaptativo con brillo sutil
                 (colorScheme == .dark ? AppTheme.deepSlate : Color(white: 0.95)).ignoresSafeArea()
-                // Subtle gradient glow
                 LinearGradient(colors: [AppTheme.performanceBlue.opacity(0.1), .clear], startPoint: .topLeading, endPoint: .bottomTrailing)
                     .ignoresSafeArea()
             }
@@ -60,6 +62,7 @@ struct DashboardView: View {
         }
     }
     
+    /// Cabecera con el selector de perfiles de lesión.
     private var headerActionSection: some View {
         HStack(alignment: .center) {
             VStack(alignment: .leading, spacing: 4) {
@@ -79,6 +82,7 @@ struct DashboardView: View {
             }
             Spacer()
             
+            // Menú para gestionar múltiples lesiones
             Menu {
                 Section("Tus Recuperaciones") {
                     ForEach(viewModel.allProfiles) { profile in
@@ -104,26 +108,12 @@ struct DashboardView: View {
                     } label: {
                         Label("Editar Recuperación", systemImage: "pencil.circle.fill")
                     }
-                    
-                    Button(role: .destructive) {
-                        viewModel.deleteInjuryProfile(selectedProfile)
-                    } label: {
-                        Label("Eliminar Recuperación", systemImage: "minus.circle.fill")
-                    }
                 }
                 
                 Button(role: .none) {
                     showOnboarding = true
                 } label: {
                     Label("Nueva Recuperación", systemImage: "plus.circle.fill")
-                }
-                
-                Divider()
-                
-                Button {
-                    showSettings = true
-                } label: {
-                    Label("Ajustes", systemImage: "gearshape.fill")
                 }
             } label: {
                 Image(systemName: "person.crop.circle.fill")
@@ -136,6 +126,7 @@ struct DashboardView: View {
         .padding(.horizontal, 24)
     }
     
+    /// Grid de estadísticas con diseño "Glass" y colores vibrantes.
     private var statsGrid: some View {
         HStack(spacing: 16) {
             StatCard(title: "Score Total", value: "\(viewModel.stats.score)", icon: "star.fill", color: .yellow)
@@ -144,6 +135,7 @@ struct DashboardView: View {
         .padding(.horizontal, 24)
     }
     
+    /// Tarjeta para iniciar la rutina preventiva (Prehab).
     private var prehabSection: some View {
         VStack(alignment: .leading, spacing: 16) {
             HStack {
@@ -189,6 +181,7 @@ struct DashboardView: View {
         .padding(.horizontal, 24)
     }
     
+    /// Gráfico de barras usando Swift Charts para visualizar el progreso.
     private var progressChartSection: some View {
         VStack(alignment: .leading, spacing: 16) {
             Text("Actividad Semanal")
@@ -215,7 +208,6 @@ struct DashboardView: View {
 
     @ViewBuilder
     private func prehabOverview(profile: InjuryProfile) -> some View {
-        // We create a temporary routine object for the overview
         {
             let routine = DailyRoutine(dayTitle: "RUTINA PREVENTIVA", order: 1)
             routine.exercises = viewModel.prehabRoutine

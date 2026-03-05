@@ -1,13 +1,16 @@
 import SwiftUI
 
+/// Sistema de Diseño de RehApp.
+/// Define la paleta de colores, gradientes y componentes visuales reutilizables.
+/// Sigue una estética "Glassmorphism" (efecto cristal) para un look premium y moderno.
 struct AppTheme {
-    // Brand Colors
-    static let athleteOrange = Color(red: 0.99, green: 0.30, blue: 0.01)
-    static let performanceBlue = Color(red: 0.05, green: 0.45, blue: 0.99)
-    static let deepSlate = Color(red: 0.03, green: 0.03, blue: 0.05)
-    static let surfaceSlate = Color(red: 0.08, green: 0.08, blue: 0.12)
+    // Colores de Marca (Brand)
+    static let athleteOrange = Color(red: 0.99, green: 0.30, blue: 0.01) // Naranja vibrante para acciones principales
+    static let performanceBlue = Color(red: 0.05, green: 0.45, blue: 0.99) // Azul para elementos de salud y progreso
+    static let deepSlate = Color(red: 0.03, green: 0.03, blue: 0.05) // Fondo oscuro profundo
+    static let surfaceSlate = Color(red: 0.08, green: 0.08, blue: 0.12) // Color de superficie para tarjetas
     
-    // Glassmorphism
+    // Configuración de Glassmorphism (Efecto Cristal)
     static func glassBackground(for colorScheme: ColorScheme) -> Color {
         colorScheme == .dark ? Color.white.opacity(0.06) : Color.black.opacity(0.04)
     }
@@ -20,7 +23,7 @@ struct AppTheme {
         colorScheme == .dark ? deepSlate : Color(white: 0.96)
     }
     
-    // Text Colors
+    // Colores de Texto Adaptativos
     static func primaryText(for colorScheme: ColorScheme) -> Color {
         colorScheme == .dark ? .white : .black
     }
@@ -33,7 +36,7 @@ struct AppTheme {
         colorScheme == .dark ? .white.opacity(0.45) : .black.opacity(0.45)
     }
     
-    // Gradients
+    // Gradientes Premium
     static let primaryGradient = LinearGradient(
         colors: [athleteOrange, Color(red: 1.0, green: 0.5, blue: 0.0)],
         startPoint: .topLeading,
@@ -45,21 +48,16 @@ struct AppTheme {
         startPoint: .topLeading,
         endPoint: .bottomTrailing
     )
-    
-    static let darkGradient = LinearGradient(
-        colors: [deepSlate, surfaceSlate],
-        startPoint: .top,
-        endPoint: .bottom
-    )
 }
 
+/// Modificador que aplica el efecto de tarjeta de cristal (Glassmorphism).
 struct GlassCardModifier: ViewModifier {
     @Environment(\.colorScheme) var colorScheme
     var cornerRadius: CGFloat = 24
     
     func body(content: Content) -> some View {
         content
-            .background(.ultraThinMaterial)
+            .background(.ultraThinMaterial) // Efecto de desenfoque nativo de Apple
             .background(AppTheme.glassBackground(for: colorScheme))
             .clipShape(RoundedRectangle(cornerRadius: cornerRadius, style: .continuous))
             .overlay(
@@ -71,15 +69,18 @@ struct GlassCardModifier: ViewModifier {
 }
 
 extension View {
+    /// Aplica el diseño de tarjeta de cristal a cualquier vista.
     func glassCard(cornerRadius: CGFloat = 24) -> some View {
         self.modifier(GlassCardModifier(cornerRadius: cornerRadius))
     }
     
+    /// Aplica una sombra profunda y elegante.
     func premiumShadow() -> some View {
         self.shadow(color: .black.opacity(0.4), radius: 20, x: 0, y: 12)
     }
 }
 
+/// Estilo de botón principal con animaciones suaves y gradientes.
 struct PremiumButtonStyle: ButtonStyle {
     var color: Color = AppTheme.athleteOrange
     var isEnabled: Bool = true
@@ -96,7 +97,7 @@ struct PremiumButtonStyle: ButtonStyle {
                     .fill(isEnabled ? color.gradient : Color.gray.gradient)
                     .opacity(configuration.isPressed ? 0.9 : 1.0)
             )
-            .scaleEffect(configuration.isPressed ? 0.97 : 1)
+            .scaleEffect(configuration.isPressed ? 0.97 : 1) // Feedback táctil visual
             .animation(.spring(response: 0.3, dampingFraction: 0.7), value: configuration.isPressed)
             .opacity(isEnabled ? 1.0 : 0.6)
     }

@@ -1,12 +1,14 @@
 import Foundation
 import AVFoundation
 
+/// Protocolo que define las acciones de feedback auditivo.
 protocol AudioFeedbackServiceProtocol: Sendable {
     func speak(_ message: String)
     func playSound(named soundName: String, withExtension ext: String)
     func playFeedback(for event: AudioFeedbackEvent)
 }
 
+/// Eventos que activan una respuesta de voz o sonido en la app.
 enum AudioFeedbackEvent {
     case sessionStarted
     case warmUpStarted
@@ -23,6 +25,8 @@ enum AudioFeedbackEvent {
     case formTip(message: String) // New event
 }
 
+/// Servicio que utiliza síntesis de voz (AVSpeechSynthesizer) para guiar al usuario.
+/// Permite que el usuario realice su rehabilitación sin tener que mirar la pantalla constantemente.
 final class AudioFeedbackService: NSObject, AudioFeedbackServiceProtocol, AVSpeechSynthesizerDelegate {
     private let synthesizer = AVSpeechSynthesizer()
     private var audioPlayer: AVAudioPlayer?
@@ -30,7 +34,8 @@ final class AudioFeedbackService: NSObject, AudioFeedbackServiceProtocol, AVSpee
     override init() {
         super.init()
         synthesizer.delegate = self
-        // Configure audio session for playback
+        
+        // Configuración de la sesión de audio técnica (Playback permite sonido en silencio)
         #if os(iOS) || os(watchOS) || os(tvOS)
         do {
             try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default, options: [.duckOthers])
@@ -41,16 +46,17 @@ final class AudioFeedbackService: NSObject, AudioFeedbackServiceProtocol, AVSpee
         #endif
     }
     
+    /// Convierte texto a voz en español.
     func speak(_ message: String) {
         let utterance = AVSpeechUtterance(string: message)
-        utterance.voice = AVSpeechSynthesisVoice(language: "es-ES") // Spanish voice
-        utterance.rate = 0.5 // Adjust speech rate as needed
+        utterance.voice = AVSpeechSynthesisVoice(language: "es-ES") // Voz en español de España
+        utterance.rate = 0.5 // Velocidad de habla natural
         synthesizer.speak(utterance)
     }
     
+    /// Reproduce un archivo de sonido específico (ej. pitido de finalización).
     func playSound(named soundName: String, withExtension ext: String) {
         guard let url = Bundle.main.url(forResource: soundName, withExtension: ext) else {
-            print("Sound file not found: \(soundName).\(ext)")
             return
         }
         
@@ -62,6 +68,7 @@ final class AudioFeedbackService: NSObject, AudioFeedbackServiceProtocol, AVSpee
         }
     }
     
+    /// Mapea eventos de la sesión a mensajes de voz específicos.
     func playFeedback(for event: AudioFeedbackEvent) {
         switch event {
         case .sessionStarted:
@@ -95,6 +102,6 @@ final class AudioFeedbackService: NSObject, AudioFeedbackServiceProtocol, AVSpee
     
     // MARK: - AVSpeechSynthesizerDelegate
     func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didFinish utterance: AVSpeechUtterance) {
-        // Handle speech completion if needed
+        // Callback para cuando termina de hablar (opcional)
     }
 }

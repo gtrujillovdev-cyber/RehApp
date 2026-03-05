@@ -1,22 +1,27 @@
 import Foundation
 import SwiftData
 
+/// Modelo central que representa el perfil de lesión de un usuario.
+/// Este es el punto de entrada para generar la hoja de ruta de recuperación.
 @Model
 final class InjuryProfile: Identifiable {
     var id: UUID
-    var bodyPart: String
-    var painLevel: Int // 1-10
-    var sport: String
-    var symptomsDescription: String
-    var medicalReportText: String?
-    var injuryDate: Date
-    var recoveryScore: Int
-    var currentStreak: Int
+    var bodyPart: String // Parte del cuerpo afectada (ej. "Rodilla")
+    var painLevel: Int // Nivel de dolor del 1 al 10 reportado por el usuario
+    var sport: String // Deporte principal para adaptar los ejercicios finales
+    var symptomsDescription: String // Descripción de los síntomas actuales
+    var medicalReportText: String? // Texto extraído de informes médicos mediante OCR o escaneo
+    var injuryDate: Date // Fecha en que ocurrió la lesión
+    var recoveryScore: Int // Puntos acumulados (Gamificación)
+    var currentStreak: Int // Racha de días consecutivos completando rutinas
     
+    // Preferencias del usuario para la generación del plan
     var daysPerWeek: Int = 3
     var exercisesPerDay: Int = 2
-    var targetDuration: Int = 15 // minutes
+    var targetDuration: Int = 15 // Duración objetivo de la sesión en minutos
     
+    // Relación de uno a muchos con las hojas de ruta generadas
+    // .cascade asegura que si se borra el perfil, se borren sus roadmaps
     @Relationship(deleteRule: .cascade, inverse: \RecoveryRoadmap.injuryProfile)
     var roadmaps: [RecoveryRoadmap] = []
     

@@ -1,28 +1,35 @@
 import Foundation
 import SwiftData
 
+/// Protocolo para el motor de gamificación.
 @MainActor
 protocol GamificationEngineServiceProtocol: Sendable {
     func processExerciseCompletion(exercise: Exercise, profile: InjuryProfile, repository: RecoveryRepositoryProtocol) async throws -> [Milestone]
 }
 
+/// Servicio encargado de gestionar el progreso, puntos y logros del usuario.
+/// Fomenta la adherencia al tratamiento mediante sistemas de recompensa.
 @MainActor
 final class GamificationEngineService: GamificationEngineServiceProtocol {
+    
+    /// Procesa la finalización de un ejercicio, suma puntos y actualiza la racha.
+    /// - Returns: Una lista de nuevos hitos desbloqueados si los hay.
     func processExerciseCompletion(exercise: Exercise, profile: InjuryProfile, repository: RecoveryRepositoryProtocol) async throws -> [Milestone] {
         guard !exercise.isCompleted else { return [] }
         
+        // 1. Marcar como completado
         exercise.isCompleted = true
+        
+        // 2. Sumar puntos al perfil global del usuario
         profile.recoveryScore += exercise.pointsReward ?? 0
+        
+        // 3. Incrementar la racha (Streak)
         profile.currentStreak += 1
         
+        // 4. Persistir los cambios en SwiftData
         try? repository.saveInjuryProfile(profile)
         
-        // Fetch locked milestones via repository if possible, or context if needed
-        // For now, let's assume repository handles saving. 
-        // We might need a fetchMilestones in repository or just use the model objects if they are already in memory.
-        // Actually, milestones aren't per-profile in this app yet? 
-        // Let's assume we fetch them.
-        
-        return [] // Simplified for now to avoid complex fetch logic here, or add fetch to repo
+        // Nota: En futuras versiones se añadiría aquí la lógica para comprobar hitos desbloqueados
+        return []
     }
 }

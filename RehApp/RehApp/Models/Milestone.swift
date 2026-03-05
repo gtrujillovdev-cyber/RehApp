@@ -1,15 +1,17 @@
 import Foundation
 import SwiftData
 
+/// Modelo que representa un logro o hito dentro de la recuperación.
+/// Se utiliza para motivar al usuario mediante la gamificación.
 @Model
 final class Milestone {
     var id: UUID
-    var title: String
-    var milestoneDescription: String
-    var requiredScore: Int
-    var iconName: String // SF Symbols
-    var isUnlocked: Bool
-    var unlockedAt: Date?
+    var title: String // Título del hito (ej. "Primer Paso")
+    var milestoneDescription: String // Explicación de qué se ha logrado
+    var requiredScore: Int // Puntuación necesaria para desbloquearlo
+    var iconName: String // Nombre del icono de SF Symbols
+    var isUnlocked: Bool // Estado de desbloqueo
+    var unlockedAt: Date? // Fecha en la que se consiguió el hito
     
     init(
         id: UUID = UUID(),
