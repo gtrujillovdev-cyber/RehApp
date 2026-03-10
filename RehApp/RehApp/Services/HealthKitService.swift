@@ -14,18 +14,25 @@ final class HealthKitService: HealthKitServiceProtocol {
     private let healthStore = HKHealthStore()
     
     /// Solicita permisos al usuario para escribir datos de entrenamiento y energía.
+    ///
+    /// Por qué no devolvemos directamente `true` tras el await:
+    /// `requestAuthorization` NO lanza error si el usuario deniega el permiso.
+    /// En iOS, Apple oculta la respuesta del usuario por privacidad — el sistema
+    /// nunca le dice a la app si el permiso fue denegado explícitamente.
+    /// Por eso tenemos que leer el estado DESPUÉS de la solicitud con `isAuthorized()`.
     func requestPermissions() async throws -> Bool {
         guard HKHealthStore.isHealthDataAvailable() else {
             return false
         }
-        
+
         let typesToShare: Set = [
             HKObjectType.workoutType(),
             HKQuantityType.quantityType(forIdentifier: .activeEnergyBurned)!
         ]
-        
+
         try await healthStore.requestAuthorization(toShare: typesToShare, read: [])
-        return true
+        // Consultamos el estado real post-solicitud
+        return isAuthorized()
     }
     
     /// Comprueba si el usuario ya ha dado permisos.
