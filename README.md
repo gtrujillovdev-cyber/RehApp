@@ -1,18 +1,21 @@
-# RehApp 
+# RehApp 
 
 ![Swift](https://img.shields.io/badge/Swift-5.10-orange.svg)
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-Framework-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-iOS%2017%2B-black.svg)
 ![Privacy](https://img.shields.io/badge/Privacy-Local--First-green.svg)
+![Tests](https://img.shields.io/badge/Tests-Unit%20%26%20Mocks-brightgreen.svg)
 
-**RehApp** es una plataforma nativa de iOS diseñada para la rehabilitación física profesional, impulsada por IA local y centrada en la privacidad del usuario. La aplicación permite generar hojas de ruta de recuperación personalizadas adaptadas a la gravedad y el perfil clínico del deportista.
+**RehApp** es una plataforma nativa de iOS diseñada para la rehabilitación física profesional, impulsada por IA local y centrada en la privacidad del usuario. La aplicación genera hojas de ruta de recuperación personalizadas adaptadas a la gravedad y el perfil clínico del deportista, sin enviar datos a la nube.
 
 ## 🌟 Características Principales
 
-- **IA Local (Privacy-First)**: Procesamiento de informes médicos y síntomas directamente en el dispositivo mediante `NaturalLanguage` y modelos de inferencia locales.
-- **Hoja de Ruta Adaptativa**: Planificación dinámica ajustada a la gravedad de la lesión (desde 4 semanas para esguinces leves hasta 12+ semanas para casos estructurales).
-- **Motor de Ejercicios Inteligente**: Generación de hasta 5 ejercicios técnicos por sesión con variabilidad y progresión mecánica.
-- **Dashboard de Rendimiento**: Seguimiento de "Recovery Score", rachas diarias y gráficos de actividad semanal.
+- **IA Local (Privacy-First)**: Procesamiento de informes médicos y síntomas directamente en el dispositivo mediante `NaturalLanguage` y modelos de inferencia locales. El motor NLP detecta patrones clínicos (agudos, estructurales, funcionales) para estimar la gravedad con mayor precisión.
+- **Hoja de Ruta Adaptativa**: Planificación dinámica ajustada a la gravedad de la lesión (desde 4 semanas para esguinces leves hasta 12+ semanas para casos estructurales). La generación se ejecuta de forma **asíncrona** mediante `Task.detached`, evitando bloquear la interfaz de usuario.
+- **Catálogo de Ejercicios (JSON)**: Repositorio de ejercicios gestionado por `ExerciseLibraryService`, cargado desde un archivo `exercises.json` externo que facilita la extensión del catálogo sin modificar código.
+- **Historial Real de Actividad**: Modelo `ActivityLog` persistido con SwiftData que alimenta los gráficos semanales del Dashboard con datos reales del usuario.
+- **Dashboard de Rendimiento**: Seguimiento de "Recovery Score", rachas diarias y gráficos de actividad semanal basados en datos reales, con manejo de errores visible al usuario.
+- **Motor de Gamificación**: Sistema de puntos, rachas y logros para motivar la adherencia al plan de recuperación.
 - **Integración con Apple Health**: Sincronización de entrenamientos y quema calórica mediante `HealthKit`.
 - **Diseño Premium**: Interfaz moderna con soporte completo para Modo Claro/Oscuro y estética "Glassmorphism".
 
@@ -22,19 +25,31 @@ La app sigue una arquitectura **MVVM (Model-View-ViewModel)** robusta y escalabl
 
 - **UI**: SwiftUI con sistema de diseño adaptativo (`AppTheme`).
 - **Persistencia**: SwiftData para una gestión de datos reactiva y moderna.
-- **Lógica de IA**: `MedicalAnalysis` para procesamiento de texto y `LocalInferenceService` para generación de planes.
-- **Servicios**: Capa de servicios desacoplada para Gamificación, Salud y Feedback de Audio.
+- **Lógica de IA**: `MedicalAnalysis` para procesamiento NLP de texto clínico y `LocalInferenceService` para generación asíncrona de planes de recuperación.
+- **Servicios**: Capa de servicios desacoplada con protocolos (`LocalInferenceServiceProtocol`, `RecoveryRepositoryProtocol`, `ExerciseLibraryServiceProtocol`) que permiten inyección de dependencias y testing con mocks.
+- **Concurrencia**: Uso de `Task.detached` y cancelación de tareas para evitar race conditions al cambiar de perfil.
 
 ## 📂 Estructura del Proyecto
 
 ```bash
 RehApp/
-├── Models/           # Modelos de SwiftData (InjuryProfile, Roadmap, Exercise...)
-├── ViewModels/       # Lógica de estado y comportamiento de las vistas
+├── Models/           # Modelos SwiftData (InjuryProfile, RecoveryRoadmap, Exercise, ActivityLog, Milestone...)
+├── ViewModels/       # Lógica de estado (DashboardViewModel, ExercisePlayerViewModel)
 ├── Views/            # Componentes de UI y navegación principal
-├── Services/         # Servicios de infraestructura (Health, AI, Repository)
-└── Resources/        # Assets y archivos de localización
+├── Services/         # Servicios desacoplados (LocalInference, ExerciseLibrary, Gamification, Health, Repository)
+├── Resources/        # Assets, exercises.json y archivos de localización
+└── Tests/
+    └── RehAppTests/  # Tests unitarios con mocks (MockInferenceService, MockRecoveryRepository)
 ```
+
+## 🧪 Testing
+
+El proyecto incluye tests unitarios con mocks para las capas de servicio:
+
+- `GamificationEngineServiceTests` — Validación del motor de puntos, rachas y logros.
+- `SessionTimerServiceTests` — Tests del temporizador de sesiones de ejercicio.
+- `DashboardViewModelTests` — Tests del ViewModel principal con mocks inyectados.
+- **Mocks**: `MockInferenceService` y `MockRecoveryRepository` para testing aislado sin dependencias reales.
 
 ## 🚀 Instalación y Requisitos
 
@@ -48,7 +63,13 @@ RehApp/
 
 ## 🛡 Seguridad y Privacidad
 
-RehApp no envía datos de salud a servidores externos. Todo el análisis de informes médicos se realiza de forma local utilizando los frameworks de Apple, garantizando la máxima confidencialidad para el atleta.
+RehApp no envía datos de salud a servidores externos. Todo el análisis de informes médicos se realiza de forma local utilizando los frameworks de Apple (`NaturalLanguage`, `CoreML`), garantizando la máxima confidencialidad para el atleta.
+
+## 🤝 Contribución
+
+1. Crear una branch descriptiva: `feature/nombre-del-cambio` o `fix/descripcion-del-bug`
+2. Usar [Conventional Commits](https://www.conventionalcommits.org/) en español
+3. Asegurar que los tests pasan antes de abrir un PR
 
 ---
 *Desarrollado con ❤️ para fisioterapeutas y atletas en proceso de recuperación.*

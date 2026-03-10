@@ -23,3 +23,10 @@ DerivedData
 
 # OS X
 .DS_Store
+
+# Gemini Instructions
+.gemini_instructions.md
+
+# Claude
+CLAUDE.md
+.claude/

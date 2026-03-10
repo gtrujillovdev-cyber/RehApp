@@ -2,23 +2,28 @@ import Foundation
 import SwiftData
 
 /// Modelo que representa un ejercicio individual dentro de una rutina de rehabilitación.
-/// Utiliza @Model para la persistencia automática con SwiftData.
 @Model
 final class Exercise {
-    var id: UUID
-    var name: String // Nombre del ejercicio (ej. "Sentadilla Isométrica")
-    var reps: Int // Número de repeticiones
-    var sets: Int // Número de series
-    var animationModelID: String // Identificador para la animación 3D o video
-    var isCompleted: Bool // Estado de finalización para seguimiento de progreso
-    var technicalDescription: String? // Explicación clínica del objetivo del ejercicio
-    var instructions: [String]? // Pasos detallados para realizar el ejercicio correctamente
-    var pointsReward: Int? // Puntos que otorga al completarse (Gamificación)
+    @Attribute(.unique) var id: UUID
+    var name: String                        // Nombre del ejercicio (ej. "Sentadilla Isométrica")
+    var reps: Int                           // Número de repeticiones
+    var sets: Int                           // Número de series
+    var animationModelID: String            // Identificador para la animación 3D o video
+    var isCompleted: Bool                   // Estado de finalización para seguimiento de progreso
+    var technicalDescription: String?       // Explicación clínica del objetivo del ejercicio
+    /// Nota: `[String]` se serializa como JSON en SQLite (Transformable).
+    /// No es posible filtrar por instrucciones individuales con un Predicate.
+    /// Si en el futuro se necesita ordenarlas o buscar por ellas, modelar como @Model separado.
+    var instructions: [String]?
+    var pointsReward: Int?                  // Puntos que otorga al completarse (Gamificación)
     var estimatedDurationPerRep: TimeInterval? // Tiempo estimado por repetición para el cronómetro
-    
-    // Relación opcional con la rutina diaria a la que pertenece
+
+    /// Lado inverso de la relación con DailyRoutine.
+    /// No lleva `@Relationship` propio: la relación ya está declarada y gestionada
+    /// desde el lado padre (`DailyRoutine.exercises`) con `inverse: \Exercise.routine`.
+    /// SwiftData usa esta propiedad solo como referencia de navegación.
     var routine: DailyRoutine?
-    
+
     init(
         id: UUID = UUID(),
         name: String,

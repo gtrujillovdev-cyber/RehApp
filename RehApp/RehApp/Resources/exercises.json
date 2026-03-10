@@ -1,0 +1,124 @@
+{
+  "exercises": [
+    {
+      "name": "Flexo-extensión Deslizada",
+      "reps": 15,
+      "sets": 3,
+      "animationModelID": "knee_slide",
+      "technicalDescription": "Movilidad pasiva asistida.",
+      "instructions": ["Desliza el talón suavemente.", "Mantén 2 segundos."],
+      "bodyParts": ["rodilla", "knee"],
+      "type": "primary"
+    },
+    {
+      "name": "Extensión Terminal (TQE)",
+      "reps": 12,
+      "sets": 3,
+      "animationModelID": "tqe_knee",
+      "technicalDescription": "Activación del vasto medial.",
+      "instructions": ["Extiende contra la banda.", "Aprieta cuádriceps 2s."],
+      "bodyParts": ["rodilla", "knee"],
+      "type": "primary"
+    },
+    {
+      "name": "Sentadilla Isométrica",
+      "reps": 3,
+      "sets": 1,
+      "animationModelID": "wall_sit",
+      "technicalDescription": "Carga isométrica segura.",
+      "instructions": ["Espalda contra la pared.", "Mantén 30 segundos."],
+      "bodyParts": ["rodilla", "knee"],
+      "type": "primary"
+    },
+    {
+      "name": "Elevación de Pierna Recta",
+      "reps": 15,
+      "sets": 3,
+      "animationModelID": "slr_knee",
+      "technicalDescription": "Fortalecimiento sin carga articular.",
+      "instructions": ["Pierna bloqueada.", "Lenta bajada."],
+      "bodyParts": ["rodilla", "knee"],
+      "type": "primary"
+    },
+    {
+      "name": "Péndulo de Codman",
+      "reps": 20,
+      "sets": 3,
+      "animationModelID": "pendulum",
+      "technicalDescription": "Descompresión articular.",
+      "instructions": ["Brazo relajado.", "Círculos suaves."],
+      "bodyParts": ["hombro", "shoulder"],
+      "type": "primary"
+    },
+    {
+      "name": "Rotación Externa con Banda",
+      "reps": 12,
+      "sets": 3,
+      "animationModelID": "ext_rot",
+      "technicalDescription": "Estabilidad manguito rotador.",
+      "instructions": ["Codo pegado al cuerpo.", "Resistencia controlada."],
+      "bodyParts": ["hombro", "shoulder"],
+      "type": "primary"
+    },
+    {
+      "name": "Isométrico de Abducción",
+      "reps": 10,
+      "sets": 3,
+      "animationModelID": "abd_iso",
+      "technicalDescription": "Activación deldeltoidea estática.",
+      "instructions": ["Presiona contra la pared.", "Mantén 5 segundos."],
+      "bodyParts": ["hombro", "shoulder"],
+      "type": "primary"
+    },
+    {
+      "name": "Puente Glúteo",
+      "reps": 15,
+      "sets": 3,
+      "animationModelID": "bridge",
+      "technicalDescription": "Estabilidad posterior.",
+      "instructions": ["Eleva cadera.", "Aprieta glúteos."],
+      "bodyParts": ["rodilla", "knee", "cadera", "hip"],
+      "type": "secondary"
+    },
+    {
+      "name": "Clamshells (Almejas)",
+      "reps": 15,
+      "sets": 3,
+      "animationModelID": "clamshell",
+      "technicalDescription": "Activación glúteo medio.",
+      "instructions": ["Rodillas juntas.", "Abre sin rotar pelvis."],
+      "bodyParts": ["rodilla", "knee", "cadera", "hip"],
+      "type": "secondary"
+    },
+    {
+      "name": "Plancha Abdominal",
+      "reps": 3,
+      "sets": 1,
+      "animationModelID": "plank",
+      "technicalDescription": "Core para estabilidad de carga.",
+      "instructions": ["Cuerpo alineado.", "Mantén 30 segundos."],
+      "bodyParts": ["core", "rodilla", "knee", "hombro", "shoulder"],
+      "type": "secondary"
+    },
+    {
+      "name": "Estiramiento Dinámico",
+      "reps": 10,
+      "sets": 2,
+      "animationModelID": "dyn_stretch",
+      "technicalDescription": "Flexibilidad activa.",
+      "instructions": ["Movimiento rítmico.", "No rebotes."],
+      "bodyParts": ["general"],
+      "type": "secondary"
+    },
+    {
+      "name": "Core Stability",
+      "reps": 12,
+      "sets": 3,
+      "animationModelID": "core",
+      "technicalDescription": "Protección de cadena cinética.",
+      "instructions": ["Ombligo hacia adentro.", "Espalda neutra."],
+      "bodyParts": ["general"],
+      "type": "secondary"
+    }
+  ]
+}

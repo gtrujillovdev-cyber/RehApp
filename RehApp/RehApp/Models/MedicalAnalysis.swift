@@ -16,7 +16,13 @@ enum MedicalAnalysis {
     
     // Síntomas comunes para identificar en el texto
     static let symptomKeywords: Set<String> = [
-        "dolor", "inflamación", "tensión", "molestia", "bloqueo", "inestable", "edema", "tendinitis", "irritación"
+        "dolor", "inflamación", "tensión", "molestia", "bloqueo", "inestable", "edema", "tendinitis", "irritación",
+        "pinchazo", "hormigueo", "debilidad", "crujido", "rigidez"
+    ]
+    
+    // Palabras que atenúan la gravedad
+    static let mildKeywords: Set<String> = [
+        "leve", "ligero", "pequeño", "mínimo", "estable", "mild", "slight", "stable"
     ]
     
     /// Analiza un texto (informe o descripción) para clasificar la lesión.
@@ -28,6 +34,7 @@ enum MedicalAnalysis {
         
         var structural = false
         var acute = false
+        var mild = false
         var foundSymptoms: Set<String> = []
         
         // Buscamos palabras clave palabra por palabra
@@ -36,6 +43,7 @@ enum MedicalAnalysis {
             
             if structuralKeywords.contains(word) { structural = true }
             if acuteKeywords.contains(word) { acute = true }
+            if mildKeywords.contains(word) { mild = true }
             if symptomKeywords.contains(word) { foundSymptoms.insert(word) }
             
             return true
@@ -44,6 +52,11 @@ enum MedicalAnalysis {
         // Comprobación adicional por si fallan las lemas con palabras compuestas
         if !structural { structural = structuralKeywords.contains { text.lowercased().contains($0) } }
         if !acute { acute = acuteKeywords.contains { text.lowercased().contains($0) } }
+        
+        // Si hay palabras "leves", bajamos la bandera de estructural si no es contundente
+        if mild && structural && !text.contains("rotura total") {
+            structural = false
+        }
         
         return (structural, acute, Array(foundSymptoms))
     }
