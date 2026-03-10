@@ -57,6 +57,16 @@ final class ExercisePlayerViewModel {
     private let timerService: SessionTimerServiceProtocol
     
     private let restDurationBetweenSets: TimeInterval = 30
+
+    /// Duración del bloque actual si es temporizado; durante descanso entre series, devuelve restDurationBetweenSets.
+    var currentTimedBlockDuration: TimeInterval? {
+        switch currentBlock {
+        case .warmUp(let duration): return duration
+        case .rest(let duration): return duration
+        case .coolDown(let duration): return duration
+        case .exercise: return sessionState == .resting ? restDurationBetweenSets : nil
+        }
+    }
     
     init(
         sessionBlocks: [SessionBlock],
@@ -87,9 +97,10 @@ final class ExercisePlayerViewModel {
             currentBlockIndex = firstBlockIndex
             startCurrentBlock()
         } else {
-            finishSession()
+            // finishSession() es async, necesitamos Task igual que en moveToNextBlock()
+            Task { await self.finishSession() }
         }
-    } 
+    }
     
     /// Ejecuta la lógica del bloque actual (Voz + Cronómetro).
     private func startCurrentBlock() {
@@ -215,6 +226,12 @@ final class ExercisePlayerViewModel {
         audioFeedbackService.playFeedback(for: .sessionCompleted)
     }
     
+    /// Salta el bloque actual (por ejemplo, si el usuario quiere omitir el descanso).
+    func skipCurrentBlock() {
+        timerService.stopTimer()
+        Task { await self.moveToNextBlock() }
+    }
+
     func pauseSession() {
         guard sessionState != .paused && sessionState != .completed else { return }
         timerService.pauseTimer()

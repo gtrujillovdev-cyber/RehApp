@@ -14,7 +14,7 @@ struct DashboardView: View {
     @State private var showOnboarding = false
     @State private var showSettings = false
     @State private var isEditingProfile = false
-    @State private var profileToEdit: InjuryProfile? 
+    @State private var profileToEdit: InjuryProfile?
     
     init(viewModel: DashboardViewModel) {
         self.viewModel = viewModel
@@ -45,6 +45,17 @@ struct DashboardView: View {
                     .ignoresSafeArea()
             }
         )
+        // El .alert observa viewModel.errorMessage.
+        // Cuando el ViewModel asigna un error, SwiftUI lo detecta (porque @Observable)
+        // y presenta el alert automáticamente. Al cerrar, reseteamos el mensaje.
+        .alert("Error", isPresented: Binding(
+            get: { viewModel.errorMessage != nil },
+            set: { if !$0 { viewModel.errorMessage = nil } }
+        )) {
+            Button("Aceptar", role: .cancel) { viewModel.errorMessage = nil }
+        } message: {
+            Text(viewModel.errorMessage ?? "")
+        }
         .sheet(isPresented: $showOnboarding) {
             OnboardingView(isSimplified: true, repository: viewModel.repository) {
                 viewModel.fetchLatestData()
@@ -189,17 +200,28 @@ struct DashboardView: View {
                 .foregroundStyle(colorScheme == .dark ? .white : .black)
             
             Chart {
-                ForEach(0..<7, id: \.self) { i in
-                    BarMark(
-                        x: .value("Día", "D\(i+1)"),
-                        y: .value("Score", Int.random(in: 15...60))
-                    )
-                    .foregroundStyle(AppTheme.athleteOrange.gradient)
-                    .cornerRadius(6)
+                if viewModel.activityLogs.isEmpty {
+                    // Estado vacío o placeholder decorativo
+                    ForEach(0..<7, id: \.self) { i in
+                        BarMark(
+                            x: .value("Día", "D\(i+1)"),
+                            y: .value("Score", 0)
+                        )
+                        .foregroundStyle(Color.gray.opacity(0.2))
+                        .cornerRadius(6)
+                    }
+                } else {
+                    ForEach(viewModel.activityLogs) { log in
+                        BarMark(
+                            x: .value("Día", log.date, unit: .day),
+                            y: .value("Score", log.scoreEarned)
+                        )
+                        .foregroundStyle(AppTheme.athleteOrange.gradient)
+                        .cornerRadius(6)
+                    }
                 }
             }
             .frame(height: 160)
-            .chartYAxis(.hidden)
             .padding(20)
             .glassCard()
         }
