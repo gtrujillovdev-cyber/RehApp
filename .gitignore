@@ -26,3 +26,7 @@ DerivedData
 
 # Gemini Instructions
 .gemini_instructions.md
+
+# Claude
+CLAUDE.md
+.claude/
