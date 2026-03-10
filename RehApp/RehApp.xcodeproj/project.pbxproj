@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		A5DAFBC92F50DDE900040E83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5DAFBA12F50DDE900040E83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5DAFBA82F50DDE900040E83;
+			remoteInfo = RehApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		A5DAFBA92F50DDE900040E83 /* RehApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RehApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5DAFBC02F50DDE900040E83 /* RehAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RehAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +27,22 @@
 			path = RehApp;
 			sourceTree = "<group>";
 		};
+		A5DAFBC12F50DDE900040E83 /* RehAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RehAppTests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A5DAFBA62F50DDE900040E83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5DAFBC32F50DDE900040E83 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				A5DAFBA92F50DDE900040E83 /* RehApp.app */,
+				A5DAFBC02F50DDE900040E83 /* RehAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +94,29 @@
 			productReference = A5DAFBA92F50DDE900040E83 /* RehApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A5DAFBC52F50DDE900040E83 /* RehAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5DAFBC82F50DDE900040E83 /* Build configuration list for PBXNativeTarget "RehAppTests" */;
+			buildPhases = (
+				A5DAFBC22F50DDE900040E83 /* Sources */,
+				A5DAFBC32F50DDE900040E83 /* Frameworks */,
+				A5DAFBC42F50DDE900040E83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5DAFBCA2F50DDE900040E83 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A5DAFBC12F50DDE900040E83 /* RehAppTests */,
+			);
+			name = RehAppTests;
+			packageProductDependencies = (
+			);
+			productName = RehAppTests;
+			productReference = A5DAFBC02F50DDE900040E83 /* RehAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -82,6 +129,10 @@
 				TargetAttributes = {
 					A5DAFBA82F50DDE900040E83 = {
 						CreatedOnToolsVersion = 26.2;
+					};
+					A5DAFBC52F50DDE900040E83 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = A5DAFBA82F50DDE900040E83;
 					};
 				};
 			};
@@ -101,12 +152,20 @@
 			projectRoot = "";
 			targets = (
 				A5DAFBA82F50DDE900040E83 /* RehApp */,
+				A5DAFBC52F50DDE900040E83 /* RehAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A5DAFBA72F50DDE900040E83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5DAFBC42F50DDE900040E83 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -123,7 +182,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A5DAFBC22F50DDE900040E83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5DAFBCA2F50DDE900040E83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5DAFBA82F50DDE900040E83 /* RehApp */;
+			targetProxy = A5DAFBC92F50DDE900040E83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		A5DAFBB42F50DDEB00040E83 /* Debug */ = {
@@ -342,6 +416,76 @@
 			};
 			name = Release;
 		};
+		A5DAFBC62F50DDE900040E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGNING_REQUIRED = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = RYRF22227J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RehApp.RehAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RehApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RehApp";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		A5DAFBC72F50DDE900040E83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGNING_REQUIRED = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = RYRF22227J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RehApp.RehAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RehApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RehApp";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -359,6 +503,15 @@
 			buildConfigurations = (
 				A5DAFBB72F50DDEB00040E83 /* Debug */,
 				A5DAFBB82F50DDEB00040E83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5DAFBC82F50DDE900040E83 /* Build configuration list for PBXNativeTarget "RehAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5DAFBC62F50DDE900040E83 /* Debug */,
+				A5DAFBC72F50DDE900040E83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
