@@ -10,14 +10,18 @@
 
 ## 🌟 Características Principales
 
-- **IA Local (Privacy-First)**: Procesamiento de informes médicos y síntomas directamente en el dispositivo mediante `NaturalLanguage` y modelos de inferencia locales. El motor NLP detecta patrones clínicos (agudos, estructurales, funcionales) para estimar la gravedad con mayor precisión.
-- **Hoja de Ruta Adaptativa**: Planificación dinámica ajustada a la gravedad de la lesión (desde 4 semanas para esguinces leves hasta 12+ semanas para casos estructurales). La generación se ejecuta de forma **asíncrona** mediante `Task.detached`, evitando bloquear la interfaz de usuario.
-- **Catálogo de Ejercicios (JSON)**: Repositorio de ejercicios gestionado por `ExerciseLibraryService`, cargado desde un archivo `exercises.json` externo que facilita la extensión del catálogo sin modificar código.
-- **Historial Real de Actividad**: Modelo `ActivityLog` persistido con SwiftData que alimenta los gráficos semanales del Dashboard con datos reales del usuario.
-- **Dashboard de Rendimiento**: Seguimiento de "Recovery Score", rachas diarias y gráficos de actividad semanal basados en datos reales, con manejo de errores visible al usuario.
-- **Motor de Gamificación**: Sistema de puntos, rachas y logros para motivar la adherencia al plan de recuperación.
-- **Integración con Apple Health**: Sincronización de entrenamientos y quema calórica mediante `HealthKit`.
-- **Diseño Premium**: Interfaz moderna con soporte completo para Modo Claro/Oscuro y estética "Glassmorphism".
+- **IA Local (Privacy-First)**: Procesamiento de informes médicos y síntomas directamente en el dispositivo mediante `NaturalLanguage` y modelos `CoreML`. El motor NLP ha sido ampliado para detectar +8 patologías (Codo, Espalda, Cuello, Fascia Plantar, Túnel Carpiano, etc.) y mapear sinónimos coloquiales a categorías clínicas.
+- **Protocolos Clínicos Gold-Standard**: Integración de protocolos médicos estandarizados basados en la evidencia (cargados dinámicamente desde JSON), que definen fases de recuperación estacionales, objetivos clínicos y ejercicios específicos para cada patología detectada.
+- **Reproductor de Ejercicios Multimedia**: Nuevo reproductor de ejecución que incluye:
+  - **Contador Automático**: Repeticiones estimadas por tiempo con sistema de "ritmo de carrera".
+  - **Visual Container**: Imágenes 3D centradas en alta definición para cada ejercicio.
+  - **Contexto Clínico**: Visualización de descripciones técnicas e instrucciones detalladas durante la ejecución.
+- **UI/UX Profesional (Apple Human Interface Guidelines)**:
+  - **Densidad de Información**: Rediseño de `Dashboard` y `SessionOverview` para optimizar el espacio vertical.
+  - **Safe Area Aware**: Gestión inteligente de paddings para Dynamic Island y dispositivos con notch.
+  - **Glassmorphism Dinámico**: Estética premium con materiales translúcidos y bordes ultra-finos.
+- **Check-in Diario de Dolor**: Ajuste dinámico de la intensidad del plan diario según el reporte de dolor del usuario.
+- **Sincronización de Tema**: Cambio instantáneo de sistema Claro/Oscuro con persistencia en preferencias de usuario.
 
 ## 🛠 Arquitectura Técnica
 
