@@ -4,11 +4,15 @@ import SwiftUI
 /// Define la paleta de colores, gradientes y componentes visuales reutilizables.
 /// Sigue una estética "Glassmorphism" (efecto cristal) para un look premium y moderno.
 struct AppTheme {
-    // Colores de Marca (Brand)
-    static let athleteOrange = Color(red: 0.99, green: 0.30, blue: 0.01) // Naranja vibrante para acciones principales
-    static let performanceBlue = Color(red: 0.05, green: 0.45, blue: 0.99) // Azul para elementos de salud y progreso
-    static let deepSlate = Color(red: 0.03, green: 0.03, blue: 0.05) // Fondo oscuro profundo
-    static let surfaceSlate = Color(red: 0.08, green: 0.08, blue: 0.12) // Color de superficie para tarjetas
+    // Colores de Marca (Brand) - Optimizados para pantallas OLED/DCI-P3
+    static let athleteOrange = Color(hue: 0.05, saturation: 0.95, brightness: 1.0) // Naranja eléctrico
+    static let performanceBlue = Color(hue: 0.60, saturation: 0.85, brightness: 1.0) // Azul vibrante
+    static let clinicalGreen = Color(hue: 0.40, saturation: 0.70, brightness: 0.90) // Verde clínico
+    static let deepSlate = Color(white: 0.02) // Negro profundo para OLED
+    static let surfaceSlate = Color(white: 0.08) // Gris superficie
+    
+    // Layout Constants
+    static let horizontalPadding: CGFloat = 24
     
     // Configuración de Glassmorphism (Efecto Cristal)
     static func glassBackground(for colorScheme: ColorScheme) -> Color {
@@ -44,7 +48,13 @@ struct AppTheme {
     )
     
     static let accentGradient = LinearGradient(
-        colors: [performanceBlue, Color(red: 0.0, green: 0.8, blue: 1.0)],
+        colors: [performanceBlue, Color(hue: 0.55, saturation: 0.60, brightness: 1.0)],
+        startPoint: .topLeading,
+        endPoint: .bottomTrailing
+    )
+    
+    static let vibrantGradient = LinearGradient(
+        colors: [athleteOrange, performanceBlue],
         startPoint: .topLeading,
         endPoint: .bottomTrailing
     )

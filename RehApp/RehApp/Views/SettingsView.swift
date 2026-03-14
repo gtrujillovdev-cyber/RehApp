@@ -72,8 +72,14 @@ struct SettingsView: View {
                         // MARK: - Notifications
                         settingsSection(title: "NOTIFICACIONES", icon: "bell.badge.fill") {
                             VStack(spacing: 20) {
-                                customToggle(title: "Recordatorios diarios", icon: "calendar", isOn: Bindable(viewModel).enableExerciseReminders)
-                                customToggle(title: "Actualizaciones de progreso", icon: "chart.line.uptrend.xyaxis", isOn: Bindable(viewModel).enableProgressUpdates)
+                                customToggle(title: "Recordatorios diarios", icon: "calendar", isOn: Binding(
+                                    get: { viewModel.enableExerciseReminders },
+                                    set: { viewModel.toggleExerciseReminders(isOn: $0) }
+                                ))
+                                customToggle(title: "Actualizaciones de progreso", icon: "chart.line.uptrend.xyaxis", isOn: Binding(
+                                    get: { viewModel.enableProgressUpdates },
+                                    set: { viewModel.toggleProgressUpdates(isOn: $0) }
+                                ))
                             }
                         }
                         

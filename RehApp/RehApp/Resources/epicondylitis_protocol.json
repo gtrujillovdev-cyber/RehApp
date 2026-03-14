@@ -1,0 +1,81 @@
+{
+  "id": "epicondylitis_conservative",
+  "name": "Protocolo de Epicondilitis (Codo de Tenista)",
+  "description": "Protocolo de carga progresiva enfocado en el descanso activo, estiramientos de extensores de muñeca y fortalecimiento excéntrico de los tendones del codo.",
+  "phases": [
+    {
+      "phaseId": 1,
+      "name": "Fase 1: Control de Dolor y Movilidad",
+      "objective": "Reducir la irritación tendinosa y recuperar el rango de movimiento suave.",
+      "recommendedDurationDays": 10,
+      "exercises": [
+        {
+          "id": "wrist_ext_stretch",
+          "name": "Estiramiento de Extensores de Muñeca",
+          "description": "Estira el brazo hacia adelante con la palma hacia abajo. Con la otra mano, empuja la mano hacia abajo flexionando la muñeca hasta sentir tensión en el antebrazo.",
+          "sets": 3,
+          "reps": 5,
+          "holdSeconds": 15,
+          "videoURL": "wrist_ext_stretch_vid",
+          "isBilateral": true
+        },
+        {
+          "id": "wrist_rotation",
+          "name": "Rotaciones de Muñeca Activas",
+          "description": "Realiza círculos lentos con la muñeca en ambos sentidos para mejorar la lubricación articular sin carga.",
+          "sets": 3,
+          "reps": 15,
+          "holdSeconds": 0,
+          "videoURL": "wrist_rotation_vid",
+          "isBilateral": true
+        }
+      ]
+    },
+    {
+      "phaseId": 2,
+      "name": "Fase 2: Fortalecimiento Excéntrico",
+      "objective": "Aumentar la tolerancia a la carga del tendón mediante contracciones controladas.",
+      "recommendedDurationDays": 20,
+      "exercises": [
+        {
+          "id": "eccentric_wrist_ext",
+          "name": "Extensión Excéntrica con Pesas",
+          "description": "Apoya el antebrazo en una mesa. Sube la pesa con la ayuda de la otra mano y bájala lo más lento posible (3-5 segundos) solo con la mano lesionada.",
+          "sets": 3,
+          "reps": 12,
+          "holdSeconds": 0,
+          "videoURL": "exercise_wrist_ext",
+          "isBilateral": false
+        },
+        {
+          "id": "sup_pro_forearm",
+          "name": "Supino-Pronación de Antebrazo",
+          "description": "Sostén un martillo o una pesa ligera por el extremo. Gira lentamente la muñeca de lado a lado controlando el peso.",
+          "sets": 3,
+          "reps": 10,
+          "holdSeconds": 0,
+          "videoURL": "exercise_sup_pro",
+          "isBilateral": false
+        }
+      ]
+    },
+    {
+      "phaseId": 3,
+      "name": "Fase 3: Resistencia y Retorno",
+      "objective": "Integrar movimientos funcionales y aumentar la carga de trabajo muscular.",
+      "recommendedDurationDays": 14,
+      "exercises": [
+        {
+          "id": "stress_ball_squeeze",
+          "name": "Agarre de Pelota de Estrés",
+          "description": "Aprieta con fuerza una pelota de goma o toalla durante 5 segundos y relaja. Mejora la fuerza intrínseca de la mano.",
+          "sets": 3,
+          "reps": 20,
+          "holdSeconds": 5,
+          "videoURL": "stress_ball_vid",
+          "isBilateral": true
+        }
+      ]
+    }
+  ]
+}

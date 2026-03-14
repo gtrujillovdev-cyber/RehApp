@@ -3,8 +3,6 @@ import SwiftData
 import Charts
 
 /// Vista principal de la aplicación (Dashboard).
-/// Proporciona un resumen del estado de recuperación, estadísticas de gamificación
-/// y acceso a rutinas preventivas diarias.
 @MainActor
 struct DashboardView: View {
     @Environment(\.modelContext) private var context
@@ -23,31 +21,32 @@ struct DashboardView: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 28) {
-                headerActionSection // Saludo y selector de perfiles
+                headerActionSection
                 
-                statsGrid // Tarjetas de Score y Racha
+                statsGrid
                 
-                if !viewModel.prehabRoutine.isEmpty {
-                    prehabSection // Sección de Coach Preventivo
+                if let profile = viewModel.selectedProfile {
+                    summarySection(roadmap: profile.roadmaps.last)
+                        .padding(.horizontal, AppTheme.horizontalPadding)
+                    
+                    clinicalTimelineSection(roadmap: profile.roadmaps.last)
+                        .padding(.horizontal, AppTheme.horizontalPadding)
                 }
                 
-                progressChartSection // Gráfico de actividad semanal
+                progressChartSection
+                    .padding(.horizontal, AppTheme.horizontalPadding)
                 
-                Color.clear.frame(height: 40)
+                Color.clear.frame(height: 80)
             }
             .padding(.vertical, 20)
         }
         .background(
             ZStack {
-                // Fondo adaptativo con brillo sutil
-                (colorScheme == .dark ? AppTheme.deepSlate : Color(white: 0.95)).ignoresSafeArea()
+                AppTheme.adaptiveBackground(for: colorScheme).ignoresSafeArea()
                 LinearGradient(colors: [AppTheme.performanceBlue.opacity(0.1), .clear], startPoint: .topLeading, endPoint: .bottomTrailing)
                     .ignoresSafeArea()
             }
         )
-        // El .alert observa viewModel.errorMessage.
-        // Cuando el ViewModel asigna un error, SwiftUI lo detecta (porque @Observable)
-        // y presenta el alert automáticamente. Al cerrar, reseteamos el mensaje.
         .alert("Error", isPresented: Binding(
             get: { viewModel.errorMessage != nil },
             set: { if !$0 { viewModel.errorMessage = nil } }
@@ -73,7 +72,6 @@ struct DashboardView: View {
         }
     }
     
-    /// Cabecera con el selector de perfiles de lesión.
     private var headerActionSection: some View {
         HStack(alignment: .center) {
             VStack(alignment: .leading, spacing: 4) {
@@ -93,12 +91,22 @@ struct DashboardView: View {
             }
             Spacer()
             
-            // Menú para gestionar múltiples lesiones
             Menu {
                 Section("Tus Recuperaciones") {
                     ForEach(viewModel.allProfiles) { profile in
-                        Button {
-                            viewModel.selectProfile(profile)
+                        Menu {
+                            Button {
+                                viewModel.selectProfile(profile)
+                            } label: {
+                                Label("Seleccionar", systemImage: "checkmark.circle")
+                            }
+                            
+                            Button(role: .destructive) {
+                                try? viewModel.repository.deleteInjuryProfile(profile)
+                                viewModel.fetchLatestData()
+                            } label: {
+                                Label("Eliminar", systemImage: "trash")
+                            }
                         } label: {
                             HStack {
                                 Text(profile.bodyPart)
@@ -121,7 +129,7 @@ struct DashboardView: View {
                     }
                 }
                 
-                Button(role: .none) {
+                Button {
                     showOnboarding = true
                 } label: {
                     Label("Nueva Recuperación", systemImage: "plus.circle.fill")
@@ -134,80 +142,65 @@ struct DashboardView: View {
                     .glassCard(cornerRadius: 50)
             }
         }
-        .padding(.horizontal, 24)
+        .padding(.horizontal, AppTheme.horizontalPadding)
     }
     
-    /// Grid de estadísticas con diseño "Glass" y colores vibrantes.
     private var statsGrid: some View {
         HStack(spacing: 16) {
             StatCard(title: "Score Total", value: "\(viewModel.stats.score)", icon: "star.fill", color: .yellow)
             StatCard(title: "Racha Actual", value: "\(viewModel.stats.streak)d", icon: "flame.fill", color: AppTheme.athleteOrange)
         }
-        .padding(.horizontal, 24)
+        .padding(.horizontal, AppTheme.horizontalPadding)
     }
     
-    /// Tarjeta para iniciar la rutina preventiva (Prehab).
-    private var prehabSection: some View {
-        VStack(alignment: .leading, spacing: 16) {
+    private func summarySection(roadmap: RecoveryRoadmap?) -> some View {
+        VStack(alignment: .leading, spacing: 14) {
             HStack {
                 VStack(alignment: .leading, spacing: 4) {
-                    Text("COACH PREVENTIVO")
+                    Text("ESTADO ACTUAL")
                         .font(.system(size: 10, weight: .black))
-                        .foregroundStyle(AppTheme.athleteOrange)
-                    Text("Mantenimiento Diario")
-                        .font(.system(size: 18, weight: .bold, design: .rounded))
+                        .foregroundStyle(AppTheme.secondaryText(for: colorScheme))
+                    Text(roadmap == nil ? "Sin Plan Activo" : (roadmap?.phases.first { $0.order == (roadmap?.currentPhaseIndex ?? 0) }?.title ?? "Recuperación"))
+                        .font(.system(size: 22, weight: .bold, design: .rounded))
                         .foregroundStyle(colorScheme == .dark ? .white : .black)
                 }
                 Spacer()
-                
-                if let profile = viewModel.selectedProfile {
-                    NavigationLink {
-                        if !viewModel.prehabRoutine.isEmpty {
-                            prehabOverview(profile: profile)
-                        }
-                    } label: {
-                        Text("INICIAR")
-                            .font(.system(size: 13, weight: .bold))
-                            .padding(.horizontal, 20)
-                            .padding(.vertical, 10)
-                            .background(AppTheme.athleteOrange)
-                            .foregroundStyle(.white)
-                            .clipShape(Capsule())
-                            .premiumShadow()
-                    }
-                }
+                CircularProgressView(progress: roadmap?.progress ?? 0)
+                    .frame(width: 50, height: 50)
             }
-            .padding(24)
-            .background(
-                ZStack {
-                    AppTheme.glassBackground(for: colorScheme)
-                    Image(systemName: "shield.checkerboard")
-                        .font(.system(size: 90))
-                        .foregroundStyle(AppTheme.athleteOrange.opacity(0.04))
-                        .offset(x: 120, y: 10)
-                }
-            )
-            .glassCard()
+            
+            Divider().background(AppTheme.glassBorder(for: colorScheme))
+            
+            Text(roadmap?.aiReasoning ?? "Analiza tu lesión en Ajustes para generar un plan.")
+                .font(.system(size: 13, weight: .medium))
+                .foregroundStyle(AppTheme.secondaryText(for: colorScheme))
+                .lineLimit(3)
         }
-        .padding(.horizontal, 24)
+        .padding(20)
+        .background(AppTheme.glassBackground(for: colorScheme))
+        .glassCard()
     }
     
-    /// Gráfico de barras usando Swift Charts para visualizar el progreso.
     private var progressChartSection: some View {
         VStack(alignment: .leading, spacing: 16) {
-            Text("Actividad Semanal")
-                .font(.system(size: 18, weight: .bold, design: .rounded))
-                .foregroundStyle(colorScheme == .dark ? .white : .black)
+            HStack {
+                Text("Carga Semanal")
+                    .font(.system(size: 18, weight: .bold, design: .rounded))
+                    .foregroundStyle(colorScheme == .dark ? .white : .black)
+                Spacer()
+                Text("Últimos 7 días")
+                    .font(.system(size: 11, weight: .bold))
+                    .foregroundStyle(AppTheme.performanceBlue)
+            }
             
             Chart {
                 if viewModel.activityLogs.isEmpty {
-                    // Estado vacío o placeholder decorativo
                     ForEach(0..<7, id: \.self) { i in
                         BarMark(
                             x: .value("Día", "D\(i+1)"),
-                            y: .value("Score", 0)
+                            y: .value("Score", 10)
                         )
-                        .foregroundStyle(Color.gray.opacity(0.2))
+                        .foregroundStyle(Color.gray.opacity(0.1))
                         .cornerRadius(6)
                     }
                 } else {
@@ -216,27 +209,45 @@ struct DashboardView: View {
                             x: .value("Día", log.date, unit: .day),
                             y: .value("Score", log.scoreEarned)
                         )
-                        .foregroundStyle(AppTheme.athleteOrange.gradient)
+                        .foregroundStyle(AppTheme.vibrantGradient)
                         .cornerRadius(6)
                     }
                 }
             }
-            .frame(height: 160)
-            .padding(20)
-            .glassCard()
+            .chartYAxis(.hidden)
+            .frame(height: 120)
+            .padding(.top, 10)
         }
-        .padding(.horizontal, 24)
+        .padding(20)
+        .glassCard()
     }
 
     @ViewBuilder
-    private func prehabOverview(profile: InjuryProfile) -> some View {
-        {
-            let routine = DailyRoutine(dayTitle: "RUTINA PREVENTIVA", order: 1)
-            routine.exercises = viewModel.prehabRoutine
-            return SessionOverviewView(routine: routine, profile: profile, repository: viewModel.repository)
-        }()
+    private func clinicalTimelineSection(roadmap: RecoveryRoadmap?) -> some View {
+        if let roadmap = roadmap {
+            VStack(alignment: .leading, spacing: 16) {
+                Text("Línea de Vida Clínica")
+                    .font(.system(size: 18, weight: .bold, design: .rounded))
+                    .foregroundStyle(colorScheme == .dark ? .white : .black)
+                
+                VStack(spacing: 0) {
+                    let phases = roadmap.phases.sorted(by: { $0.order < $1.order })
+                    ForEach(Array(phases.enumerated()), id: \.element.id) { index, phase in
+                        TimelineNode(
+                            phase: phase,
+                            isLast: index == phases.count - 1,
+                            isCurrent: phase.order == roadmap.currentPhaseIndex
+                        )
+                    }
+                }
+                .padding(20)
+                .glassCard()
+            }
+        }
     }
 }
+
+// MARK: - Subviews
 
 struct StatCard: View {
     @Environment(\.colorScheme) private var colorScheme
@@ -272,5 +283,68 @@ struct StatCard: View {
         .padding(16)
         .frame(maxWidth: .infinity, alignment: .leading)
         .glassCard()
+    }
+}
+
+struct TimelineNode: View {
+    let phase: RecoveryPhase
+    let isLast: Bool
+    let isCurrent: Bool
+    
+    var body: some View {
+        HStack(alignment: .top, spacing: 16) {
+            VStack(spacing: 0) {
+                Circle()
+                    .fill(isCurrent ? AppTheme.performanceBlue : Color.gray.opacity(0.3))
+                    .frame(width: 12, height: 12)
+                    .overlay(
+                        Circle()
+                            .stroke(isCurrent ? AppTheme.performanceBlue.opacity(0.3) : .clear, lineWidth: 8)
+                    )
+                
+                if !isLast {
+                    Rectangle()
+                        .fill(Color.gray.opacity(0.2))
+                        .frame(width: 2)
+                        .frame(minHeight: 40)
+                }
+            }
+            
+            VStack(alignment: .leading, spacing: 4) {
+                Text(phase.title.uppercased())
+                    .font(.system(size: 11, weight: .black))
+                    .foregroundStyle(isCurrent ? AppTheme.performanceBlue : .gray)
+                
+                Text(phase.phaseDescription)
+                    .font(.system(size: 13))
+                    .foregroundStyle(.secondary)
+                    .lineLimit(2)
+                    .padding(.bottom, isLast ? 0 : 20)
+            }
+        }
+    }
+}
+
+struct CircularProgressView: View {
+    let progress: Double
+    @Environment(\.colorScheme) private var colorScheme
+    
+    var body: some View {
+        ZStack {
+            Circle()
+                .stroke(lineWidth: 6)
+                .opacity(0.1)
+                .foregroundStyle(AppTheme.performanceBlue)
+            
+            Circle()
+                .trim(from: 0.0, to: CGFloat(min(self.progress, 1.0)))
+                .stroke(style: StrokeStyle(lineWidth: 6, lineCap: .round, lineJoin: .round))
+                .foregroundStyle(AppTheme.performanceBlue)
+                .rotationEffect(Angle(degrees: 270.0))
+            
+            Text("\(Int(progress * 100))%")
+                .font(.system(size: 10, weight: .bold, design: .rounded))
+                .foregroundStyle(AppTheme.primaryText(for: colorScheme))
+        }
     }
 }

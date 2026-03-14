@@ -23,23 +23,23 @@ final class OnboardingViewModel {
     private let inferenceService: LocalInferenceServiceProtocol
     private let scannerService: DocumentScannerServiceProtocol
     private let symptomService: SymptomAnalyzerServiceProtocol
-    private let repository: RecoveryRepositoryProtocol
+    let repository: RecoveryRepositoryProtocol
     
     var initialProfile: InjuryProfile?
     
     init(
         initialProfile: InjuryProfile? = nil,
-        healthService: HealthKitServiceProtocol = HealthKitService(),
-        inferenceService: LocalInferenceServiceProtocol = LocalInferenceService(),
-        scannerService: DocumentScannerServiceProtocol = DocumentScannerService(),
-        symptomService: SymptomAnalyzerServiceProtocol = SymptomAnalyzerService(),
+        healthService: HealthKitServiceProtocol? = nil,
+        inferenceService: LocalInferenceServiceProtocol? = nil,
+        scannerService: DocumentScannerServiceProtocol? = nil,
+        symptomService: SymptomAnalyzerServiceProtocol? = nil,
         repository: RecoveryRepositoryProtocol
     ) {
         self.initialProfile = initialProfile
-        self.healthService = healthService
-        self.inferenceService = inferenceService
-        self.scannerService = scannerService
-        self.symptomService = symptomService
+        self.healthService = healthService ?? HealthKitService()
+        self.inferenceService = inferenceService ?? LocalInferenceService()
+        self.scannerService = scannerService ?? DocumentScannerService()
+        self.symptomService = symptomService ?? SymptomAnalyzerService()
         self.repository = repository
         
         if let profile = initialProfile {

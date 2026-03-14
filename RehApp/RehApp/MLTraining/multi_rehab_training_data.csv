@@ -1,0 +1,3001 @@
+injury_type,days_since_injury,current_pain_level,previous_phase,recommended_phase
+Esguince de Tobillo,82,2,3,3
+Esguince de Tobillo,52,7,3,1
+Condromalacia Rotuliana,53,8,1,1
+Esguince de Tobillo,31,9,2,1
+Condromalacia Rotuliana,18,10,1,1
+Tendinopatia Aquilea,81,5,1,1
+Condromalacia Rotuliana,52,10,2,1
+Condromalacia Rotuliana,33,8,1,1
+Condromalacia Rotuliana,24,9,2,1
+Esguince de Tobillo,65,8,2,1
+Condromalacia Rotuliana,1,10,3,1
+Condromalacia Rotuliana,51,4,3,2
+Tendinopatia Aquilea,57,6,3,2
+Condromalacia Rotuliana,9,1,1,1
+Tendinopatia Aquilea,8,6,3,2
+Esguince de Tobillo,5,3,1,1
+Tendinopatia Aquilea,76,6,3,2
+Esguince de Tobillo,17,8,2,1
+Condromalacia Rotuliana,18,1,2,2
+Esguince de Tobillo,10,3,2,2
+Condromalacia Rotuliana,66,7,1,1
+Esguince de Tobillo,47,8,1,1
+Tendinopatia Aquilea,60,3,1,3
+Tendinopatia Aquilea,4,6,2,1
+Esguince de Tobillo,24,1,3,3
+Tendinopatia Aquilea,62,2,3,3
+Tendinopatia Aquilea,76,8,2,1
+Condromalacia Rotuliana,24,7,1,1
+Esguince de Tobillo,60,2,3,3
+Tendinopatia Aquilea,47,7,2,1
+Esguince de Tobillo,38,2,2,3
+Esguince de Tobillo,10,9,2,1
+Tendinopatia Aquilea,23,9,1,1
+Esguince de Tobillo,2,7,2,1
+Condromalacia Rotuliana,79,2,1,3
+Tendinopatia Aquilea,57,9,3,1
+Esguince de Tobillo,43,2,3,3
+Condromalacia Rotuliana,22,8,3,1
+Tendinopatia Aquilea,75,4,1,3
+Esguince de Tobillo,72,6,2,1
+Esguince de Tobillo,82,5,1,1
+Tendinopatia Aquilea,88,4,2,3
+Tendinopatia Aquilea,41,1,1,3
+Esguince de Tobillo,58,5,3,2
+Esguince de Tobillo,27,1,1,3
+Tendinopatia Aquilea,34,7,1,1
+Condromalacia Rotuliana,31,2,1,2
+Esguince de Tobillo,13,6,2,1
+Esguince de Tobillo,25,1,3,3
+Esguince de Tobillo,75,8,2,1
+Esguince de Tobillo,13,9,3,1
+Condromalacia Rotuliana,78,9,3,1
+Tendinopatia Aquilea,44,10,3,1
+Tendinopatia Aquilea,49,4,2,3
+Tendinopatia Aquilea,79,5,2,1
+Esguince de Tobillo,10,3,1,2
+Tendinopatia Aquilea,20,10,3,1
+Condromalacia Rotuliana,88,1,3,3
+Esguince de Tobillo,47,6,1,1
+Condromalacia Rotuliana,82,8,3,1
+Tendinopatia Aquilea,29,8,2,1
+Tendinopatia Aquilea,8,4,2,1
+Condromalacia Rotuliana,20,6,3,1
+Tendinopatia Aquilea,67,3,1,3
+Esguince de Tobillo,33,9,2,1
+Condromalacia Rotuliana,9,5,2,1
+Esguince de Tobillo,67,9,2,1
+Esguince de Tobillo,89,10,2,1
+Tendinopatia Aquilea,14,2,1,2
+Condromalacia Rotuliana,59,4,2,1
+Tendinopatia Aquilea,28,3,2,2
+Condromalacia Rotuliana,16,8,3,1
+Esguince de Tobillo,65,8,1,1
+Esguince de Tobillo,7,4,1,1
+Esguince de Tobillo,25,7,1,1
+Esguince de Tobillo,42,8,3,1
+Tendinopatia Aquilea,31,8,1,1
+Tendinopatia Aquilea,10,7,3,2
+Tendinopatia Aquilea,58,9,1,1
+Esguince de Tobillo,56,1,1,3
+Esguince de Tobillo,89,6,1,1
+Tendinopatia Aquilea,82,10,1,1
+Tendinopatia Aquilea,7,3,2,1
+Esguince de Tobillo,89,10,3,1
+Esguince de Tobillo,9,10,2,1
+Esguince de Tobillo,38,1,2,3
+Tendinopatia Aquilea,46,2,2,3
+Tendinopatia Aquilea,28,3,1,2
+Esguince de Tobillo,28,4,2,1
+Tendinopatia Aquilea,35,10,1,1
+Tendinopatia Aquilea,69,3,3,3
+Tendinopatia Aquilea,34,1,2,2
+Esguince de Tobillo,34,3,1,3
+Condromalacia Rotuliana,43,7,1,1
+Tendinopatia Aquilea,3,9,1,1
+Tendinopatia Aquilea,56,5,3,2
+Esguince de Tobillo,41,6,2,1
+Condromalacia Rotuliana,81,6,1,1
+Condromalacia Rotuliana,56,10,3,1
+Tendinopatia Aquilea,73,8,2,1
+Tendinopatia Aquilea,68,3,2,3
+Esguince de Tobillo,39,9,1,1
+Condromalacia Rotuliana,39,9,3,1
+Condromalacia Rotuliana,21,1,1,2
+Condromalacia Rotuliana,61,5,3,2
+Tendinopatia Aquilea,29,2,1,2
+Tendinopatia Aquilea,16,8,1,1
+Condromalacia Rotuliana,15,1,1,2
+Esguince de Tobillo,76,6,1,1
+Tendinopatia Aquilea,80,4,2,3
+Condromalacia Rotuliana,28,4,1,1
+Esguince de Tobillo,27,9,3,1
+Tendinopatia Aquilea,77,4,3,3
+Tendinopatia Aquilea,54,1,3,3
+Tendinopatia Aquilea,35,10,3,1
+Tendinopatia Aquilea,34,5,1,1
+Tendinopatia Aquilea,83,4,2,3
+Condromalacia Rotuliana,11,2,2,1
+Esguince de Tobillo,19,4,3,2
+Condromalacia Rotuliana,78,2,1,3
+Condromalacia Rotuliana,4,7,1,1
+Condromalacia Rotuliana,5,1,1,1
+Esguince de Tobillo,81,2,2,3
+Condromalacia Rotuliana,54,7,1,1
+Esguince de Tobillo,63,3,1,3
+Tendinopatia Aquilea,31,6,1,1
+Condromalacia Rotuliana,88,10,1,1
+Tendinopatia Aquilea,36,1,2,2
+Tendinopatia Aquilea,79,4,3,3
+Tendinopatia Aquilea,18,10,2,1
+Tendinopatia Aquilea,27,6,2,1
+Tendinopatia Aquilea,52,9,2,1
+Esguince de Tobillo,84,1,2,3
+Esguince de Tobillo,43,9,1,1
+Condromalacia Rotuliana,63,1,3,3
+Esguince de Tobillo,45,2,2,3
+Esguince de Tobillo,81,6,3,2
+Tendinopatia Aquilea,2,9,1,1
+Condromalacia Rotuliana,17,2,1,2
+Tendinopatia Aquilea,15,5,2,1
+Tendinopatia Aquilea,5,3,1,1
+Condromalacia Rotuliana,49,5,3,2
+Tendinopatia Aquilea,20,4,3,2
+Condromalacia Rotuliana,81,2,3,3
+Esguince de Tobillo,20,7,1,1
+Esguince de Tobillo,41,4,3,2
+Tendinopatia Aquilea,59,7,2,1
+Tendinopatia Aquilea,32,5,1,1
+Condromalacia Rotuliana,53,5,2,1
+Tendinopatia Aquilea,25,10,1,1
+Tendinopatia Aquilea,84,8,3,1
+Esguince de Tobillo,4,9,3,1
+Tendinopatia Aquilea,8,2,3,1
+Condromalacia Rotuliana,11,2,2,1
+Condromalacia Rotuliana,55,7,3,1
+Condromalacia Rotuliana,68,2,1,3
+Esguince de Tobillo,9,10,3,1
+Condromalacia Rotuliana,35,3,1,3
+Tendinopatia Aquilea,7,5,1,1
+Tendinopatia Aquilea,1,10,2,1
+Tendinopatia Aquilea,10,6,2,1
+Condromalacia Rotuliana,8,4,3,2
+Esguince de Tobillo,25,3,2,3
+Esguince de Tobillo,48,6,2,1
+Condromalacia Rotuliana,8,2,2,1
+Esguince de Tobillo,67,4,3,2
+Esguince de Tobillo,47,8,2,1
+Tendinopatia Aquilea,87,8,2,1
+Condromalacia Rotuliana,60,8,2,1
+Esguince de Tobillo,46,2,3,3
+Esguince de Tobillo,4,2,3,1
+Esguince de Tobillo,19,5,3,2
+Tendinopatia Aquilea,43,6,2,1
+Condromalacia Rotuliana,59,3,1,3
+Esguince de Tobillo,79,3,2,3
+Condromalacia Rotuliana,28,2,2,2
+Esguince de Tobillo,26,3,3,3
+Esguince de Tobillo,23,5,1,1
+Esguince de Tobillo,84,3,3,3
+Tendinopatia Aquilea,76,10,3,1
+Tendinopatia Aquilea,20,8,1,1
+Tendinopatia Aquilea,21,4,2,2
+Condromalacia Rotuliana,3,1,3,1
+Esguince de Tobillo,25,9,2,1
+Condromalacia Rotuliana,11,8,1,1
+Tendinopatia Aquilea,41,6,3,2
+Esguince de Tobillo,8,8,3,1
+Esguince de Tobillo,38,8,3,1
+Esguince de Tobillo,34,5,1,1
+Tendinopatia Aquilea,81,2,1,3
+Tendinopatia Aquilea,6,4,2,1
+Condromalacia Rotuliana,70,5,2,1
+Condromalacia Rotuliana,73,5,3,2
+Esguince de Tobillo,74,3,1,3
+Esguince de Tobillo,34,6,2,1
+Esguince de Tobillo,13,1,1,2
+Tendinopatia Aquilea,46,5,1,1
+Condromalacia Rotuliana,48,4,1,1
+Tendinopatia Aquilea,37,10,1,1
+Condromalacia Rotuliana,24,1,2,2
+Tendinopatia Aquilea,20,2,1,2
+Condromalacia Rotuliana,8,9,3,1
+Tendinopatia Aquilea,80,6,2,1
+Esguince de Tobillo,47,1,1,3
+Condromalacia Rotuliana,33,1,1,2
+Tendinopatia Aquilea,7,7,3,2
+Condromalacia Rotuliana,32,10,2,1
+Esguince de Tobillo,1,5,1,1
+Tendinopatia Aquilea,1,4,2,1
+Tendinopatia Aquilea,77,10,2,1
+Condromalacia Rotuliana,40,9,2,1
+Tendinopatia Aquilea,82,10,2,1
+Esguince de Tobillo,73,7,1,1
+Tendinopatia Aquilea,72,8,3,1
+Condromalacia Rotuliana,66,8,3,1
+Esguince de Tobillo,87,6,3,2
+Esguince de Tobillo,2,5,2,1
+Condromalacia Rotuliana,80,10,2,1
+Tendinopatia Aquilea,8,2,1,1
+Esguince de Tobillo,72,4,3,2
+Tendinopatia Aquilea,42,1,3,3
+Condromalacia Rotuliana,35,5,2,1
+Esguince de Tobillo,60,10,3,1
+Tendinopatia Aquilea,3,7,3,2
+Tendinopatia Aquilea,35,9,1,1
+Esguince de Tobillo,49,2,2,3
+Tendinopatia Aquilea,47,4,3,3
+Condromalacia Rotuliana,16,9,1,1
+Condromalacia Rotuliana,7,7,1,1
+Esguince de Tobillo,22,3,3,3
+Condromalacia Rotuliana,83,10,3,1
+Condromalacia Rotuliana,45,7,1,1
+Esguince de Tobillo,32,3,3,3
+Esguince de Tobillo,17,2,2,3
+Esguince de Tobillo,64,10,3,1
+Esguince de Tobillo,83,5,2,1
+Condromalacia Rotuliana,1,1,3,1
+Tendinopatia Aquilea,58,2,1,3
+Esguince de Tobillo,65,4,2,1
+Esguince de Tobillo,4,8,1,1
+Esguince de Tobillo,82,8,3,1
+Tendinopatia Aquilea,63,8,2,1
+Condromalacia Rotuliana,31,2,3,2
+Esguince de Tobillo,71,8,1,1
+Esguince de Tobillo,12,7,1,1
+Tendinopatia Aquilea,15,1,2,2
+Tendinopatia Aquilea,86,7,2,1
+Esguince de Tobillo,23,8,2,1
+Esguince de Tobillo,22,3,1,3
+Esguince de Tobillo,18,9,2,1
+Esguince de Tobillo,70,2,1,3
+Condromalacia Rotuliana,23,7,3,1
+Tendinopatia Aquilea,79,6,3,2
+Tendinopatia Aquilea,14,5,2,1
+Esguince de Tobillo,1,8,1,1
+Condromalacia Rotuliana,50,5,2,1
+Tendinopatia Aquilea,12,3,3,2
+Esguince de Tobillo,15,9,2,1
+Condromalacia Rotuliana,51,1,2,3
+Esguince de Tobillo,19,1,1,3
+Condromalacia Rotuliana,40,5,3,2
+Condromalacia Rotuliana,57,6,3,1
+Esguince de Tobillo,13,9,1,1
+Esguince de Tobillo,6,8,1,1
+Condromalacia Rotuliana,31,1,3,2
+Tendinopatia Aquilea,70,4,2,3
+Condromalacia Rotuliana,12,7,3,1
+Condromalacia Rotuliana,21,9,3,1
+Condromalacia Rotuliana,71,9,3,1
+Tendinopatia Aquilea,72,5,3,2
+Condromalacia Rotuliana,38,5,1,1
+Esguince de Tobillo,49,5,2,1
+Tendinopatia Aquilea,8,9,3,1
+Esguince de Tobillo,9,2,3,2
+Tendinopatia Aquilea,53,7,2,1
+Condromalacia Rotuliana,33,6,2,1
+Tendinopatia Aquilea,65,8,2,1
+Esguince de Tobillo,70,7,1,1
+Tendinopatia Aquilea,25,6,2,1
+Tendinopatia Aquilea,9,3,3,1
+Condromalacia Rotuliana,14,5,3,2
+Esguince de Tobillo,90,5,1,1
+Condromalacia Rotuliana,36,2,1,3
+Esguince de Tobillo,33,8,2,1
+Condromalacia Rotuliana,82,7,1,1
+Esguince de Tobillo,9,7,1,1
+Condromalacia Rotuliana,88,9,2,1
+Esguince de Tobillo,27,9,2,1
+Esguince de Tobillo,26,10,3,1
+Esguince de Tobillo,20,4,2,1
+Condromalacia Rotuliana,90,6,3,1
+Esguince de Tobillo,87,1,2,3
+Tendinopatia Aquilea,90,8,1,1
+Condromalacia Rotuliana,50,8,1,1
+Tendinopatia Aquilea,74,1,3,3
+Tendinopatia Aquilea,55,6,1,1
+Condromalacia Rotuliana,3,5,1,1
+Condromalacia Rotuliana,18,8,2,1
+Tendinopatia Aquilea,74,4,2,3
+Tendinopatia Aquilea,66,4,3,3
+Esguince de Tobillo,48,7,3,1
+Condromalacia Rotuliana,28,5,3,2
+Esguince de Tobillo,90,5,3,2
+Condromalacia Rotuliana,50,6,1,1
+Condromalacia Rotuliana,61,4,3,2
+Esguince de Tobillo,72,3,1,3
+Esguince de Tobillo,82,5,1,1
+Condromalacia Rotuliana,17,9,3,1
+Condromalacia Rotuliana,12,3,3,1
+Esguince de Tobillo,9,1,1,2
+Esguince de Tobillo,23,3,1,3
+Esguince de Tobillo,53,6,2,1
+Tendinopatia Aquilea,73,1,2,3
+Esguince de Tobillo,65,5,2,1
+Tendinopatia Aquilea,87,9,3,1
+Condromalacia Rotuliana,82,8,2,1
+Condromalacia Rotuliana,12,10,1,1
+Tendinopatia Aquilea,85,1,3,3
+Esguince de Tobillo,22,1,3,3
+Tendinopatia Aquilea,55,3,2,3
+Condromalacia Rotuliana,61,3,3,3
+Condromalacia Rotuliana,33,3,1,2
+Esguince de Tobillo,25,7,3,1
+Tendinopatia Aquilea,74,7,3,2
+Esguince de Tobillo,7,6,1,1
+Tendinopatia Aquilea,71,2,1,3
+Esguince de Tobillo,2,10,1,1
+Esguince de Tobillo,41,10,3,1
+Condromalacia Rotuliana,39,8,1,1
+Tendinopatia Aquilea,5,8,3,1
+Condromalacia Rotuliana,81,3,3,3
+Tendinopatia Aquilea,16,3,1,2
+Tendinopatia Aquilea,20,10,1,1
+Tendinopatia Aquilea,22,1,3,2
+Tendinopatia Aquilea,42,5,2,1
+Tendinopatia Aquilea,68,1,2,3
+Tendinopatia Aquilea,23,1,1,2
+Condromalacia Rotuliana,24,9,1,1
+Tendinopatia Aquilea,55,7,2,1
+Condromalacia Rotuliana,83,6,3,1
+Condromalacia Rotuliana,40,4,1,1
+Esguince de Tobillo,78,4,3,2
+Tendinopatia Aquilea,16,1,3,2
+Esguince de Tobillo,43,2,1,3
+Esguince de Tobillo,64,7,3,1
+Condromalacia Rotuliana,75,5,2,1
+Condromalacia Rotuliana,9,2,1,1
+Condromalacia Rotuliana,21,9,1,1
+Esguince de Tobillo,34,8,3,1
+Tendinopatia Aquilea,11,9,2,1
+Esguince de Tobillo,21,2,1,3
+Tendinopatia Aquilea,83,8,3,1
+Tendinopatia Aquilea,76,5,1,1
+Tendinopatia Aquilea,76,3,1,3
+Esguince de Tobillo,52,4,1,1
+Esguince de Tobillo,29,9,2,1
+Tendinopatia Aquilea,7,8,3,1
+Tendinopatia Aquilea,72,1,1,3
+Esguince de Tobillo,81,4,3,2
+Tendinopatia Aquilea,39,9,1,1
+Tendinopatia Aquilea,28,5,1,1
+Tendinopatia Aquilea,67,5,2,1
+Esguince de Tobillo,74,6,2,1
+Esguince de Tobillo,50,7,2,1
+Tendinopatia Aquilea,61,5,1,1
+Esguince de Tobillo,76,2,1,3
+Tendinopatia Aquilea,74,9,3,1
+Condromalacia Rotuliana,10,3,3,1
+Tendinopatia Aquilea,7,7,3,2
+Tendinopatia Aquilea,4,9,1,1
+Condromalacia Rotuliana,32,6,3,1
+Tendinopatia Aquilea,6,2,1,1
+Tendinopatia Aquilea,29,10,3,1
+Tendinopatia Aquilea,52,4,2,3
+Condromalacia Rotuliana,69,4,3,2
+Esguince de Tobillo,21,8,2,1
+Condromalacia Rotuliana,50,6,3,1
+Esguince de Tobillo,35,9,1,1
+Condromalacia Rotuliana,14,8,2,1
+Condromalacia Rotuliana,22,7,1,1
+Tendinopatia Aquilea,29,5,3,2
+Esguince de Tobillo,53,1,2,3
+Tendinopatia Aquilea,16,10,2,1
+Condromalacia Rotuliana,73,8,1,1
+Esguince de Tobillo,57,1,1,3
+Tendinopatia Aquilea,68,5,3,2
+Esguince de Tobillo,61,8,3,1
+Tendinopatia Aquilea,24,2,1,2
+Tendinopatia Aquilea,9,1,3,1
+Condromalacia Rotuliana,48,3,3,3
+Condromalacia Rotuliana,41,5,2,1
+Esguince de Tobillo,57,9,1,1
+Esguince de Tobillo,23,7,1,1
+Esguince de Tobillo,29,10,1,1
+Tendinopatia Aquilea,65,2,3,3
+Tendinopatia Aquilea,15,3,2,2
+Tendinopatia Aquilea,77,1,3,3
+Condromalacia Rotuliana,23,7,2,1
+Tendinopatia Aquilea,83,2,3,3
+Esguince de Tobillo,38,3,2,3
+Condromalacia Rotuliana,56,9,1,1
+Tendinopatia Aquilea,39,7,3,2
+Condromalacia Rotuliana,80,2,2,3
+Condromalacia Rotuliana,16,5,3,2
+Tendinopatia Aquilea,21,5,3,2
+Condromalacia Rotuliana,68,9,1,1
+Esguince de Tobillo,43,5,1,1
+Condromalacia Rotuliana,40,4,1,1
+Esguince de Tobillo,70,7,1,1
+Tendinopatia Aquilea,12,6,3,2
+Tendinopatia Aquilea,12,5,2,1
+Esguince de Tobillo,66,6,2,1
+Esguince de Tobillo,70,7,3,1
+Tendinopatia Aquilea,7,1,2,1
+Tendinopatia Aquilea,57,9,2,1
+Condromalacia Rotuliana,69,8,3,1
+Condromalacia Rotuliana,89,6,1,1
+Condromalacia Rotuliana,26,1,1,2
+Condromalacia Rotuliana,30,6,1,1
+Condromalacia Rotuliana,86,9,2,1
+Esguince de Tobillo,57,10,3,1
+Tendinopatia Aquilea,28,9,1,1
+Condromalacia Rotuliana,40,3,3,3
+Condromalacia Rotuliana,77,8,3,1
+Tendinopatia Aquilea,55,5,1,1
+Tendinopatia Aquilea,78,6,1,1
+Tendinopatia Aquilea,12,3,1,2
+Condromalacia Rotuliana,61,8,1,1
+Esguince de Tobillo,70,7,2,1
+Condromalacia Rotuliana,7,6,1,1
+Esguince de Tobillo,48,5,3,2
+Esguince de Tobillo,58,6,3,2
+Esguince de Tobillo,68,3,3,3
+Esguince de Tobillo,45,8,2,1
+Tendinopatia Aquilea,34,7,1,1
+Tendinopatia Aquilea,38,2,1,2
+Tendinopatia Aquilea,53,5,3,2
+Tendinopatia Aquilea,27,4,1,2
+Esguince de Tobillo,39,7,2,1
+Esguince de Tobillo,61,6,2,1
+Condromalacia Rotuliana,84,2,3,3
+Tendinopatia Aquilea,68,7,1,1
+Condromalacia Rotuliana,89,2,2,3
+Tendinopatia Aquilea,56,7,3,2
+Esguince de Tobillo,43,8,1,1
+Condromalacia Rotuliana,44,5,3,2
+Condromalacia Rotuliana,51,8,3,1
+Condromalacia Rotuliana,4,6,1,1
+Tendinopatia Aquilea,16,3,3,2
+Esguince de Tobillo,78,1,3,3
+Tendinopatia Aquilea,35,7,2,1
+Esguince de Tobillo,61,5,2,1
+Tendinopatia Aquilea,44,4,1,3
+Esguince de Tobillo,75,8,3,1
+Tendinopatia Aquilea,53,1,1,3
+Condromalacia Rotuliana,15,5,1,1
+Tendinopatia Aquilea,66,1,3,3
+Esguince de Tobillo,37,8,2,1
+Tendinopatia Aquilea,74,4,1,3
+Esguince de Tobillo,80,10,1,1
+Condromalacia Rotuliana,43,4,3,2
+Esguince de Tobillo,40,3,2,3
+Esguince de Tobillo,81,6,3,2
+Condromalacia Rotuliana,73,9,2,1
+Condromalacia Rotuliana,47,5,3,2
+Esguince de Tobillo,19,10,2,1
+Condromalacia Rotuliana,73,8,3,1
+Condromalacia Rotuliana,49,1,2,3
+Esguince de Tobillo,39,5,1,1
+Tendinopatia Aquilea,30,7,3,2
+Tendinopatia Aquilea,66,8,3,1
+Esguince de Tobillo,44,2,2,3
+Esguince de Tobillo,14,6,1,1
+Condromalacia Rotuliana,43,2,1,3
+Tendinopatia Aquilea,60,2,3,3
+Condromalacia Rotuliana,68,3,1,3
+Condromalacia Rotuliana,31,8,2,1
+Tendinopatia Aquilea,32,4,3,2
+Esguince de Tobillo,16,3,3,3
+Tendinopatia Aquilea,66,3,3,3
+Tendinopatia Aquilea,54,3,2,3
+Tendinopatia Aquilea,89,4,2,3
+Esguince de Tobillo,8,1,1,2
+Condromalacia Rotuliana,23,3,1,2
+Tendinopatia Aquilea,32,4,1,2
+Esguince de Tobillo,86,10,2,1
+Tendinopatia Aquilea,6,6,1,1
+Esguince de Tobillo,80,6,2,1
+Condromalacia Rotuliana,28,3,2,2
+Esguince de Tobillo,37,8,3,1
+Condromalacia Rotuliana,13,7,1,1
+Condromalacia Rotuliana,83,1,3,3
+Condromalacia Rotuliana,77,7,1,1
+Esguince de Tobillo,35,3,3,3
+Esguince de Tobillo,19,4,2,1
+Tendinopatia Aquilea,32,5,2,1
+Tendinopatia Aquilea,76,2,2,3
+Condromalacia Rotuliana,57,10,3,1
+Condromalacia Rotuliana,75,6,3,1
+Tendinopatia Aquilea,44,9,3,1
+Tendinopatia Aquilea,3,5,1,1
+Tendinopatia Aquilea,28,10,1,1
+Condromalacia Rotuliana,66,9,3,1
+Condromalacia Rotuliana,57,4,1,1
+Esguince de Tobillo,42,9,3,1
+Esguince de Tobillo,13,10,2,1
+Tendinopatia Aquilea,26,7,1,1
+Tendinopatia Aquilea,66,7,1,1
+Tendinopatia Aquilea,90,1,3,3
+Condromalacia Rotuliana,89,8,2,1
+Esguince de Tobillo,22,7,1,1
+Esguince de Tobillo,23,6,3,2
+Condromalacia Rotuliana,9,8,1,1
+Esguince de Tobillo,86,8,2,1
+Esguince de Tobillo,14,1,1,3
+Esguince de Tobillo,35,10,1,1
+Tendinopatia Aquilea,73,9,3,1
+Condromalacia Rotuliana,72,10,3,1
+Tendinopatia Aquilea,30,5,1,1
+Esguince de Tobillo,56,7,1,1
+Tendinopatia Aquilea,4,3,3,1
+Condromalacia Rotuliana,47,10,3,1
+Esguince de Tobillo,56,7,3,1
+Tendinopatia Aquilea,16,4,1,2
+Condromalacia Rotuliana,32,10,3,1
+Condromalacia Rotuliana,27,8,3,1
+Tendinopatia Aquilea,4,9,1,1
+Condromalacia Rotuliana,57,4,1,1
+Tendinopatia Aquilea,20,2,1,2
+Tendinopatia Aquilea,79,5,3,2
+Esguince de Tobillo,17,8,3,1
+Esguince de Tobillo,33,7,1,1
+Esguince de Tobillo,39,1,3,3
+Condromalacia Rotuliana,57,7,1,1
+Condromalacia Rotuliana,22,9,3,1
+Tendinopatia Aquilea,84,6,1,1
+Esguince de Tobillo,10,1,3,2
+Condromalacia Rotuliana,72,3,2,3
+Esguince de Tobillo,47,8,1,1
+Condromalacia Rotuliana,26,5,2,1
+Esguince de Tobillo,30,7,2,1
+Tendinopatia Aquilea,70,7,3,2
+Tendinopatia Aquilea,14,2,2,2
+Esguince de Tobillo,5,1,2,1
+Condromalacia Rotuliana,23,5,1,1
+Tendinopatia Aquilea,25,8,2,1
+Tendinopatia Aquilea,40,8,2,1
+Esguince de Tobillo,1,5,3,2
+Condromalacia Rotuliana,25,2,2,2
+Condromalacia Rotuliana,24,8,3,1
+Condromalacia Rotuliana,5,3,2,1
+Esguince de Tobillo,42,6,1,1
+Condromalacia Rotuliana,52,6,1,1
+Condromalacia Rotuliana,52,4,3,2
+Tendinopatia Aquilea,59,6,2,1
+Condromalacia Rotuliana,67,4,3,2
+Condromalacia Rotuliana,40,8,1,1
+Tendinopatia Aquilea,76,8,2,1
+Condromalacia Rotuliana,86,3,2,3
+Condromalacia Rotuliana,80,6,1,1
+Esguince de Tobillo,55,1,1,3
+Esguince de Tobillo,45,2,2,3
+Esguince de Tobillo,56,10,3,1
+Condromalacia Rotuliana,14,8,2,1
+Esguince de Tobillo,55,1,3,3
+Esguince de Tobillo,18,8,3,1
+Tendinopatia Aquilea,19,7,2,1
+Condromalacia Rotuliana,48,8,3,1
+Esguince de Tobillo,66,9,2,1
+Tendinopatia Aquilea,1,4,3,1
+Condromalacia Rotuliana,15,7,1,1
+Esguince de Tobillo,27,1,2,3
+Tendinopatia Aquilea,42,3,1,3
+Esguince de Tobillo,70,5,3,2
+Condromalacia Rotuliana,28,9,1,1
+Condromalacia Rotuliana,53,1,1,3
+Esguince de Tobillo,73,10,3,1
+Esguince de Tobillo,74,3,2,3
+Tendinopatia Aquilea,50,5,3,2
+Esguince de Tobillo,1,5,3,2
+Tendinopatia Aquilea,65,3,3,3
+Esguince de Tobillo,4,6,1,1
+Esguince de Tobillo,40,7,1,1
+Esguince de Tobillo,23,4,3,2
+Tendinopatia Aquilea,56,10,1,1
+Esguince de Tobillo,20,9,3,1
+Esguince de Tobillo,77,9,3,1
+Tendinopatia Aquilea,24,7,2,1
+Condromalacia Rotuliana,72,2,1,3
+Condromalacia Rotuliana,20,9,1,1
+Tendinopatia Aquilea,32,4,3,2
+Tendinopatia Aquilea,66,8,3,1
+Condromalacia Rotuliana,22,8,2,1
+Esguince de Tobillo,80,3,1,3
+Tendinopatia Aquilea,72,4,2,3
+Esguince de Tobillo,89,7,3,1
+Esguince de Tobillo,37,10,1,1
+Condromalacia Rotuliana,28,3,3,2
+Tendinopatia Aquilea,3,4,2,1
+Condromalacia Rotuliana,62,5,2,1
+Esguince de Tobillo,25,10,1,1
+Tendinopatia Aquilea,65,7,1,1
+Condromalacia Rotuliana,27,5,1,1
+Esguince de Tobillo,85,8,1,1
+Tendinopatia Aquilea,31,7,1,1
+Condromalacia Rotuliana,38,6,2,1
+Tendinopatia Aquilea,45,1,3,3
+Tendinopatia Aquilea,51,10,3,1
+Tendinopatia Aquilea,89,4,1,3
+Tendinopatia Aquilea,4,10,2,1
+Tendinopatia Aquilea,4,4,2,1
+Condromalacia Rotuliana,60,1,3,3
+Tendinopatia Aquilea,6,6,2,1
+Condromalacia Rotuliana,80,9,1,1
+Esguince de Tobillo,45,7,2,1
+Condromalacia Rotuliana,67,9,1,1
+Esguince de Tobillo,34,5,3,2
+Esguince de Tobillo,23,6,1,1
+Condromalacia Rotuliana,1,5,3,2
+Condromalacia Rotuliana,27,10,1,1
+Tendinopatia Aquilea,1,7,2,1
+Condromalacia Rotuliana,56,8,2,1
+Tendinopatia Aquilea,73,5,3,2
+Esguince de Tobillo,83,6,3,2
+Condromalacia Rotuliana,6,6,1,1
+Esguince de Tobillo,48,9,2,1
+Condromalacia Rotuliana,48,5,1,1
+Esguince de Tobillo,6,9,3,1
+Tendinopatia Aquilea,76,8,1,1
+Tendinopatia Aquilea,87,5,1,1
+Condromalacia Rotuliana,72,7,3,1
+Esguince de Tobillo,40,8,2,1
+Condromalacia Rotuliana,61,1,3,3
+Condromalacia Rotuliana,66,10,3,1
+Esguince de Tobillo,2,7,2,1
+Esguince de Tobillo,8,5,2,1
+Tendinopatia Aquilea,74,1,1,3
+Esguince de Tobillo,78,7,1,1
+Tendinopatia Aquilea,16,1,1,2
+Condromalacia Rotuliana,16,6,3,1
+Esguince de Tobillo,27,7,3,1
+Esguince de Tobillo,13,9,2,1
+Esguince de Tobillo,52,2,3,3
+Tendinopatia Aquilea,32,9,2,1
+Condromalacia Rotuliana,35,10,2,1
+Esguince de Tobillo,43,6,1,1
+Tendinopatia Aquilea,86,9,1,1
+Esguince de Tobillo,5,5,2,1
+Condromalacia Rotuliana,82,5,3,2
+Esguince de Tobillo,22,6,3,2
+Condromalacia Rotuliana,16,2,3,2
+Tendinopatia Aquilea,58,7,1,1
+Condromalacia Rotuliana,85,2,2,3
+Tendinopatia Aquilea,14,5,2,1
+Condromalacia Rotuliana,43,5,3,2
+Tendinopatia Aquilea,64,7,3,2
+Condromalacia Rotuliana,21,2,3,2
+Condromalacia Rotuliana,80,8,2,1
+Condromalacia Rotuliana,76,5,1,1
+Condromalacia Rotuliana,8,3,3,1
+Tendinopatia Aquilea,50,7,3,2
+Esguince de Tobillo,74,1,3,3
+Tendinopatia Aquilea,81,4,1,3
+Tendinopatia Aquilea,17,1,2,2
+Condromalacia Rotuliana,31,8,2,1
+Tendinopatia Aquilea,9,6,2,1
+Esguince de Tobillo,65,5,1,1
+Esguince de Tobillo,36,3,3,3
+Tendinopatia Aquilea,42,9,1,1
+Esguince de Tobillo,39,8,3,1
+Esguince de Tobillo,16,9,1,1
+Tendinopatia Aquilea,81,10,3,1
+Esguince de Tobillo,87,8,2,1
+Condromalacia Rotuliana,65,7,2,1
+Condromalacia Rotuliana,58,10,2,1
+Tendinopatia Aquilea,31,4,3,2
+Esguince de Tobillo,64,8,1,1
+Tendinopatia Aquilea,64,2,1,3
+Esguince de Tobillo,65,7,3,1
+Condromalacia Rotuliana,40,9,3,1
+Condromalacia Rotuliana,86,1,2,3
+Condromalacia Rotuliana,44,4,3,2
+Esguince de Tobillo,51,2,3,3
+Esguince de Tobillo,35,10,2,1
+Esguince de Tobillo,48,6,3,2
+Condromalacia Rotuliana,71,6,1,1
+Tendinopatia Aquilea,52,2,3,3
+Condromalacia Rotuliana,39,10,3,1
+Tendinopatia Aquilea,36,6,3,2
+Condromalacia Rotuliana,3,2,2,1
+Condromalacia Rotuliana,41,10,1,1
+Tendinopatia Aquilea,85,7,3,2
+Condromalacia Rotuliana,87,5,3,2
+Tendinopatia Aquilea,79,2,2,3
+Tendinopatia Aquilea,28,7,1,1
+Tendinopatia Aquilea,34,4,3,2
+Tendinopatia Aquilea,50,2,1,3
+Tendinopatia Aquilea,53,4,2,3
+Condromalacia Rotuliana,31,2,1,2
+Tendinopatia Aquilea,23,10,3,1
+Esguince de Tobillo,39,2,3,3
+Condromalacia Rotuliana,84,9,2,1
+Tendinopatia Aquilea,71,9,2,1
+Condromalacia Rotuliana,87,6,2,1
+Esguince de Tobillo,84,4,1,1
+Condromalacia Rotuliana,49,2,2,3
+Esguince de Tobillo,9,1,1,2
+Tendinopatia Aquilea,68,7,1,1
+Esguince de Tobillo,20,2,3,3
+Condromalacia Rotuliana,32,8,1,1
+Esguince de Tobillo,36,5,1,1
+Condromalacia Rotuliana,51,9,3,1
+Esguince de Tobillo,84,6,2,1
+Condromalacia Rotuliana,59,10,2,1
+Tendinopatia Aquilea,74,9,2,1
+Esguince de Tobillo,34,10,2,1
+Esguince de Tobillo,74,2,1,3
+Tendinopatia Aquilea,57,2,2,3
+Tendinopatia Aquilea,33,10,3,1
+Tendinopatia Aquilea,35,4,3,2
+Tendinopatia Aquilea,39,8,2,1
+Esguince de Tobillo,31,2,3,3
+Esguince de Tobillo,14,2,2,3
+Condromalacia Rotuliana,18,8,3,1
+Esguince de Tobillo,18,3,1,3
+Condromalacia Rotuliana,64,4,1,1
+Condromalacia Rotuliana,63,4,3,2
+Condromalacia Rotuliana,2,5,1,1
+Tendinopatia Aquilea,39,2,3,2
+Condromalacia Rotuliana,23,1,2,2
+Condromalacia Rotuliana,17,3,2,2
+Condromalacia Rotuliana,54,4,2,1
+Esguince de Tobillo,55,7,3,1
+Tendinopatia Aquilea,52,4,1,3
+Tendinopatia Aquilea,74,1,3,3
+Condromalacia Rotuliana,22,3,2,2
+Condromalacia Rotuliana,62,4,2,1
+Tendinopatia Aquilea,59,6,2,1
+Condromalacia Rotuliana,42,8,1,1
+Condromalacia Rotuliana,33,9,3,1
+Tendinopatia Aquilea,81,4,3,3
+Esguince de Tobillo,7,5,2,1
+Condromalacia Rotuliana,13,9,1,1
+Esguince de Tobillo,57,8,1,1
+Condromalacia Rotuliana,48,9,2,1
+Condromalacia Rotuliana,86,7,1,1
+Tendinopatia Aquilea,84,6,1,1
+Esguince de Tobillo,71,5,3,2
+Condromalacia Rotuliana,80,5,3,2
+Tendinopatia Aquilea,84,1,2,3
+Condromalacia Rotuliana,68,5,2,1
+Condromalacia Rotuliana,72,7,2,1
+Condromalacia Rotuliana,56,1,1,3
+Condromalacia Rotuliana,20,5,1,1
+Esguince de Tobillo,47,4,1,1
+Tendinopatia Aquilea,27,1,2,2
+Condromalacia Rotuliana,7,10,3,1
+Tendinopatia Aquilea,60,8,2,1
+Condromalacia Rotuliana,83,7,2,1
+Tendinopatia Aquilea,35,6,2,1
+Esguince de Tobillo,5,1,1,1
+Esguince de Tobillo,42,7,2,1
+Tendinopatia Aquilea,83,10,3,1
+Condromalacia Rotuliana,24,6,2,1
+Tendinopatia Aquilea,82,2,1,3
+Condromalacia Rotuliana,9,5,3,2
+Tendinopatia Aquilea,45,8,1,1
+Condromalacia Rotuliana,7,4,1,1
+Esguince de Tobillo,18,8,3,1
+Condromalacia Rotuliana,75,9,3,1
+Esguince de Tobillo,19,1,1,3
+Esguince de Tobillo,73,4,2,1
+Condromalacia Rotuliana,35,6,1,1
+Esguince de Tobillo,8,3,3,2
+Condromalacia Rotuliana,46,8,1,1
+Tendinopatia Aquilea,36,7,3,2
+Condromalacia Rotuliana,52,5,2,1
+Tendinopatia Aquilea,5,3,1,1
+Condromalacia Rotuliana,38,1,3,3
+Condromalacia Rotuliana,32,10,1,1
+Condromalacia Rotuliana,58,2,1,3
+Esguince de Tobillo,23,8,2,1
+Esguince de Tobillo,35,4,2,1
+Condromalacia Rotuliana,4,10,3,1
+Tendinopatia Aquilea,6,10,3,1
+Tendinopatia Aquilea,84,1,1,3
+Tendinopatia Aquilea,6,3,2,1
+Esguince de Tobillo,34,2,2,3
+Esguince de Tobillo,37,5,3,2
+Tendinopatia Aquilea,57,7,2,1
+Tendinopatia Aquilea,78,9,2,1
+Condromalacia Rotuliana,55,3,2,3
+Tendinopatia Aquilea,51,6,2,1
+Esguince de Tobillo,56,1,2,3
+Condromalacia Rotuliana,51,2,2,3
+Condromalacia Rotuliana,54,2,2,3
+Esguince de Tobillo,41,4,2,1
+Esguince de Tobillo,77,5,3,2
+Tendinopatia Aquilea,8,4,2,1
+Condromalacia Rotuliana,19,4,3,2
+Tendinopatia Aquilea,88,6,2,1
+Esguince de Tobillo,2,8,3,1
+Esguince de Tobillo,85,2,1,3
+Esguince de Tobillo,28,5,3,2
+Esguince de Tobillo,8,10,2,1
+Esguince de Tobillo,35,7,3,1
+Condromalacia Rotuliana,85,10,2,1
+Condromalacia Rotuliana,70,4,2,1
+Tendinopatia Aquilea,2,6,3,2
+Tendinopatia Aquilea,87,6,2,1
+Esguince de Tobillo,90,10,2,1
+Esguince de Tobillo,23,7,3,1
+Esguince de Tobillo,18,8,2,1
+Tendinopatia Aquilea,51,6,1,1
+Esguince de Tobillo,86,10,2,1
+Condromalacia Rotuliana,22,3,1,2
+Tendinopatia Aquilea,85,7,2,1
+Esguince de Tobillo,5,8,2,1
+Tendinopatia Aquilea,72,9,3,1
+Condromalacia Rotuliana,46,5,1,1
+Condromalacia Rotuliana,86,7,1,1
+Tendinopatia Aquilea,2,9,3,1
+Condromalacia Rotuliana,32,2,3,2
+Tendinopatia Aquilea,9,4,2,1
+Esguince de Tobillo,3,2,1,1
+Condromalacia Rotuliana,26,6,2,1
+Esguince de Tobillo,46,7,2,1
+Tendinopatia Aquilea,68,3,3,3
+Esguince de Tobillo,4,8,3,1
+Esguince de Tobillo,59,3,3,3
+Tendinopatia Aquilea,48,10,3,1
+Esguince de Tobillo,84,6,2,1
+Esguince de Tobillo,16,4,3,2
+Condromalacia Rotuliana,3,1,2,1
+Condromalacia Rotuliana,24,3,2,2
+Esguince de Tobillo,73,8,2,1
+Tendinopatia Aquilea,89,6,1,1
+Tendinopatia Aquilea,17,10,1,1
+Tendinopatia Aquilea,48,4,1,3
+Condromalacia Rotuliana,27,9,2,1
+Esguince de Tobillo,52,3,1,3
+Tendinopatia Aquilea,42,2,1,3
+Tendinopatia Aquilea,83,8,3,1
+Esguince de Tobillo,23,5,1,1
+Esguince de Tobillo,59,8,1,1
+Esguince de Tobillo,41,6,2,1
+Tendinopatia Aquilea,22,10,2,1
+Esguince de Tobillo,43,3,1,3
+Esguince de Tobillo,58,3,2,3
+Condromalacia Rotuliana,11,5,3,2
+Esguince de Tobillo,89,9,1,1
+Esguince de Tobillo,43,10,3,1
+Tendinopatia Aquilea,37,9,3,1
+Condromalacia Rotuliana,61,2,3,3
+Tendinopatia Aquilea,7,5,2,1
+Esguince de Tobillo,26,4,2,1
+Tendinopatia Aquilea,37,9,3,1
+Tendinopatia Aquilea,73,5,1,1
+Tendinopatia Aquilea,23,8,2,1
+Esguince de Tobillo,83,9,3,1
+Tendinopatia Aquilea,56,7,3,2
+Tendinopatia Aquilea,79,6,3,2
+Tendinopatia Aquilea,74,4,2,3
+Esguince de Tobillo,45,6,1,1
+Tendinopatia Aquilea,62,7,2,1
+Condromalacia Rotuliana,60,6,2,1
+Tendinopatia Aquilea,70,6,1,1
+Esguince de Tobillo,15,9,2,1
+Esguince de Tobillo,17,7,3,1
+Tendinopatia Aquilea,48,6,3,2
+Condromalacia Rotuliana,88,10,1,1
+Tendinopatia Aquilea,75,1,1,3
+Esguince de Tobillo,83,9,1,1
+Condromalacia Rotuliana,27,9,3,1
+Condromalacia Rotuliana,63,3,3,3
+Tendinopatia Aquilea,50,9,1,1
+Tendinopatia Aquilea,70,4,2,3
+Tendinopatia Aquilea,75,3,2,3
+Condromalacia Rotuliana,73,8,1,1
+Condromalacia Rotuliana,40,4,1,1
+Tendinopatia Aquilea,25,8,3,1
+Tendinopatia Aquilea,64,7,1,1
+Tendinopatia Aquilea,83,8,3,1
+Condromalacia Rotuliana,82,10,2,1
+Esguince de Tobillo,7,8,1,1
+Esguince de Tobillo,80,4,1,1
+Esguince de Tobillo,26,5,1,1
+Esguince de Tobillo,53,6,1,1
+Tendinopatia Aquilea,3,3,3,1
+Condromalacia Rotuliana,49,5,1,1
+Condromalacia Rotuliana,2,6,3,1
+Esguince de Tobillo,41,4,2,1
+Condromalacia Rotuliana,89,8,2,1
+Condromalacia Rotuliana,86,9,2,1
+Tendinopatia Aquilea,14,10,1,1
+Tendinopatia Aquilea,61,8,3,1
+Tendinopatia Aquilea,38,1,2,2
+Condromalacia Rotuliana,84,5,2,1
+Condromalacia Rotuliana,53,5,2,1
+Condromalacia Rotuliana,57,3,3,3
+Tendinopatia Aquilea,11,6,1,1
+Esguince de Tobillo,72,7,1,1
+Condromalacia Rotuliana,66,9,3,1
+Tendinopatia Aquilea,26,2,2,2
+Tendinopatia Aquilea,89,1,1,3
+Tendinopatia Aquilea,55,4,2,3
+Tendinopatia Aquilea,48,4,3,3
+Esguince de Tobillo,74,2,1,3
+Tendinopatia Aquilea,51,9,1,1
+Esguince de Tobillo,44,8,1,1
+Tendinopatia Aquilea,9,9,2,1
+Condromalacia Rotuliana,38,10,2,1
+Esguince de Tobillo,54,3,1,3
+Esguince de Tobillo,45,8,3,1
+Esguince de Tobillo,11,10,3,1
+Condromalacia Rotuliana,25,10,1,1
+Esguince de Tobillo,46,3,1,3
+Condromalacia Rotuliana,58,7,2,1
+Esguince de Tobillo,53,6,1,1
+Esguince de Tobillo,81,8,2,1
+Condromalacia Rotuliana,14,10,2,1
+Condromalacia Rotuliana,85,4,1,1
+Esguince de Tobillo,86,3,3,3
+Esguince de Tobillo,47,8,3,1
+Esguince de Tobillo,13,3,1,2
+Esguince de Tobillo,26,4,3,2
+Condromalacia Rotuliana,21,4,3,2
+Esguince de Tobillo,18,7,1,1
+Condromalacia Rotuliana,51,8,2,1
+Condromalacia Rotuliana,71,4,2,1
+Esguince de Tobillo,24,2,1,3
+Condromalacia Rotuliana,34,9,3,1
+Esguince de Tobillo,35,8,3,1
+Esguince de Tobillo,51,2,2,3
+Condromalacia Rotuliana,72,4,1,1
+Esguince de Tobillo,75,9,2,1
+Esguince de Tobillo,53,9,2,1
+Esguince de Tobillo,53,6,2,1
+Condromalacia Rotuliana,74,5,3,2
+Tendinopatia Aquilea,32,10,3,1
+Tendinopatia Aquilea,51,9,3,1
+Tendinopatia Aquilea,76,1,1,3
+Esguince de Tobillo,16,1,2,3
+Condromalacia Rotuliana,7,8,2,1
+Esguince de Tobillo,64,5,1,1
+Condromalacia Rotuliana,57,10,1,1
+Condromalacia Rotuliana,44,8,3,1
+Condromalacia Rotuliana,66,5,2,1
+Esguince de Tobillo,71,1,1,3
+Tendinopatia Aquilea,46,8,2,1
+Esguince de Tobillo,48,2,1,3
+Esguince de Tobillo,41,5,1,1
+Condromalacia Rotuliana,48,2,3,3
+Condromalacia Rotuliana,42,3,3,3
+Condromalacia Rotuliana,53,8,3,1
+Tendinopatia Aquilea,36,8,1,1
+Esguince de Tobillo,90,4,1,1
+Tendinopatia Aquilea,55,1,3,3
+Tendinopatia Aquilea,61,5,2,1
+Condromalacia Rotuliana,63,3,2,3
+Esguince de Tobillo,50,2,1,3
+Tendinopatia Aquilea,59,9,3,1
+Condromalacia Rotuliana,42,1,2,3
+Condromalacia Rotuliana,13,6,2,1
+Condromalacia Rotuliana,61,10,2,1
+Esguince de Tobillo,10,3,2,2
+Condromalacia Rotuliana,65,9,1,1
+Condromalacia Rotuliana,26,1,3,2
+Esguince de Tobillo,78,1,3,3
+Esguince de Tobillo,29,9,3,1
+Esguince de Tobillo,77,8,1,1
+Condromalacia Rotuliana,35,1,1,3
+Tendinopatia Aquilea,13,10,1,1
+Tendinopatia Aquilea,34,8,1,1
+Tendinopatia Aquilea,90,8,2,1
+Tendinopatia Aquilea,66,6,1,1
+Tendinopatia Aquilea,18,3,2,2
+Condromalacia Rotuliana,84,3,3,3
+Esguince de Tobillo,24,1,3,3
+Tendinopatia Aquilea,81,1,2,3
+Esguince de Tobillo,8,10,2,1
+Condromalacia Rotuliana,87,1,1,3
+Esguince de Tobillo,85,3,3,3
+Esguince de Tobillo,48,3,2,3
+Condromalacia Rotuliana,8,6,3,1
+Tendinopatia Aquilea,32,7,2,1
+Tendinopatia Aquilea,11,8,1,1
+Tendinopatia Aquilea,56,7,1,1
+Tendinopatia Aquilea,70,1,3,3
+Esguince de Tobillo,4,5,1,1
+Esguince de Tobillo,38,2,2,3
+Esguince de Tobillo,76,9,3,1
+Tendinopatia Aquilea,78,5,2,1
+Condromalacia Rotuliana,27,6,2,1
+Tendinopatia Aquilea,59,8,2,1
+Tendinopatia Aquilea,26,9,3,1
+Esguince de Tobillo,84,9,1,1
+Tendinopatia Aquilea,32,6,1,1
+Esguince de Tobillo,80,10,2,1
+Condromalacia Rotuliana,7,9,3,1
+Tendinopatia Aquilea,63,2,2,3
+Esguince de Tobillo,44,9,2,1
+Tendinopatia Aquilea,26,8,2,1
+Esguince de Tobillo,77,1,3,3
+Tendinopatia Aquilea,1,4,1,1
+Tendinopatia Aquilea,42,6,1,1
+Tendinopatia Aquilea,68,5,1,1
+Condromalacia Rotuliana,39,1,3,3
+Esguince de Tobillo,51,5,2,1
+Condromalacia Rotuliana,13,6,2,1
+Esguince de Tobillo,12,4,3,2
+Esguince de Tobillo,24,2,3,3
+Tendinopatia Aquilea,83,3,3,3
+Esguince de Tobillo,54,1,1,3
+Condromalacia Rotuliana,35,5,3,2
+Esguince de Tobillo,74,1,1,3
+Esguince de Tobillo,75,3,1,3
+Condromalacia Rotuliana,41,8,1,1
+Tendinopatia Aquilea,38,1,3,2
+Tendinopatia Aquilea,76,7,3,2
+Condromalacia Rotuliana,36,9,2,1
+Condromalacia Rotuliana,32,4,2,1
+Esguince de Tobillo,64,8,2,1
+Condromalacia Rotuliana,55,7,1,1
+Condromalacia Rotuliana,60,8,1,1
+Condromalacia Rotuliana,45,1,2,3
+Condromalacia Rotuliana,54,7,1,1
+Tendinopatia Aquilea,10,7,3,2
+Tendinopatia Aquilea,44,6,1,1
+Condromalacia Rotuliana,76,4,2,1
+Tendinopatia Aquilea,75,3,2,3
+Tendinopatia Aquilea,63,6,1,1
+Tendinopatia Aquilea,26,4,2,2
+Condromalacia Rotuliana,6,5,3,2
+Tendinopatia Aquilea,24,9,1,1
+Esguince de Tobillo,46,5,2,1
+Esguince de Tobillo,55,5,3,2
+Tendinopatia Aquilea,4,3,2,1
+Tendinopatia Aquilea,74,5,3,2
+Tendinopatia Aquilea,44,10,1,1
+Condromalacia Rotuliana,47,7,3,1
+Tendinopatia Aquilea,70,1,3,3
+Esguince de Tobillo,74,9,3,1
+Condromalacia Rotuliana,25,10,1,1
+Condromalacia Rotuliana,38,9,3,1
+Tendinopatia Aquilea,63,2,1,3
+Condromalacia Rotuliana,44,7,1,1
+Esguince de Tobillo,25,4,3,2
+Tendinopatia Aquilea,20,3,3,2
+Tendinopatia Aquilea,64,4,1,3
+Condromalacia Rotuliana,66,5,3,2
+Esguince de Tobillo,19,7,3,1
+Esguince de Tobillo,63,1,3,3
+Tendinopatia Aquilea,7,10,3,1
+Condromalacia Rotuliana,36,3,3,3
+Tendinopatia Aquilea,1,9,1,1
+Esguince de Tobillo,90,4,1,1
+Esguince de Tobillo,73,2,1,3
+Esguince de Tobillo,24,1,3,3
+Esguince de Tobillo,56,9,1,1
+Condromalacia Rotuliana,90,2,2,3
+Tendinopatia Aquilea,74,9,2,1
+Tendinopatia Aquilea,88,10,2,1
+Esguince de Tobillo,44,9,2,1
+Esguince de Tobillo,27,3,1,3
+Esguince de Tobillo,30,5,2,1
+Condromalacia Rotuliana,76,4,2,1
+Esguince de Tobillo,71,2,2,3
+Condromalacia Rotuliana,70,3,2,3
+Esguince de Tobillo,85,7,3,1
+Esguince de Tobillo,77,10,1,1
+Esguince de Tobillo,50,2,2,3
+Tendinopatia Aquilea,35,3,1,2
+Tendinopatia Aquilea,85,4,2,3
+Condromalacia Rotuliana,47,5,2,1
+Esguince de Tobillo,3,2,1,1
+Esguince de Tobillo,70,10,1,1
+Esguince de Tobillo,46,1,2,3
+Tendinopatia Aquilea,36,6,1,1
+Esguince de Tobillo,1,4,3,2
+Tendinopatia Aquilea,60,5,3,2
+Esguince de Tobillo,32,8,2,1
+Condromalacia Rotuliana,55,7,2,1
+Condromalacia Rotuliana,67,7,2,1
+Condromalacia Rotuliana,2,6,3,1
+Condromalacia Rotuliana,87,6,2,1
+Tendinopatia Aquilea,64,10,2,1
+Tendinopatia Aquilea,22,3,2,2
+Esguince de Tobillo,9,6,3,2
+Esguince de Tobillo,37,4,3,2
+Condromalacia Rotuliana,10,1,3,1
+Esguince de Tobillo,36,3,2,3
+Tendinopatia Aquilea,4,5,1,1
+Esguince de Tobillo,6,7,3,1
+Esguince de Tobillo,31,9,3,1
+Tendinopatia Aquilea,41,9,1,1
+Esguince de Tobillo,67,10,2,1
+Tendinopatia Aquilea,45,2,1,3
+Esguince de Tobillo,52,8,3,1
+Tendinopatia Aquilea,48,1,3,3
+Tendinopatia Aquilea,80,5,2,1
+Condromalacia Rotuliana,13,4,2,1
+Condromalacia Rotuliana,47,1,1,3
+Condromalacia Rotuliana,88,6,3,1
+Condromalacia Rotuliana,11,1,1,1
+Condromalacia Rotuliana,52,3,3,3
+Esguince de Tobillo,56,9,2,1
+Condromalacia Rotuliana,54,9,2,1
+Condromalacia Rotuliana,47,1,2,3
+Tendinopatia Aquilea,63,5,1,1
+Condromalacia Rotuliana,68,7,3,1
+Esguince de Tobillo,76,4,1,1
+Esguince de Tobillo,75,3,1,3
+Esguince de Tobillo,8,7,1,1
+Esguince de Tobillo,34,2,1,3
+Condromalacia Rotuliana,16,3,3,2
+Esguince de Tobillo,33,9,1,1
+Condromalacia Rotuliana,24,4,3,2
+Condromalacia Rotuliana,89,8,2,1
+Esguince de Tobillo,50,7,3,1
+Condromalacia Rotuliana,75,3,1,3
+Tendinopatia Aquilea,20,4,2,2
+Condromalacia Rotuliana,67,4,1,1
+Esguince de Tobillo,10,1,1,2
+Tendinopatia Aquilea,26,10,3,1
+Tendinopatia Aquilea,3,4,3,1
+Condromalacia Rotuliana,57,10,1,1
+Esguince de Tobillo,21,1,1,3
+Condromalacia Rotuliana,10,6,2,1
+Esguince de Tobillo,73,1,1,3
+Condromalacia Rotuliana,29,9,1,1
+Condromalacia Rotuliana,28,7,1,1
+Esguince de Tobillo,43,9,1,1
+Condromalacia Rotuliana,1,10,3,1
+Condromalacia Rotuliana,9,8,1,1
+Condromalacia Rotuliana,26,2,2,2
+Condromalacia Rotuliana,37,1,1,3
+Condromalacia Rotuliana,89,9,2,1
+Tendinopatia Aquilea,22,5,1,1
+Esguince de Tobillo,64,10,2,1
+Esguince de Tobillo,43,2,2,3
+Condromalacia Rotuliana,54,9,2,1
+Esguince de Tobillo,73,6,3,2
+Tendinopatia Aquilea,12,7,3,2
+Condromalacia Rotuliana,76,6,2,1
+Tendinopatia Aquilea,81,5,1,1
+Esguince de Tobillo,89,10,1,1
+Tendinopatia Aquilea,76,7,1,1
+Tendinopatia Aquilea,35,8,1,1
+Esguince de Tobillo,34,6,2,1
+Esguince de Tobillo,43,5,1,1
+Esguince de Tobillo,77,4,1,1
+Condromalacia Rotuliana,4,3,3,1
+Tendinopatia Aquilea,20,6,2,1
+Esguince de Tobillo,61,1,3,3
+Esguince de Tobillo,15,9,2,1
+Tendinopatia Aquilea,84,5,2,1
+Condromalacia Rotuliana,35,4,2,1
+Tendinopatia Aquilea,67,3,1,3
+Condromalacia Rotuliana,7,8,2,1
+Condromalacia Rotuliana,31,3,2,2
+Condromalacia Rotuliana,62,8,3,1
+Esguince de Tobillo,7,3,1,2
+Tendinopatia Aquilea,44,1,1,3
+Esguince de Tobillo,37,3,1,3
+Condromalacia Rotuliana,16,7,1,1
+Tendinopatia Aquilea,39,8,1,1
+Condromalacia Rotuliana,15,5,1,1
+Tendinopatia Aquilea,86,2,2,3
+Esguince de Tobillo,11,10,2,1
+Condromalacia Rotuliana,41,2,2,3
+Tendinopatia Aquilea,32,5,1,1
+Esguince de Tobillo,14,5,1,1
+Esguince de Tobillo,5,9,3,1
+Condromalacia Rotuliana,79,7,1,1
+Esguince de Tobillo,16,4,2,1
+Esguince de Tobillo,50,4,2,1
+Esguince de Tobillo,86,3,2,3
+Tendinopatia Aquilea,6,8,1,1
+Tendinopatia Aquilea,27,3,2,2
+Esguince de Tobillo,27,7,3,1
+Esguince de Tobillo,70,5,3,2
+Esguince de Tobillo,16,1,3,3
+Tendinopatia Aquilea,50,8,2,1
+Condromalacia Rotuliana,3,3,3,1
+Condromalacia Rotuliana,54,9,1,1
+Esguince de Tobillo,22,8,2,1
+Esguince de Tobillo,41,10,1,1
+Tendinopatia Aquilea,9,4,3,1
+Tendinopatia Aquilea,12,8,3,1
+Esguince de Tobillo,38,1,2,3
+Tendinopatia Aquilea,8,9,1,1
+Esguince de Tobillo,37,10,3,1
+Condromalacia Rotuliana,29,1,1,2
+Tendinopatia Aquilea,5,3,1,1
+Condromalacia Rotuliana,89,7,3,1
+Condromalacia Rotuliana,20,10,1,1
+Esguince de Tobillo,24,9,1,1
+Esguince de Tobillo,73,10,3,1
+Tendinopatia Aquilea,81,6,2,1
+Condromalacia Rotuliana,70,2,1,3
+Esguince de Tobillo,15,10,1,1
+Tendinopatia Aquilea,26,7,1,1
+Esguince de Tobillo,36,1,1,3
+Tendinopatia Aquilea,60,2,1,3
+Tendinopatia Aquilea,25,10,2,1
+Tendinopatia Aquilea,51,5,3,2
+Condromalacia Rotuliana,72,1,3,3
+Esguince de Tobillo,87,8,1,1
+Tendinopatia Aquilea,22,2,3,2
+Esguince de Tobillo,31,7,1,1
+Tendinopatia Aquilea,77,5,1,1
+Tendinopatia Aquilea,48,9,2,1
+Tendinopatia Aquilea,27,1,3,2
+Condromalacia Rotuliana,40,5,2,1
+Esguince de Tobillo,59,7,3,1
+Tendinopatia Aquilea,61,7,1,1
+Esguince de Tobillo,48,2,1,3
+Esguince de Tobillo,16,1,1,3
+Condromalacia Rotuliana,36,10,2,1
+Esguince de Tobillo,53,2,3,3
+Condromalacia Rotuliana,50,10,2,1
+Tendinopatia Aquilea,87,3,1,3
+Esguince de Tobillo,34,4,1,1
+Esguince de Tobillo,52,5,1,1
+Tendinopatia Aquilea,75,9,1,1
+Condromalacia Rotuliana,12,7,2,1
+Tendinopatia Aquilea,72,8,2,1
+Esguince de Tobillo,82,9,1,1
+Esguince de Tobillo,66,8,2,1
+Esguince de Tobillo,45,3,3,3
+Tendinopatia Aquilea,34,7,1,1
+Esguince de Tobillo,2,2,3,1
+Esguince de Tobillo,28,9,2,1
+Esguince de Tobillo,83,4,2,1
+Condromalacia Rotuliana,13,7,3,1
+Condromalacia Rotuliana,70,3,2,3
+Condromalacia Rotuliana,40,4,2,1
+Condromalacia Rotuliana,19,1,3,2
+Condromalacia Rotuliana,89,7,2,1
+Condromalacia Rotuliana,14,7,1,1
+Condromalacia Rotuliana,34,6,1,1
+Condromalacia Rotuliana,12,7,2,1
+Tendinopatia Aquilea,86,4,1,3
+Condromalacia Rotuliana,9,3,2,1
+Condromalacia Rotuliana,81,9,3,1
+Tendinopatia Aquilea,37,2,2,2
+Condromalacia Rotuliana,89,10,3,1
+Condromalacia Rotuliana,30,4,3,2
+Esguince de Tobillo,22,1,3,3
+Condromalacia Rotuliana,13,3,3,1
+Esguince de Tobillo,6,1,1,1
+Condromalacia Rotuliana,73,10,3,1
+Tendinopatia Aquilea,19,2,1,2
+Tendinopatia Aquilea,5,2,2,1
+Tendinopatia Aquilea,15,5,3,2
+Esguince de Tobillo,9,2,1,2
+Condromalacia Rotuliana,77,10,2,1
+Condromalacia Rotuliana,79,8,3,1
+Tendinopatia Aquilea,22,1,3,2
+Esguince de Tobillo,21,10,1,1
+Tendinopatia Aquilea,15,4,3,2
+Condromalacia Rotuliana,43,8,2,1
+Tendinopatia Aquilea,55,2,3,3
+Tendinopatia Aquilea,88,3,3,3
+Tendinopatia Aquilea,1,9,2,1
+Tendinopatia Aquilea,33,2,3,2
+Condromalacia Rotuliana,32,1,2,2
+Condromalacia Rotuliana,46,3,2,3
+Esguince de Tobillo,26,10,3,1
+Condromalacia Rotuliana,20,10,1,1
+Condromalacia Rotuliana,40,2,1,3
+Condromalacia Rotuliana,55,2,2,3
+Tendinopatia Aquilea,14,8,3,1
+Condromalacia Rotuliana,89,1,1,3
+Esguince de Tobillo,88,2,2,3
+Esguince de Tobillo,22,4,3,2
+Tendinopatia Aquilea,83,8,2,1
+Condromalacia Rotuliana,43,1,3,3
+Tendinopatia Aquilea,42,3,1,3
+Esguince de Tobillo,75,4,3,2
+Tendinopatia Aquilea,74,1,1,3
+Tendinopatia Aquilea,61,4,2,3
+Esguince de Tobillo,30,7,2,1
+Condromalacia Rotuliana,8,1,3,1
+Condromalacia Rotuliana,21,3,2,2
+Esguince de Tobillo,16,9,3,1
+Esguince de Tobillo,53,7,2,1
+Esguince de Tobillo,58,9,2,1
+Tendinopatia Aquilea,90,2,2,3
+Tendinopatia Aquilea,24,4,2,2
+Esguince de Tobillo,59,1,2,3
+Tendinopatia Aquilea,7,10,1,1
+Esguince de Tobillo,85,8,3,1
+Condromalacia Rotuliana,82,6,3,1
+Tendinopatia Aquilea,83,7,3,2
+Esguince de Tobillo,85,2,1,3
+Condromalacia Rotuliana,33,4,2,1
+Tendinopatia Aquilea,63,6,2,1
+Condromalacia Rotuliana,41,7,2,1
+Tendinopatia Aquilea,42,4,3,3
+Tendinopatia Aquilea,58,2,3,3
+Condromalacia Rotuliana,58,9,3,1
+Tendinopatia Aquilea,32,5,3,2
+Condromalacia Rotuliana,48,1,2,3
+Tendinopatia Aquilea,70,8,3,1
+Condromalacia Rotuliana,27,10,1,1
+Tendinopatia Aquilea,84,3,1,3
+Tendinopatia Aquilea,38,2,3,2
+Tendinopatia Aquilea,53,8,1,1
+Condromalacia Rotuliana,85,10,1,1
+Esguince de Tobillo,86,4,3,2
+Condromalacia Rotuliana,57,8,1,1
+Tendinopatia Aquilea,9,9,1,1
+Esguince de Tobillo,79,1,2,3
+Condromalacia Rotuliana,76,3,1,3
+Tendinopatia Aquilea,18,10,3,1
+Condromalacia Rotuliana,9,7,3,1
+Condromalacia Rotuliana,57,6,3,1
+Condromalacia Rotuliana,31,8,1,1
+Esguince de Tobillo,50,10,3,1
+Tendinopatia Aquilea,14,10,3,1
+Esguince de Tobillo,24,7,1,1
+Condromalacia Rotuliana,8,10,1,1
+Condromalacia Rotuliana,30,2,1,2
+Condromalacia Rotuliana,18,3,1,2
+Tendinopatia Aquilea,52,1,3,3
+Tendinopatia Aquilea,4,5,1,1
+Tendinopatia Aquilea,77,10,2,1
+Condromalacia Rotuliana,53,10,2,1
+Condromalacia Rotuliana,85,5,3,2
+Esguince de Tobillo,53,10,3,1
+Esguince de Tobillo,5,8,1,1
+Tendinopatia Aquilea,17,2,3,2
+Condromalacia Rotuliana,59,6,2,1
+Condromalacia Rotuliana,30,6,2,1
+Condromalacia Rotuliana,51,2,3,3
+Condromalacia Rotuliana,87,2,2,3
+Esguince de Tobillo,76,5,1,1
+Esguince de Tobillo,83,10,2,1
+Esguince de Tobillo,88,8,3,1
+Esguince de Tobillo,7,4,1,1
+Tendinopatia Aquilea,30,6,1,1
+Esguince de Tobillo,76,9,2,1
+Condromalacia Rotuliana,54,7,2,1
+Esguince de Tobillo,66,4,3,2
+Tendinopatia Aquilea,73,1,1,3
+Tendinopatia Aquilea,59,8,2,1
+Condromalacia Rotuliana,21,10,3,1
+Condromalacia Rotuliana,59,3,1,3
+Condromalacia Rotuliana,13,3,2,1
+Tendinopatia Aquilea,74,7,1,1
+Tendinopatia Aquilea,52,7,1,1
+Tendinopatia Aquilea,69,9,3,1
+Tendinopatia Aquilea,70,10,3,1
+Esguince de Tobillo,16,8,1,1
+Esguince de Tobillo,5,4,2,1
+Tendinopatia Aquilea,85,9,2,1
+Esguince de Tobillo,3,9,1,1
+Tendinopatia Aquilea,3,3,1,1
+Tendinopatia Aquilea,55,3,2,3
+Condromalacia Rotuliana,75,8,3,1
+Tendinopatia Aquilea,39,3,3,2
+Condromalacia Rotuliana,26,6,2,1
+Esguince de Tobillo,72,2,1,3
+Condromalacia Rotuliana,73,9,1,1
+Tendinopatia Aquilea,59,6,1,1
+Esguince de Tobillo,77,6,2,1
+Condromalacia Rotuliana,15,10,1,1
+Condromalacia Rotuliana,57,8,3,1
+Condromalacia Rotuliana,14,3,1,2
+Esguince de Tobillo,58,5,1,1
+Tendinopatia Aquilea,90,3,1,3
+Condromalacia Rotuliana,64,5,2,1
+Tendinopatia Aquilea,87,6,2,1
+Esguince de Tobillo,74,2,1,3
+Tendinopatia Aquilea,42,2,3,3
+Tendinopatia Aquilea,6,2,3,1
+Condromalacia Rotuliana,56,9,3,1
+Tendinopatia Aquilea,37,2,3,2
+Esguince de Tobillo,82,8,3,1
+Tendinopatia Aquilea,76,8,3,1
+Esguince de Tobillo,28,4,3,2
+Tendinopatia Aquilea,20,10,2,1
+Tendinopatia Aquilea,86,10,2,1
+Esguince de Tobillo,67,5,1,1
+Condromalacia Rotuliana,31,4,3,2
+Tendinopatia Aquilea,16,10,1,1
+Condromalacia Rotuliana,15,6,1,1
+Tendinopatia Aquilea,15,8,2,1
+Condromalacia Rotuliana,27,2,3,2
+Condromalacia Rotuliana,41,10,3,1
+Esguince de Tobillo,10,7,1,1
+Tendinopatia Aquilea,39,7,1,1
+Esguince de Tobillo,18,6,2,1
+Condromalacia Rotuliana,65,8,2,1
+Condromalacia Rotuliana,55,9,2,1
+Condromalacia Rotuliana,65,4,1,1
+Esguince de Tobillo,11,1,2,2
+Esguince de Tobillo,64,10,1,1
+Condromalacia Rotuliana,90,5,1,1
+Tendinopatia Aquilea,16,2,1,2
+Esguince de Tobillo,40,4,2,1
+Condromalacia Rotuliana,74,10,2,1
+Tendinopatia Aquilea,5,7,1,1
+Tendinopatia Aquilea,79,8,3,1
+Condromalacia Rotuliana,24,8,2,1
+Tendinopatia Aquilea,8,10,1,1
+Tendinopatia Aquilea,17,9,2,1
+Esguince de Tobillo,25,10,2,1
+Tendinopatia Aquilea,7,5,1,1
+Tendinopatia Aquilea,10,8,3,1
+Condromalacia Rotuliana,24,4,2,1
+Condromalacia Rotuliana,10,5,3,2
+Esguince de Tobillo,37,2,2,3
+Tendinopatia Aquilea,20,3,3,2
+Condromalacia Rotuliana,4,4,3,2
+Tendinopatia Aquilea,20,10,2,1
+Condromalacia Rotuliana,3,9,3,1
+Condromalacia Rotuliana,33,5,2,1
+Esguince de Tobillo,23,5,2,1
+Tendinopatia Aquilea,66,6,1,1
+Tendinopatia Aquilea,29,3,3,2
+Condromalacia Rotuliana,42,2,3,3
+Condromalacia Rotuliana,83,9,1,1
+Condromalacia Rotuliana,36,2,3,3
+Esguince de Tobillo,48,5,2,1
+Condromalacia Rotuliana,17,9,2,1
+Tendinopatia Aquilea,3,7,2,1
+Esguince de Tobillo,49,5,1,1
+Tendinopatia Aquilea,14,2,1,2
+Condromalacia Rotuliana,66,9,2,1
+Condromalacia Rotuliana,12,5,3,2
+Esguince de Tobillo,12,6,2,1
+Esguince de Tobillo,56,7,3,1
+Esguince de Tobillo,88,5,3,2
+Tendinopatia Aquilea,88,3,3,3
+Esguince de Tobillo,54,1,3,3
+Tendinopatia Aquilea,56,3,1,3
+Esguince de Tobillo,8,6,2,1
+Tendinopatia Aquilea,27,9,3,1
+Condromalacia Rotuliana,36,8,2,1
+Condromalacia Rotuliana,63,10,3,1
+Tendinopatia Aquilea,68,1,2,3
+Esguince de Tobillo,39,7,3,1
+Condromalacia Rotuliana,40,1,2,3
+Condromalacia Rotuliana,43,7,1,1
+Esguince de Tobillo,15,7,2,1
+Esguince de Tobillo,74,1,3,3
+Tendinopatia Aquilea,89,9,3,1
+Condromalacia Rotuliana,37,6,3,1
+Tendinopatia Aquilea,66,3,1,3
+Tendinopatia Aquilea,72,7,2,1
+Condromalacia Rotuliana,68,2,1,3
+Esguince de Tobillo,24,3,1,3
+Tendinopatia Aquilea,67,5,2,1
+Esguince de Tobillo,61,5,1,1
+Condromalacia Rotuliana,62,7,1,1
+Tendinopatia Aquilea,27,4,3,2
+Esguince de Tobillo,36,2,1,3
+Esguince de Tobillo,52,10,2,1
+Esguince de Tobillo,67,9,1,1
+Esguince de Tobillo,15,6,3,2
+Tendinopatia Aquilea,23,2,1,2
+Tendinopatia Aquilea,47,8,1,1
+Tendinopatia Aquilea,87,5,2,1
+Esguince de Tobillo,83,1,1,3
+Tendinopatia Aquilea,36,6,3,2
+Condromalacia Rotuliana,5,3,1,1
+Esguince de Tobillo,40,9,2,1
+Esguince de Tobillo,53,4,2,1
+Tendinopatia Aquilea,43,4,3,3
+Esguince de Tobillo,55,10,1,1
+Esguince de Tobillo,22,3,3,3
+Tendinopatia Aquilea,6,5,2,1
+Tendinopatia Aquilea,85,3,1,3
+Tendinopatia Aquilea,90,4,1,3
+Tendinopatia Aquilea,42,3,1,3
+Tendinopatia Aquilea,83,9,3,1
+Condromalacia Rotuliana,49,4,1,1
+Tendinopatia Aquilea,84,4,3,3
+Tendinopatia Aquilea,33,7,2,1
+Tendinopatia Aquilea,35,9,2,1
+Condromalacia Rotuliana,15,6,2,1
+Esguince de Tobillo,23,8,3,1
+Esguince de Tobillo,9,7,1,1
+Esguince de Tobillo,25,4,1,1
+Esguince de Tobillo,2,3,2,1
+Tendinopatia Aquilea,76,4,3,3
+Condromalacia Rotuliana,78,10,1,1
+Tendinopatia Aquilea,17,6,1,1
+Tendinopatia Aquilea,57,5,1,1
+Tendinopatia Aquilea,30,3,1,2
+Condromalacia Rotuliana,83,1,3,3
+Tendinopatia Aquilea,2,4,2,1
+Condromalacia Rotuliana,5,9,2,1
+Condromalacia Rotuliana,36,10,3,1
+Esguince de Tobillo,23,6,3,2
+Condromalacia Rotuliana,59,9,2,1
+Condromalacia Rotuliana,27,8,3,1
+Condromalacia Rotuliana,88,10,2,1
+Condromalacia Rotuliana,1,4,3,2
+Tendinopatia Aquilea,2,5,1,1
+Condromalacia Rotuliana,52,4,1,1
+Tendinopatia Aquilea,76,4,3,3
+Condromalacia Rotuliana,65,9,3,1
+Tendinopatia Aquilea,57,3,1,3
+Condromalacia Rotuliana,83,3,3,3
+Esguince de Tobillo,81,9,3,1
+Condromalacia Rotuliana,21,1,2,2
+Condromalacia Rotuliana,17,6,3,1
+Esguince de Tobillo,16,8,2,1
+Condromalacia Rotuliana,5,7,3,1
+Esguince de Tobillo,21,9,3,1
+Esguince de Tobillo,25,7,3,1
+Esguince de Tobillo,45,5,3,2
+Esguince de Tobillo,20,1,3,3
+Condromalacia Rotuliana,16,4,3,2
+Tendinopatia Aquilea,2,3,1,1
+Esguince de Tobillo,41,10,2,1
+Tendinopatia Aquilea,60,8,3,1
+Esguince de Tobillo,21,7,3,1
+Condromalacia Rotuliana,83,8,2,1
+Condromalacia Rotuliana,70,6,2,1
+Tendinopatia Aquilea,26,9,1,1
+Condromalacia Rotuliana,9,9,1,1
+Esguince de Tobillo,24,5,1,1
+Condromalacia Rotuliana,88,4,1,1
+Tendinopatia Aquilea,90,10,2,1
+Esguince de Tobillo,76,10,3,1
+Tendinopatia Aquilea,90,5,1,1
+Esguince de Tobillo,26,4,2,1
+Esguince de Tobillo,15,7,3,1
+Esguince de Tobillo,67,9,3,1
+Condromalacia Rotuliana,57,7,2,1
+Tendinopatia Aquilea,35,4,3,2
+Esguince de Tobillo,87,2,2,3
+Esguince de Tobillo,79,10,1,1
+Tendinopatia Aquilea,56,8,1,1
+Condromalacia Rotuliana,57,10,2,1
+Tendinopatia Aquilea,80,9,1,1
+Condromalacia Rotuliana,4,2,1,1
+Tendinopatia Aquilea,65,9,1,1
+Esguince de Tobillo,39,10,3,1
+Tendinopatia Aquilea,51,6,3,2
+Condromalacia Rotuliana,84,7,1,1
+Tendinopatia Aquilea,74,6,3,2
+Esguince de Tobillo,71,10,3,1
+Condromalacia Rotuliana,77,2,1,3
+Condromalacia Rotuliana,52,4,3,2
+Tendinopatia Aquilea,9,5,3,2
+Condromalacia Rotuliana,60,4,3,2
+Esguince de Tobillo,28,4,1,1
+Tendinopatia Aquilea,49,4,1,3
+Esguince de Tobillo,3,5,2,1
+Condromalacia Rotuliana,52,9,3,1
+Tendinopatia Aquilea,64,4,1,3
+Esguince de Tobillo,37,4,1,1
+Condromalacia Rotuliana,72,8,1,1
+Tendinopatia Aquilea,90,4,3,3
+Tendinopatia Aquilea,71,8,3,1
+Esguince de Tobillo,2,5,3,2
+Condromalacia Rotuliana,36,7,2,1
+Tendinopatia Aquilea,56,1,3,3
+Esguince de Tobillo,86,5,2,1
+Tendinopatia Aquilea,32,1,1,2
+Esguince de Tobillo,32,4,1,1
+Tendinopatia Aquilea,47,6,1,1
+Tendinopatia Aquilea,37,7,1,1
+Condromalacia Rotuliana,79,1,1,3
+Tendinopatia Aquilea,37,2,1,2
+Condromalacia Rotuliana,38,1,1,3
+Condromalacia Rotuliana,41,3,3,3
+Tendinopatia Aquilea,50,9,1,1
+Condromalacia Rotuliana,43,4,3,2
+Tendinopatia Aquilea,81,9,1,1
+Condromalacia Rotuliana,45,6,1,1
+Tendinopatia Aquilea,83,2,2,3
+Esguince de Tobillo,65,7,3,1
+Tendinopatia Aquilea,30,5,2,1
+Condromalacia Rotuliana,80,7,1,1
+Condromalacia Rotuliana,65,10,3,1
+Tendinopatia Aquilea,70,9,2,1
+Condromalacia Rotuliana,70,7,2,1
+Tendinopatia Aquilea,1,2,3,1
+Condromalacia Rotuliana,39,6,1,1
+Condromalacia Rotuliana,68,9,2,1
+Condromalacia Rotuliana,52,3,1,3
+Condromalacia Rotuliana,36,1,2,3
+Tendinopatia Aquilea,42,7,2,1
+Tendinopatia Aquilea,51,1,1,3
+Tendinopatia Aquilea,46,10,1,1
+Condromalacia Rotuliana,30,1,1,2
+Esguince de Tobillo,88,7,1,1
+Esguince de Tobillo,20,6,2,1
+Condromalacia Rotuliana,42,10,1,1
+Condromalacia Rotuliana,71,9,2,1
+Tendinopatia Aquilea,70,8,3,1
+Condromalacia Rotuliana,68,4,1,1
+Condromalacia Rotuliana,12,7,1,1
+Tendinopatia Aquilea,88,4,3,3
+Condromalacia Rotuliana,63,8,3,1
+Esguince de Tobillo,83,6,3,2
+Esguince de Tobillo,80,6,2,1
+Tendinopatia Aquilea,42,9,1,1
+Condromalacia Rotuliana,15,7,3,1
+Condromalacia Rotuliana,88,3,2,3
+Esguince de Tobillo,25,9,3,1
+Esguince de Tobillo,30,1,2,3
+Condromalacia Rotuliana,37,7,3,1
+Esguince de Tobillo,22,4,3,2
+Esguince de Tobillo,36,10,3,1
+Esguince de Tobillo,52,9,2,1
+Condromalacia Rotuliana,3,10,2,1
+Esguince de Tobillo,53,5,2,1
+Esguince de Tobillo,66,4,1,1
+Esguince de Tobillo,18,1,1,3
+Tendinopatia Aquilea,86,2,1,3
+Tendinopatia Aquilea,4,4,3,1
+Esguince de Tobillo,79,10,2,1
+Esguince de Tobillo,29,8,2,1
+Condromalacia Rotuliana,61,6,2,1
+Condromalacia Rotuliana,46,2,1,3
+Tendinopatia Aquilea,31,3,2,2
+Esguince de Tobillo,1,8,1,1
+Condromalacia Rotuliana,78,3,1,3
+Tendinopatia Aquilea,15,1,2,2
+Condromalacia Rotuliana,19,10,3,1
+Condromalacia Rotuliana,43,6,3,1
+Tendinopatia Aquilea,67,4,3,3
+Condromalacia Rotuliana,20,4,3,2
+Condromalacia Rotuliana,39,7,2,1
+Tendinopatia Aquilea,13,10,3,1
+Tendinopatia Aquilea,2,5,3,2
+Esguince de Tobillo,21,8,1,1
+Tendinopatia Aquilea,80,8,2,1
+Tendinopatia Aquilea,42,7,3,2
+Esguince de Tobillo,12,9,1,1
+Condromalacia Rotuliana,49,1,3,3
+Condromalacia Rotuliana,65,4,3,2
+Esguince de Tobillo,32,5,1,1
+Condromalacia Rotuliana,35,3,1,3
+Esguince de Tobillo,24,7,1,1
+Tendinopatia Aquilea,21,5,1,1
+Condromalacia Rotuliana,70,8,3,1
+Condromalacia Rotuliana,22,5,1,1
+Esguince de Tobillo,49,10,3,1
+Esguince de Tobillo,37,2,3,3
+Tendinopatia Aquilea,74,3,2,3
+Esguince de Tobillo,47,8,2,1
+Esguince de Tobillo,24,1,2,3
+Esguince de Tobillo,2,8,3,1
+Esguince de Tobillo,31,9,3,1
+Tendinopatia Aquilea,25,6,2,1
+Condromalacia Rotuliana,38,5,1,1
+Tendinopatia Aquilea,8,8,2,1
+Tendinopatia Aquilea,80,10,3,1
+Esguince de Tobillo,41,10,2,1
+Condromalacia Rotuliana,72,10,2,1
+Tendinopatia Aquilea,11,7,3,2
+Tendinopatia Aquilea,40,4,3,3
+Condromalacia Rotuliana,66,8,3,1
+Tendinopatia Aquilea,49,2,2,3
+Esguince de Tobillo,56,6,2,1
+Tendinopatia Aquilea,59,6,1,1
+Condromalacia Rotuliana,29,10,2,1
+Condromalacia Rotuliana,23,10,2,1
+Esguince de Tobillo,58,2,2,3
+Tendinopatia Aquilea,51,9,1,1
+Condromalacia Rotuliana,49,1,2,3
+Condromalacia Rotuliana,47,10,2,1
+Esguince de Tobillo,6,5,3,2
+Condromalacia Rotuliana,15,7,1,1
+Condromalacia Rotuliana,7,5,2,1
+Tendinopatia Aquilea,2,9,2,1
+Tendinopatia Aquilea,46,2,1,3
+Tendinopatia Aquilea,48,1,3,3
+Tendinopatia Aquilea,76,8,2,1
+Condromalacia Rotuliana,38,8,3,1
+Tendinopatia Aquilea,23,9,1,1
+Esguince de Tobillo,30,3,2,3
+Esguince de Tobillo,66,4,3,2
+Tendinopatia Aquilea,29,4,3,2
+Tendinopatia Aquilea,39,7,1,1
+Tendinopatia Aquilea,60,7,3,2
+Esguince de Tobillo,12,7,1,1
+Condromalacia Rotuliana,9,5,1,1
+Tendinopatia Aquilea,40,10,3,1
+Esguince de Tobillo,82,6,1,1
+Condromalacia Rotuliana,23,9,1,1
+Esguince de Tobillo,88,8,1,1
+Esguince de Tobillo,50,3,1,3
+Esguince de Tobillo,8,6,1,1
+Condromalacia Rotuliana,8,4,1,1
+Esguince de Tobillo,28,9,3,1
+Tendinopatia Aquilea,65,6,2,1
+Tendinopatia Aquilea,3,6,1,1
+Tendinopatia Aquilea,30,7,2,1
+Condromalacia Rotuliana,28,7,1,1
+Tendinopatia Aquilea,43,1,2,3
+Esguince de Tobillo,2,4,2,1
+Esguince de Tobillo,17,1,3,3
+Esguince de Tobillo,24,7,3,1
+Tendinopatia Aquilea,55,10,1,1
+Esguince de Tobillo,73,3,3,3
+Esguince de Tobillo,62,1,3,3
+Condromalacia Rotuliana,21,8,3,1
+Tendinopatia Aquilea,42,5,1,1
+Condromalacia Rotuliana,49,10,3,1
+Esguince de Tobillo,46,7,2,1
+Condromalacia Rotuliana,76,7,3,1
+Esguince de Tobillo,31,7,2,1
+Esguince de Tobillo,75,10,2,1
+Esguince de Tobillo,40,8,1,1
+Condromalacia Rotuliana,83,9,1,1
+Esguince de Tobillo,72,9,1,1
+Tendinopatia Aquilea,70,10,2,1
+Tendinopatia Aquilea,64,7,1,1
+Condromalacia Rotuliana,72,10,1,1
+Condromalacia Rotuliana,27,7,1,1
+Condromalacia Rotuliana,27,3,3,2
+Tendinopatia Aquilea,7,2,1,1
+Esguince de Tobillo,6,5,1,1
+Tendinopatia Aquilea,40,2,2,3
+Esguince de Tobillo,25,2,2,3
+Tendinopatia Aquilea,48,5,3,2
+Tendinopatia Aquilea,60,8,1,1
+Esguince de Tobillo,25,1,2,3
+Tendinopatia Aquilea,41,7,2,1
+Condromalacia Rotuliana,37,10,1,1
+Esguince de Tobillo,21,9,3,1
+Esguince de Tobillo,15,6,2,1
+Condromalacia Rotuliana,88,5,1,1
+Tendinopatia Aquilea,17,9,1,1
+Esguince de Tobillo,4,7,2,1
+Condromalacia Rotuliana,73,7,2,1
+Condromalacia Rotuliana,16,6,1,1
+Condromalacia Rotuliana,51,5,3,2
+Esguince de Tobillo,40,5,1,1
+Condromalacia Rotuliana,76,9,3,1
+Esguince de Tobillo,1,8,3,1
+Esguince de Tobillo,83,9,2,1
+Esguince de Tobillo,45,5,1,1
+Condromalacia Rotuliana,37,10,2,1
+Esguince de Tobillo,7,3,1,2
+Condromalacia Rotuliana,68,3,2,3
+Esguince de Tobillo,85,5,1,1
+Condromalacia Rotuliana,59,2,3,3
+Tendinopatia Aquilea,47,7,2,1
+Condromalacia Rotuliana,88,5,3,2
+Condromalacia Rotuliana,45,5,1,1
+Tendinopatia Aquilea,81,8,1,1
+Esguince de Tobillo,48,2,3,3
+Condromalacia Rotuliana,36,5,1,1
+Esguince de Tobillo,44,1,2,3
+Condromalacia Rotuliana,1,3,3,1
+Esguince de Tobillo,36,8,3,1
+Esguince de Tobillo,67,7,1,1
+Condromalacia Rotuliana,62,5,1,1
+Condromalacia Rotuliana,8,10,2,1
+Esguince de Tobillo,86,4,3,2
+Condromalacia Rotuliana,19,6,1,1
+Tendinopatia Aquilea,13,2,2,2
+Condromalacia Rotuliana,29,2,3,2
+Tendinopatia Aquilea,28,5,1,1
+Esguince de Tobillo,50,6,3,2
+Condromalacia Rotuliana,53,7,1,1
+Tendinopatia Aquilea,51,9,1,1
+Esguince de Tobillo,65,6,1,1
+Tendinopatia Aquilea,50,6,1,1
+Tendinopatia Aquilea,48,10,3,1
+Condromalacia Rotuliana,39,8,2,1
+Tendinopatia Aquilea,6,6,1,1
+Tendinopatia Aquilea,31,4,1,2
+Tendinopatia Aquilea,34,6,2,1
+Condromalacia Rotuliana,12,8,3,1
+Condromalacia Rotuliana,16,3,3,2
+Condromalacia Rotuliana,58,3,3,3
+Esguince de Tobillo,60,10,2,1
+Esguince de Tobillo,79,3,1,3
+Esguince de Tobillo,50,10,1,1
+Esguince de Tobillo,57,4,2,1
+Esguince de Tobillo,82,3,2,3
+Esguince de Tobillo,79,4,1,1
+Condromalacia Rotuliana,65,8,1,1
+Esguince de Tobillo,76,4,3,2
+Tendinopatia Aquilea,62,2,3,3
+Condromalacia Rotuliana,13,3,3,1
+Condromalacia Rotuliana,20,5,1,1
+Condromalacia Rotuliana,44,4,1,1
+Tendinopatia Aquilea,75,7,3,2
+Condromalacia Rotuliana,71,4,2,1
+Condromalacia Rotuliana,65,6,2,1
+Esguince de Tobillo,44,4,2,1
+Tendinopatia Aquilea,24,10,1,1
+Esguince de Tobillo,81,7,1,1
+Esguince de Tobillo,74,9,3,1
+Tendinopatia Aquilea,36,5,3,2
+Tendinopatia Aquilea,66,8,2,1
+Esguince de Tobillo,64,9,1,1
+Condromalacia Rotuliana,31,1,3,2
+Condromalacia Rotuliana,42,3,2,3
+Tendinopatia Aquilea,5,5,3,2
+Esguince de Tobillo,78,2,1,3
+Esguince de Tobillo,57,7,2,1
+Condromalacia Rotuliana,74,7,1,1
+Condromalacia Rotuliana,77,2,2,3
+Condromalacia Rotuliana,13,6,3,1
+Tendinopatia Aquilea,46,5,1,1
+Esguince de Tobillo,10,2,1,2
+Esguince de Tobillo,54,10,1,1
+Condromalacia Rotuliana,56,8,2,1
+Esguince de Tobillo,49,3,3,3
+Esguince de Tobillo,19,1,1,3
+Tendinopatia Aquilea,52,8,3,1
+Tendinopatia Aquilea,89,2,2,3
+Esguince de Tobillo,53,9,3,1
+Tendinopatia Aquilea,74,1,3,3
+Condromalacia Rotuliana,50,5,1,1
+Condromalacia Rotuliana,47,9,2,1
+Esguince de Tobillo,27,7,3,1
+Esguince de Tobillo,46,8,2,1
+Tendinopatia Aquilea,80,7,1,1
+Esguince de Tobillo,85,5,3,2
+Esguince de Tobillo,52,8,3,1
+Esguince de Tobillo,62,8,3,1
+Condromalacia Rotuliana,49,10,3,1
+Esguince de Tobillo,87,5,3,2
+Tendinopatia Aquilea,28,8,3,1
+Esguince de Tobillo,78,7,1,1
+Tendinopatia Aquilea,34,2,3,2
+Tendinopatia Aquilea,39,3,2,2
+Tendinopatia Aquilea,25,2,1,2
+Condromalacia Rotuliana,80,3,2,3
+Esguince de Tobillo,61,1,3,3
+Tendinopatia Aquilea,55,3,1,3
+Tendinopatia Aquilea,42,9,3,1
+Tendinopatia Aquilea,57,6,1,1
+Condromalacia Rotuliana,31,3,2,2
+Condromalacia Rotuliana,77,7,1,1
+Esguince de Tobillo,40,2,2,3
+Tendinopatia Aquilea,1,3,2,1
+Esguince de Tobillo,70,6,2,1
+Esguince de Tobillo,6,1,1,1
+Condromalacia Rotuliana,45,8,1,1
+Tendinopatia Aquilea,59,9,2,1
+Esguince de Tobillo,46,5,2,1
+Condromalacia Rotuliana,66,7,2,1
+Condromalacia Rotuliana,38,3,2,3
+Condromalacia Rotuliana,37,9,3,1
+Tendinopatia Aquilea,23,6,2,1
+Esguince de Tobillo,6,7,1,1
+Condromalacia Rotuliana,88,10,2,1
+Esguince de Tobillo,60,3,2,3
+Condromalacia Rotuliana,41,7,3,1
+Tendinopatia Aquilea,31,8,3,1
+Condromalacia Rotuliana,14,2,1,2
+Esguince de Tobillo,12,9,3,1
+Esguince de Tobillo,78,1,3,3
+Esguince de Tobillo,68,2,2,3
+Esguince de Tobillo,12,6,1,1
+Esguince de Tobillo,7,9,1,1
+Tendinopatia Aquilea,55,8,2,1
+Esguince de Tobillo,26,1,2,3
+Esguince de Tobillo,67,6,3,2
+Condromalacia Rotuliana,81,8,2,1
+Tendinopatia Aquilea,50,6,3,2
+Esguince de Tobillo,75,6,1,1
+Tendinopatia Aquilea,76,7,3,2
+Tendinopatia Aquilea,81,10,3,1
+Esguince de Tobillo,82,9,1,1
+Esguince de Tobillo,38,10,1,1
+Condromalacia Rotuliana,14,5,2,1
+Tendinopatia Aquilea,75,1,2,3
+Esguince de Tobillo,54,3,1,3
+Condromalacia Rotuliana,86,2,3,3
+Tendinopatia Aquilea,83,3,3,3
+Esguince de Tobillo,73,10,3,1
+Esguince de Tobillo,48,10,2,1
+Esguince de Tobillo,32,8,2,1
+Esguince de Tobillo,21,10,1,1
+Condromalacia Rotuliana,48,5,2,1
+Condromalacia Rotuliana,2,9,1,1
+Tendinopatia Aquilea,73,1,3,3
+Condromalacia Rotuliana,89,10,2,1
+Condromalacia Rotuliana,35,8,2,1
+Condromalacia Rotuliana,68,2,2,3
+Tendinopatia Aquilea,12,5,3,2
+Condromalacia Rotuliana,73,4,3,2
+Condromalacia Rotuliana,14,6,1,1
+Esguince de Tobillo,4,10,1,1
+Condromalacia Rotuliana,31,10,2,1
+Condromalacia Rotuliana,28,7,3,1
+Esguince de Tobillo,31,4,2,1
+Condromalacia Rotuliana,41,3,2,3
+Tendinopatia Aquilea,75,5,3,2
+Condromalacia Rotuliana,23,7,2,1
+Condromalacia Rotuliana,59,1,2,3
+Tendinopatia Aquilea,47,10,3,1
+Esguince de Tobillo,30,6,1,1
+Tendinopatia Aquilea,56,1,2,3
+Esguince de Tobillo,73,3,1,3
+Condromalacia Rotuliana,56,5,2,1
+Condromalacia Rotuliana,57,10,1,1
+Tendinopatia Aquilea,24,3,2,2
+Tendinopatia Aquilea,77,6,1,1
+Condromalacia Rotuliana,53,8,3,1
+Condromalacia Rotuliana,48,9,1,1
+Condromalacia Rotuliana,24,10,2,1
+Condromalacia Rotuliana,50,3,3,3
+Condromalacia Rotuliana,62,10,1,1
+Esguince de Tobillo,88,4,1,1
+Esguince de Tobillo,40,5,2,1
+Condromalacia Rotuliana,45,9,1,1
+Esguince de Tobillo,54,2,2,3
+Esguince de Tobillo,21,1,3,3
+Condromalacia Rotuliana,80,7,1,1
+Tendinopatia Aquilea,35,1,3,2
+Condromalacia Rotuliana,41,1,2,3
+Condromalacia Rotuliana,33,4,1,1
+Condromalacia Rotuliana,25,9,1,1
+Esguince de Tobillo,77,4,1,1
+Condromalacia Rotuliana,70,9,3,1
+Esguince de Tobillo,26,10,1,1
+Tendinopatia Aquilea,16,3,3,2
+Esguince de Tobillo,2,5,1,1
+Condromalacia Rotuliana,2,7,3,1
+Condromalacia Rotuliana,81,4,3,2
+Tendinopatia Aquilea,21,6,1,1
+Tendinopatia Aquilea,66,3,1,3
+Esguince de Tobillo,56,5,2,1
+Condromalacia Rotuliana,46,1,1,3
+Esguince de Tobillo,43,1,2,3
+Condromalacia Rotuliana,79,7,2,1
+Esguince de Tobillo,22,7,3,1
+Tendinopatia Aquilea,38,2,1,2
+Tendinopatia Aquilea,69,10,1,1
+Esguince de Tobillo,58,1,2,3
+Condromalacia Rotuliana,81,8,2,1
+Tendinopatia Aquilea,31,7,3,2
+Esguince de Tobillo,63,6,3,2
+Esguince de Tobillo,63,6,2,1
+Condromalacia Rotuliana,16,6,2,1
+Tendinopatia Aquilea,56,1,1,3
+Condromalacia Rotuliana,22,10,3,1
+Condromalacia Rotuliana,73,6,2,1
+Esguince de Tobillo,45,4,2,1
+Esguince de Tobillo,40,5,1,1
+Condromalacia Rotuliana,48,8,3,1
+Condromalacia Rotuliana,78,9,2,1
+Tendinopatia Aquilea,65,1,2,3
+Tendinopatia Aquilea,86,8,2,1
+Tendinopatia Aquilea,64,7,1,1
+Tendinopatia Aquilea,12,7,2,1
+Esguince de Tobillo,72,4,2,1
+Condromalacia Rotuliana,15,1,1,2
+Tendinopatia Aquilea,15,4,1,2
+Tendinopatia Aquilea,61,4,2,3
+Condromalacia Rotuliana,61,10,1,1
+Esguince de Tobillo,59,6,3,2
+Condromalacia Rotuliana,28,9,2,1
+Condromalacia Rotuliana,16,6,2,1
+Esguince de Tobillo,24,5,2,1
+Esguince de Tobillo,10,7,3,1
+Esguince de Tobillo,51,1,3,3
+Esguince de Tobillo,49,9,2,1
+Condromalacia Rotuliana,8,1,2,1
+Esguince de Tobillo,82,6,2,1
+Tendinopatia Aquilea,75,6,3,2
+Condromalacia Rotuliana,33,8,3,1
+Condromalacia Rotuliana,43,3,2,3
+Tendinopatia Aquilea,16,5,3,2
+Tendinopatia Aquilea,73,1,2,3
+Esguince de Tobillo,11,10,1,1
+Tendinopatia Aquilea,54,7,1,1
+Tendinopatia Aquilea,17,4,1,2
+Tendinopatia Aquilea,84,5,1,1
+Condromalacia Rotuliana,41,2,3,3
+Condromalacia Rotuliana,37,6,3,1
+Tendinopatia Aquilea,81,5,2,1
+Condromalacia Rotuliana,19,7,2,1
+Tendinopatia Aquilea,34,1,2,2
+Tendinopatia Aquilea,2,1,1,1
+Tendinopatia Aquilea,44,3,2,3
+Esguince de Tobillo,16,2,2,3
+Condromalacia Rotuliana,27,9,1,1
+Condromalacia Rotuliana,27,3,1,2
+Condromalacia Rotuliana,47,9,3,1
+Tendinopatia Aquilea,38,10,2,1
+Esguince de Tobillo,57,6,1,1
+Esguince de Tobillo,90,4,2,1
+Esguince de Tobillo,11,8,2,1
+Esguince de Tobillo,48,2,2,3
+Condromalacia Rotuliana,60,3,1,3
+Tendinopatia Aquilea,15,8,2,1
+Esguince de Tobillo,76,5,3,2
+Condromalacia Rotuliana,34,5,2,1
+Condromalacia Rotuliana,46,5,2,1
+Esguince de Tobillo,58,6,3,2
+Esguince de Tobillo,33,7,2,1
+Tendinopatia Aquilea,31,5,2,1
+Esguince de Tobillo,60,1,1,3
+Tendinopatia Aquilea,12,4,1,2
+Condromalacia Rotuliana,81,6,1,1
+Condromalacia Rotuliana,33,5,3,2
+Condromalacia Rotuliana,19,6,2,1
+Condromalacia Rotuliana,1,6,1,1
+Esguince de Tobillo,6,9,3,1
+Condromalacia Rotuliana,47,1,1,3
+Tendinopatia Aquilea,8,10,3,1
+Tendinopatia Aquilea,89,3,1,3
+Condromalacia Rotuliana,70,6,3,1
+Esguince de Tobillo,15,5,2,1
+Condromalacia Rotuliana,8,1,1,1
+Condromalacia Rotuliana,74,6,1,1
+Tendinopatia Aquilea,70,1,3,3
+Condromalacia Rotuliana,70,1,1,3
+Esguince de Tobillo,15,4,1,1
+Condromalacia Rotuliana,24,7,1,1
+Tendinopatia Aquilea,70,7,2,1
+Esguince de Tobillo,81,7,2,1
+Tendinopatia Aquilea,37,10,3,1
+Condromalacia Rotuliana,67,1,1,3
+Condromalacia Rotuliana,8,9,3,1
+Esguince de Tobillo,82,1,1,3
+Condromalacia Rotuliana,26,8,2,1
+Condromalacia Rotuliana,65,10,2,1
+Condromalacia Rotuliana,51,5,1,1
+Tendinopatia Aquilea,55,3,1,3
+Tendinopatia Aquilea,30,6,1,1
+Condromalacia Rotuliana,15,3,2,2
+Tendinopatia Aquilea,9,9,1,1
+Condromalacia Rotuliana,70,3,2,3
+Tendinopatia Aquilea,43,8,3,1
+Tendinopatia Aquilea,88,4,2,3
+Condromalacia Rotuliana,66,5,3,2
+Esguince de Tobillo,39,10,2,1
+Esguince de Tobillo,61,8,2,1
+Esguince de Tobillo,18,9,3,1
+Esguince de Tobillo,8,7,3,1
+Tendinopatia Aquilea,72,9,2,1
+Tendinopatia Aquilea,8,4,1,1
+Tendinopatia Aquilea,29,6,3,2
+Tendinopatia Aquilea,21,7,3,2
+Condromalacia Rotuliana,26,8,1,1
+Tendinopatia Aquilea,22,5,3,2
+Esguince de Tobillo,71,6,2,1
+Tendinopatia Aquilea,86,4,2,3
+Tendinopatia Aquilea,25,9,2,1
+Tendinopatia Aquilea,15,10,1,1
+Condromalacia Rotuliana,34,5,1,1
+Condromalacia Rotuliana,63,8,1,1
+Esguince de Tobillo,4,8,2,1
+Condromalacia Rotuliana,50,1,1,3
+Tendinopatia Aquilea,6,8,1,1
+Esguince de Tobillo,28,8,1,1
+Condromalacia Rotuliana,66,2,2,3
+Tendinopatia Aquilea,82,5,1,1
+Condromalacia Rotuliana,6,2,1,1
+Tendinopatia Aquilea,10,6,1,1
+Tendinopatia Aquilea,12,9,1,1
+Condromalacia Rotuliana,10,9,2,1
+Esguince de Tobillo,18,9,3,1
+Esguince de Tobillo,57,3,1,3
+Condromalacia Rotuliana,18,10,2,1
+Tendinopatia Aquilea,7,4,3,1
+Condromalacia Rotuliana,68,9,2,1
+Esguince de Tobillo,76,7,2,1
+Esguince de Tobillo,46,4,1,1
+Condromalacia Rotuliana,37,10,3,1
+Tendinopatia Aquilea,50,5,2,1
+Tendinopatia Aquilea,52,1,1,3
+Condromalacia Rotuliana,85,5,2,1
+Condromalacia Rotuliana,77,7,3,1
+Condromalacia Rotuliana,41,2,2,3
+Tendinopatia Aquilea,16,8,1,1
+Tendinopatia Aquilea,57,8,1,1
+Condromalacia Rotuliana,85,10,3,1
+Condromalacia Rotuliana,10,6,3,1
+Condromalacia Rotuliana,79,8,2,1
+Tendinopatia Aquilea,63,9,1,1
+Tendinopatia Aquilea,21,1,2,2
+Esguince de Tobillo,24,5,3,2
+Tendinopatia Aquilea,63,6,2,1
+Condromalacia Rotuliana,45,10,2,1
+Tendinopatia Aquilea,62,2,2,3
+Tendinopatia Aquilea,80,5,3,2
+Condromalacia Rotuliana,45,4,1,1
+Condromalacia Rotuliana,74,5,3,2
+Condromalacia Rotuliana,56,7,1,1
+Esguince de Tobillo,89,4,3,2
+Tendinopatia Aquilea,78,3,3,3
+Esguince de Tobillo,18,4,3,2
+Tendinopatia Aquilea,15,8,3,1
+Condromalacia Rotuliana,22,1,2,2
+Esguince de Tobillo,82,4,1,1
+Condromalacia Rotuliana,48,2,2,3
+Tendinopatia Aquilea,55,1,1,3
+Condromalacia Rotuliana,38,5,1,1
+Tendinopatia Aquilea,87,8,3,1
+Condromalacia Rotuliana,66,3,1,3
+Tendinopatia Aquilea,7,10,1,1
+Tendinopatia Aquilea,20,4,3,2
+Tendinopatia Aquilea,77,5,3,2
+Tendinopatia Aquilea,30,7,3,2
+Condromalacia Rotuliana,56,3,2,3
+Esguince de Tobillo,61,10,1,1
+Condromalacia Rotuliana,2,10,1,1
+Condromalacia Rotuliana,47,5,1,1
+Esguince de Tobillo,43,5,1,1
+Condromalacia Rotuliana,60,7,2,1
+Tendinopatia Aquilea,85,10,2,1
+Condromalacia Rotuliana,18,8,2,1
+Condromalacia Rotuliana,45,2,1,3
+Condromalacia Rotuliana,70,10,3,1
+Condromalacia Rotuliana,39,10,1,1
+Esguince de Tobillo,50,4,3,2
+Condromalacia Rotuliana,50,6,1,1
+Esguince de Tobillo,27,4,3,2
+Tendinopatia Aquilea,45,9,2,1
+Condromalacia Rotuliana,48,7,2,1
+Condromalacia Rotuliana,84,10,1,1
+Esguince de Tobillo,35,10,2,1
+Tendinopatia Aquilea,75,3,1,3
+Esguince de Tobillo,50,4,1,1
+Condromalacia Rotuliana,17,8,1,1
+Tendinopatia Aquilea,3,8,3,1
+Condromalacia Rotuliana,67,10,3,1
+Condromalacia Rotuliana,75,8,3,1
+Condromalacia Rotuliana,9,7,3,1
+Tendinopatia Aquilea,89,1,3,3
+Condromalacia Rotuliana,9,3,1,1
+Esguince de Tobillo,24,7,2,1
+Tendinopatia Aquilea,82,7,3,2
+Esguince de Tobillo,44,7,3,1
+Condromalacia Rotuliana,23,6,3,1
+Condromalacia Rotuliana,4,2,2,1
+Tendinopatia Aquilea,13,8,1,1
+Condromalacia Rotuliana,31,6,3,1
+Esguince de Tobillo,23,4,2,1
+Condromalacia Rotuliana,89,1,2,3
+Condromalacia Rotuliana,81,10,1,1
+Tendinopatia Aquilea,83,4,2,3
+Condromalacia Rotuliana,51,3,1,3
+Tendinopatia Aquilea,57,9,2,1
+Condromalacia Rotuliana,63,10,1,1
+Condromalacia Rotuliana,4,8,2,1
+Tendinopatia Aquilea,38,2,1,2
+Esguince de Tobillo,77,7,1,1
+Esguince de Tobillo,2,1,2,1
+Condromalacia Rotuliana,57,6,1,1
+Esguince de Tobillo,37,7,3,1
+Condromalacia Rotuliana,24,5,1,1
+Condromalacia Rotuliana,5,1,1,1
+Tendinopatia Aquilea,67,4,2,3
+Tendinopatia Aquilea,5,6,1,1
+Esguince de Tobillo,16,5,2,1
+Esguince de Tobillo,38,6,2,1
+Tendinopatia Aquilea,9,9,2,1
+Tendinopatia Aquilea,37,4,1,2
+Esguince de Tobillo,9,4,2,1
+Esguince de Tobillo,90,10,2,1
+Esguince de Tobillo,40,10,2,1
+Condromalacia Rotuliana,37,10,3,1
+Condromalacia Rotuliana,88,1,2,3
+Esguince de Tobillo,16,3,1,3
+Condromalacia Rotuliana,8,3,3,1
+Condromalacia Rotuliana,73,8,3,1
+Tendinopatia Aquilea,28,1,3,2
+Esguince de Tobillo,76,4,2,1
+Tendinopatia Aquilea,76,1,1,3
+Esguince de Tobillo,46,7,3,1
+Condromalacia Rotuliana,28,1,1,2
+Esguince de Tobillo,39,3,3,3
+Tendinopatia Aquilea,90,9,2,1
+Esguince de Tobillo,32,7,3,1
+Esguince de Tobillo,85,5,3,2
+Tendinopatia Aquilea,61,4,3,3
+Esguince de Tobillo,52,9,1,1
+Esguince de Tobillo,63,9,2,1
+Esguince de Tobillo,24,3,2,3
+Esguince de Tobillo,40,9,2,1
+Esguince de Tobillo,51,3,2,3
+Condromalacia Rotuliana,31,8,3,1
+Condromalacia Rotuliana,10,2,2,1
+Condromalacia Rotuliana,66,4,3,2
+Condromalacia Rotuliana,73,6,1,1
+Esguince de Tobillo,48,5,3,2
+Esguince de Tobillo,76,8,1,1
+Tendinopatia Aquilea,63,5,2,1
+Condromalacia Rotuliana,44,6,2,1
+Condromalacia Rotuliana,68,7,2,1
+Esguince de Tobillo,58,7,3,1
+Condromalacia Rotuliana,5,4,3,2
+Condromalacia Rotuliana,58,4,1,1
+Tendinopatia Aquilea,8,7,2,1
+Tendinopatia Aquilea,10,8,3,1
+Tendinopatia Aquilea,73,3,1,3
+Tendinopatia Aquilea,63,5,3,2
+Condromalacia Rotuliana,67,8,1,1
+Esguince de Tobillo,81,2,1,3
+Condromalacia Rotuliana,12,2,1,1
+Condromalacia Rotuliana,73,9,1,1
+Tendinopatia Aquilea,50,7,3,2
+Tendinopatia Aquilea,18,2,2,2
+Condromalacia Rotuliana,45,9,1,1
+Tendinopatia Aquilea,41,5,2,1
+Tendinopatia Aquilea,36,5,1,1
+Condromalacia Rotuliana,64,2,3,3
+Tendinopatia Aquilea,39,10,2,1
+Tendinopatia Aquilea,69,9,3,1
+Condromalacia Rotuliana,37,8,2,1
+Tendinopatia Aquilea,7,8,2,1
+Esguince de Tobillo,56,3,3,3
+Tendinopatia Aquilea,28,8,1,1
+Esguince de Tobillo,61,5,1,1
+Condromalacia Rotuliana,10,1,1,1
+Tendinopatia Aquilea,11,5,3,2
+Tendinopatia Aquilea,74,10,2,1
+Tendinopatia Aquilea,23,2,1,2
+Esguince de Tobillo,49,5,1,1
+Condromalacia Rotuliana,15,7,3,1
+Condromalacia Rotuliana,61,1,3,3
+Condromalacia Rotuliana,58,5,2,1
+Tendinopatia Aquilea,38,6,1,1
+Tendinopatia Aquilea,4,2,2,1
+Tendinopatia Aquilea,42,1,1,3
+Esguince de Tobillo,47,1,2,3
+Esguince de Tobillo,37,2,1,3
+Esguince de Tobillo,56,8,1,1
+Tendinopatia Aquilea,52,9,3,1
+Tendinopatia Aquilea,54,7,3,2
+Esguince de Tobillo,57,2,1,3
+Esguince de Tobillo,56,10,3,1
+Condromalacia Rotuliana,2,6,3,1
+Tendinopatia Aquilea,3,2,3,1
+Esguince de Tobillo,20,7,1,1
+Condromalacia Rotuliana,46,3,2,3
+Esguince de Tobillo,39,4,1,1
+Condromalacia Rotuliana,19,1,1,2
+Condromalacia Rotuliana,6,8,3,1
+Tendinopatia Aquilea,59,4,1,3
+Condromalacia Rotuliana,70,2,2,3
+Tendinopatia Aquilea,86,2,2,3
+Condromalacia Rotuliana,44,2,1,3
+Condromalacia Rotuliana,33,4,3,2
+Esguince de Tobillo,78,6,1,1
+Esguince de Tobillo,74,3,1,3
+Esguince de Tobillo,36,4,3,2
+Tendinopatia Aquilea,83,6,3,2
+Esguince de Tobillo,77,8,1,1
+Tendinopatia Aquilea,42,7,2,1
+Tendinopatia Aquilea,76,7,3,2
+Tendinopatia Aquilea,40,9,1,1
+Esguince de Tobillo,12,10,3,1
+Esguince de Tobillo,41,7,1,1
+Esguince de Tobillo,79,5,3,2
+Condromalacia Rotuliana,42,6,3,1
+Esguince de Tobillo,23,9,3,1
+Condromalacia Rotuliana,12,3,1,1
+Condromalacia Rotuliana,89,10,1,1
+Tendinopatia Aquilea,59,7,3,2
+Condromalacia Rotuliana,72,6,2,1
+Esguince de Tobillo,49,4,1,1
+Esguince de Tobillo,67,7,3,1
+Tendinopatia Aquilea,56,7,1,1
+Tendinopatia Aquilea,32,8,1,1
+Esguince de Tobillo,55,2,3,3
+Tendinopatia Aquilea,84,8,1,1
+Condromalacia Rotuliana,90,6,3,1
+Esguince de Tobillo,35,4,2,1
+Condromalacia Rotuliana,34,1,3,2
+Esguince de Tobillo,78,1,3,3
+Condromalacia Rotuliana,4,5,2,1
+Condromalacia Rotuliana,28,3,3,2
+Esguince de Tobillo,41,9,3,1
+Esguince de Tobillo,1,4,1,1
+Tendinopatia Aquilea,4,3,1,1
+Esguince de Tobillo,26,9,1,1
+Tendinopatia Aquilea,50,9,2,1
+Tendinopatia Aquilea,69,10,3,1
+Esguince de Tobillo,84,5,1,1
+Tendinopatia Aquilea,52,1,1,3
+Esguince de Tobillo,47,4,1,1
+Tendinopatia Aquilea,63,10,2,1
+Condromalacia Rotuliana,4,4,1,1
+Condromalacia Rotuliana,28,10,1,1
+Esguince de Tobillo,5,4,2,1
+Esguince de Tobillo,55,7,3,1
+Tendinopatia Aquilea,76,7,1,1
+Esguince de Tobillo,1,5,3,2
+Condromalacia Rotuliana,59,1,1,3
+Tendinopatia Aquilea,7,4,3,1
+Condromalacia Rotuliana,6,7,3,1
+Esguince de Tobillo,2,8,1,1
+Condromalacia Rotuliana,56,8,3,1
+Esguince de Tobillo,47,1,1,3
+Condromalacia Rotuliana,32,8,1,1
+Esguince de Tobillo,86,3,2,3
+Esguince de Tobillo,68,7,1,1
+Condromalacia Rotuliana,27,9,1,1
+Condromalacia Rotuliana,16,9,3,1
+Condromalacia Rotuliana,1,4,2,1
+Esguince de Tobillo,59,7,3,1
+Tendinopatia Aquilea,36,10,1,1
+Esguince de Tobillo,14,4,3,2
+Tendinopatia Aquilea,70,8,3,1
+Esguince de Tobillo,76,10,1,1
+Tendinopatia Aquilea,84,6,1,1
+Condromalacia Rotuliana,9,3,3,1
+Esguince de Tobillo,39,4,3,2
+Tendinopatia Aquilea,72,2,3,3
+Esguince de Tobillo,53,1,2,3
+Esguince de Tobillo,43,2,2,3
+Esguince de Tobillo,29,8,1,1
+Esguince de Tobillo,76,1,1,3
+Condromalacia Rotuliana,31,5,2,1
+Tendinopatia Aquilea,6,9,1,1
+Condromalacia Rotuliana,36,1,1,3
+Tendinopatia Aquilea,71,6,2,1
+Condromalacia Rotuliana,34,2,3,2
+Tendinopatia Aquilea,88,8,3,1
+Condromalacia Rotuliana,56,6,2,1
+Tendinopatia Aquilea,35,3,2,2
+Condromalacia Rotuliana,65,4,2,1
+Condromalacia Rotuliana,50,6,1,1
+Esguince de Tobillo,73,10,2,1
+Condromalacia Rotuliana,28,3,3,2
+Tendinopatia Aquilea,26,4,1,2
+Condromalacia Rotuliana,46,5,2,1
+Tendinopatia Aquilea,63,3,3,3
+Condromalacia Rotuliana,33,5,3,2
+Tendinopatia Aquilea,85,8,1,1
+Esguince de Tobillo,89,2,3,3
+Condromalacia Rotuliana,66,10,3,1
+Tendinopatia Aquilea,27,5,2,1
+Esguince de Tobillo,25,10,3,1
+Condromalacia Rotuliana,1,10,3,1
+Condromalacia Rotuliana,34,8,1,1
+Tendinopatia Aquilea,50,5,3,2
+Tendinopatia Aquilea,55,5,2,1
+Tendinopatia Aquilea,71,3,2,3
+Tendinopatia Aquilea,49,10,1,1
+Condromalacia Rotuliana,69,8,3,1
+Condromalacia Rotuliana,34,4,2,1
+Esguince de Tobillo,66,1,2,3
+Tendinopatia Aquilea,37,10,3,1
+Tendinopatia Aquilea,11,1,3,2
+Esguince de Tobillo,82,6,2,1
+Esguince de Tobillo,60,5,3,2
+Condromalacia Rotuliana,52,3,1,3
+Tendinopatia Aquilea,62,7,2,1
+Esguince de Tobillo,51,1,3,3
+Tendinopatia Aquilea,44,9,2,1
+Tendinopatia Aquilea,90,1,2,3
+Condromalacia Rotuliana,48,8,1,1
+Tendinopatia Aquilea,53,2,3,3
+Tendinopatia Aquilea,86,5,2,1
+Tendinopatia Aquilea,43,10,3,1
+Condromalacia Rotuliana,77,5,2,1
+Condromalacia Rotuliana,66,6,1,1
+Esguince de Tobillo,24,2,3,3
+Condromalacia Rotuliana,72,6,1,1
+Esguince de Tobillo,15,4,1,1
+Esguince de Tobillo,34,7,1,1
+Condromalacia Rotuliana,17,6,1,1
+Tendinopatia Aquilea,34,4,1,2
+Esguince de Tobillo,3,10,3,1
+Esguince de Tobillo,55,1,1,3
+Tendinopatia Aquilea,60,4,1,3
+Esguince de Tobillo,9,7,3,1
+Condromalacia Rotuliana,45,2,3,3
+Esguince de Tobillo,72,10,2,1
+Esguince de Tobillo,28,5,3,2
+Tendinopatia Aquilea,67,7,2,1
+Tendinopatia Aquilea,39,3,2,2
+Esguince de Tobillo,41,4,1,1
+Condromalacia Rotuliana,66,2,3,3
+Condromalacia Rotuliana,3,8,2,1
+Tendinopatia Aquilea,35,10,1,1
+Condromalacia Rotuliana,75,7,2,1
+Tendinopatia Aquilea,68,8,1,1
+Condromalacia Rotuliana,4,9,1,1
+Condromalacia Rotuliana,66,10,1,1
+Tendinopatia Aquilea,80,9,3,1
+Condromalacia Rotuliana,71,1,3,3
+Esguince de Tobillo,54,7,2,1
+Esguince de Tobillo,3,2,1,1
+Tendinopatia Aquilea,90,2,3,3
+Condromalacia Rotuliana,16,7,2,1
+Esguince de Tobillo,87,8,1,1
+Esguince de Tobillo,73,2,3,3
+Esguince de Tobillo,85,4,1,1
+Tendinopatia Aquilea,86,2,1,3
+Esguince de Tobillo,31,6,3,2
+Tendinopatia Aquilea,33,10,2,1
+Tendinopatia Aquilea,35,7,2,1
+Tendinopatia Aquilea,66,2,2,3
+Esguince de Tobillo,52,4,2,1
+Condromalacia Rotuliana,62,9,2,1
+Esguince de Tobillo,73,4,3,2
+Condromalacia Rotuliana,71,8,2,1
+Esguince de Tobillo,69,8,2,1
+Esguince de Tobillo,5,1,1,1
+Esguince de Tobillo,13,4,3,2
+Esguince de Tobillo,22,3,2,3
+Tendinopatia Aquilea,18,6,3,2
+Condromalacia Rotuliana,63,7,2,1
+Tendinopatia Aquilea,73,5,1,1
+Condromalacia Rotuliana,81,8,1,1
+Esguince de Tobillo,81,9,1,1
+Esguince de Tobillo,25,4,3,2
+Condromalacia Rotuliana,72,4,1,1
+Tendinopatia Aquilea,77,3,3,3
+Esguince de Tobillo,31,4,2,1
+Esguince de Tobillo,13,1,2,2
+Tendinopatia Aquilea,72,6,2,1
+Tendinopatia Aquilea,63,10,3,1
+Tendinopatia Aquilea,86,5,1,1
+Esguince de Tobillo,42,3,3,3
+Condromalacia Rotuliana,65,3,3,3
+Esguince de Tobillo,85,7,2,1
+Tendinopatia Aquilea,24,2,3,2
+Condromalacia Rotuliana,64,5,1,1
+Esguince de Tobillo,38,9,2,1
+Tendinopatia Aquilea,10,5,3,2
+Condromalacia Rotuliana,23,1,2,2
+Esguince de Tobillo,7,1,3,2
+Esguince de Tobillo,89,3,2,3
+Esguince de Tobillo,18,9,1,1
+Tendinopatia Aquilea,82,3,1,3
+Esguince de Tobillo,17,8,2,1
+Esguince de Tobillo,11,7,3,1
+Esguince de Tobillo,35,6,3,2
+Tendinopatia Aquilea,30,9,1,1
+Tendinopatia Aquilea,6,9,3,1
+Tendinopatia Aquilea,7,5,3,2
+Condromalacia Rotuliana,10,10,1,1
+Condromalacia Rotuliana,7,6,2,1
+Condromalacia Rotuliana,77,7,2,1
+Esguince de Tobillo,21,8,3,1
+Tendinopatia Aquilea,28,3,1,2
+Condromalacia Rotuliana,88,7,3,1
+Condromalacia Rotuliana,59,5,3,2
+Tendinopatia Aquilea,86,1,1,3
+Esguince de Tobillo,87,8,1,1
+Esguince de Tobillo,62,10,2,1
+Condromalacia Rotuliana,57,2,1,3
+Esguince de Tobillo,82,3,1,3
+Esguince de Tobillo,57,5,2,1
+Esguince de Tobillo,74,6,3,2
+Condromalacia Rotuliana,54,5,1,1
+Esguince de Tobillo,11,3,3,2
+Tendinopatia Aquilea,42,4,1,3
+Tendinopatia Aquilea,48,8,1,1
+Condromalacia Rotuliana,64,4,3,2
+Condromalacia Rotuliana,39,6,1,1
+Tendinopatia Aquilea,1,9,3,1
+Tendinopatia Aquilea,83,4,3,3
+Tendinopatia Aquilea,61,5,3,2
+Tendinopatia Aquilea,22,2,3,2
+Condromalacia Rotuliana,17,2,1,2
+Esguince de Tobillo,61,10,3,1
+Esguince de Tobillo,83,8,1,1
+Esguince de Tobillo,53,10,3,1
+Tendinopatia Aquilea,67,4,2,3
+Tendinopatia Aquilea,64,1,1,3
+Tendinopatia Aquilea,65,10,1,1
+Condromalacia Rotuliana,38,2,1,3
+Tendinopatia Aquilea,8,9,3,1
+Esguince de Tobillo,45,7,3,1
+Tendinopatia Aquilea,27,4,3,2
+Tendinopatia Aquilea,10,10,3,1
+Condromalacia Rotuliana,1,3,3,1
+Condromalacia Rotuliana,80,6,2,1
+Tendinopatia Aquilea,31,1,3,2
+Tendinopatia Aquilea,27,9,1,1
+Esguince de Tobillo,26,1,3,3
+Tendinopatia Aquilea,58,9,2,1
+Esguince de Tobillo,78,3,2,3
+Condromalacia Rotuliana,55,2,2,3
+Esguince de Tobillo,88,4,1,1
+Esguince de Tobillo,73,1,1,3
+Condromalacia Rotuliana,8,4,2,1
+Tendinopatia Aquilea,86,9,1,1
+Condromalacia Rotuliana,4,10,1,1
+Esguince de Tobillo,9,3,3,2
+Tendinopatia Aquilea,18,6,3,2
+Condromalacia Rotuliana,27,2,2,2
+Condromalacia Rotuliana,63,9,2,1
+Tendinopatia Aquilea,43,1,3,3
+Esguince de Tobillo,15,1,2,3
+Tendinopatia Aquilea,46,2,3,3
+Condromalacia Rotuliana,41,3,2,3
+Tendinopatia Aquilea,54,2,3,3
+Tendinopatia Aquilea,69,8,3,1
+Condromalacia Rotuliana,7,8,1,1
+Condromalacia Rotuliana,70,4,2,1
+Esguince de Tobillo,71,6,1,1
+Condromalacia Rotuliana,37,2,2,3
+Tendinopatia Aquilea,3,1,2,1
+Condromalacia Rotuliana,68,3,2,3
+Tendinopatia Aquilea,70,3,1,3
+Esguince de Tobillo,24,1,3,3
+Tendinopatia Aquilea,15,3,3,2
+Tendinopatia Aquilea,56,9,3,1
+Esguince de Tobillo,31,2,1,3
+Tendinopatia Aquilea,7,4,3,1
+Esguince de Tobillo,70,10,3,1
+Condromalacia Rotuliana,37,9,2,1
+Esguince de Tobillo,14,8,1,1
+Condromalacia Rotuliana,14,8,3,1
+Esguince de Tobillo,16,7,3,1
+Condromalacia Rotuliana,8,4,2,1
+Tendinopatia Aquilea,73,9,2,1
+Tendinopatia Aquilea,27,1,2,2
+Condromalacia Rotuliana,89,4,2,1
+Tendinopatia Aquilea,50,1,2,3
+Condromalacia Rotuliana,17,8,1,1
+Tendinopatia Aquilea,4,6,2,1
+Esguince de Tobillo,5,3,2,1
+Tendinopatia Aquilea,62,9,3,1
+Tendinopatia Aquilea,49,4,2,3
+Condromalacia Rotuliana,90,7,2,1
+Esguince de Tobillo,13,4,3,2
+Tendinopatia Aquilea,90,4,1,3
+Tendinopatia Aquilea,63,9,2,1
+Condromalacia Rotuliana,30,9,3,1
+Esguince de Tobillo,35,1,2,3
+Condromalacia Rotuliana,67,7,2,1
+Condromalacia Rotuliana,66,9,3,1
+Condromalacia Rotuliana,15,4,1,1
+Tendinopatia Aquilea,59,1,1,3
+Condromalacia Rotuliana,63,3,1,3
+Tendinopatia Aquilea,40,7,1,1
+Condromalacia Rotuliana,75,4,1,1
+Esguince de Tobillo,81,7,2,1
+Condromalacia Rotuliana,4,1,2,1
+Esguince de Tobillo,59,5,3,2
+Condromalacia Rotuliana,26,9,2,1
+Tendinopatia Aquilea,44,5,1,1
+Condromalacia Rotuliana,6,5,1,1
+Esguince de Tobillo,21,8,1,1
+Esguince de Tobillo,23,9,3,1
+Condromalacia Rotuliana,49,6,3,1
+Tendinopatia Aquilea,6,2,1,1
+Esguince de Tobillo,33,4,2,1
+Condromalacia Rotuliana,76,1,3,3
+Esguince de Tobillo,56,8,2,1
+Tendinopatia Aquilea,83,8,2,1
+Esguince de Tobillo,50,7,1,1
+Condromalacia Rotuliana,26,3,2,2
+Esguince de Tobillo,20,3,3,3
+Condromalacia Rotuliana,33,2,3,2
+Tendinopatia Aquilea,22,6,1,1
+Esguince de Tobillo,26,3,1,3
+Esguince de Tobillo,40,4,3,2
+Tendinopatia Aquilea,80,1,2,3
+Tendinopatia Aquilea,41,3,2,3
+Esguince de Tobillo,26,6,3,2
+Tendinopatia Aquilea,41,10,3,1
+Condromalacia Rotuliana,67,5,3,2
+Condromalacia Rotuliana,49,6,3,1
+Condromalacia Rotuliana,8,4,1,1
+Condromalacia Rotuliana,62,10,3,1
+Esguince de Tobillo,50,2,1,3
+Esguince de Tobillo,37,5,1,1
+Condromalacia Rotuliana,87,5,1,1
+Condromalacia Rotuliana,73,4,1,1
+Esguince de Tobillo,69,7,3,1
+Esguince de Tobillo,90,10,2,1
+Condromalacia Rotuliana,84,1,3,3
+Esguince de Tobillo,51,1,1,3
+Tendinopatia Aquilea,1,3,3,1
+Tendinopatia Aquilea,18,3,1,2
+Esguince de Tobillo,88,3,3,3
+Condromalacia Rotuliana,12,3,1,1
+Tendinopatia Aquilea,16,4,1,2
+Esguince de Tobillo,66,7,3,1
+Esguince de Tobillo,30,10,3,1
+Condromalacia Rotuliana,18,10,1,1
+Esguince de Tobillo,25,8,2,1
+Tendinopatia Aquilea,15,7,2,1
+Esguince de Tobillo,4,10,3,1
+Condromalacia Rotuliana,66,3,3,3
+Esguince de Tobillo,20,3,2,3
+Condromalacia Rotuliana,41,8,2,1
+Condromalacia Rotuliana,47,6,2,1
+Condromalacia Rotuliana,1,7,1,1
+Esguince de Tobillo,19,2,3,3
+Tendinopatia Aquilea,62,5,3,2
+Condromalacia Rotuliana,32,6,2,1
+Esguince de Tobillo,42,9,2,1
+Condromalacia Rotuliana,77,5,2,1
+Tendinopatia Aquilea,8,9,2,1
+Esguince de Tobillo,70,8,2,1
+Tendinopatia Aquilea,39,3,1,2
+Esguince de Tobillo,50,6,2,1
+Esguince de Tobillo,10,7,2,1
+Esguince de Tobillo,26,6,1,1
+Esguince de Tobillo,1,2,1,1
+Esguince de Tobillo,31,7,3,1
+Condromalacia Rotuliana,86,9,3,1
+Tendinopatia Aquilea,85,1,1,3
+Esguince de Tobillo,89,2,1,3
+Esguince de Tobillo,3,6,1,1
+Condromalacia Rotuliana,52,4,3,2
+Tendinopatia Aquilea,27,5,1,1
+Condromalacia Rotuliana,10,6,3,1
+Esguince de Tobillo,15,1,2,3
+Condromalacia Rotuliana,58,8,1,1
+Condromalacia Rotuliana,2,10,3,1
+Condromalacia Rotuliana,59,1,1,3
+Condromalacia Rotuliana,37,2,1,3
+Esguince de Tobillo,67,8,3,1
+Esguince de Tobillo,16,9,3,1
+Tendinopatia Aquilea,65,7,3,2
+Tendinopatia Aquilea,51,8,3,1
+Condromalacia Rotuliana,83,7,1,1
+Esguince de Tobillo,45,1,3,3
+Tendinopatia Aquilea,38,5,2,1
+Tendinopatia Aquilea,81,1,3,3
+Esguince de Tobillo,35,4,1,1
+Condromalacia Rotuliana,78,5,3,2
+Condromalacia Rotuliana,38,7,3,1
+Tendinopatia Aquilea,67,10,2,1
+Tendinopatia Aquilea,33,7,3,2
+Esguince de Tobillo,70,3,1,3
+Condromalacia Rotuliana,76,2,3,3
+Condromalacia Rotuliana,58,9,1,1
+Esguince de Tobillo,23,3,2,3
+Esguince de Tobillo,79,10,2,1
+Esguince de Tobillo,69,2,2,3
+Condromalacia Rotuliana,17,9,3,1
+Tendinopatia Aquilea,48,10,2,1
+Condromalacia Rotuliana,6,7,2,1
+Tendinopatia Aquilea,14,8,2,1
+Tendinopatia Aquilea,22,7,1,1
+Esguince de Tobillo,43,7,2,1
+Tendinopatia Aquilea,29,10,1,1
+Esguince de Tobillo,73,5,1,1
+Tendinopatia Aquilea,55,5,1,1
+Esguince de Tobillo,8,7,1,1
+Tendinopatia Aquilea,25,1,2,2
+Esguince de Tobillo,82,8,1,1
+Tendinopatia Aquilea,51,2,1,3
+Tendinopatia Aquilea,21,4,1,2
+Condromalacia Rotuliana,31,2,2,2
+Condromalacia Rotuliana,41,9,2,1
+Tendinopatia Aquilea,45,2,2,3
+Condromalacia Rotuliana,12,7,2,1
+Esguince de Tobillo,63,9,2,1
+Esguince de Tobillo,22,5,2,1
+Esguince de Tobillo,63,6,3,2
+Condromalacia Rotuliana,61,6,1,1
+Esguince de Tobillo,39,7,2,1
+Tendinopatia Aquilea,28,10,2,1
+Esguince de Tobillo,58,8,1,1
+Tendinopatia Aquilea,60,5,2,1
+Condromalacia Rotuliana,85,9,3,1
+Esguince de Tobillo,90,1,1,3
+Condromalacia Rotuliana,24,5,2,1
+Tendinopatia Aquilea,78,5,2,1
+Tendinopatia Aquilea,63,4,1,3
+Esguince de Tobillo,84,4,2,1
+Condromalacia Rotuliana,25,10,1,1
+Tendinopatia Aquilea,42,9,3,1
+Esguince de Tobillo,51,9,1,1
+Esguince de Tobillo,34,4,3,2
+Tendinopatia Aquilea,31,3,3,2
+Tendinopatia Aquilea,33,1,3,2
+Condromalacia Rotuliana,18,6,1,1
+Esguince de Tobillo,8,2,1,2
+Tendinopatia Aquilea,12,4,1,2
+Esguince de Tobillo,29,9,1,1
+Tendinopatia Aquilea,46,7,1,1
+Condromalacia Rotuliana,17,4,2,1
+Condromalacia Rotuliana,89,8,2,1
+Esguince de Tobillo,88,6,1,1
+Condromalacia Rotuliana,53,4,2,1
+Condromalacia Rotuliana,35,1,2,3
+Condromalacia Rotuliana,32,4,3,2
+Esguince de Tobillo,3,7,2,1
+Tendinopatia Aquilea,89,10,3,1
+Condromalacia Rotuliana,42,3,2,3
+Tendinopatia Aquilea,42,2,3,3
+Tendinopatia Aquilea,38,5,2,1
+Condromalacia Rotuliana,16,4,3,2
+Condromalacia Rotuliana,39,7,2,1
+Tendinopatia Aquilea,87,4,3,3
+Esguince de Tobillo,2,4,1,1
+Tendinopatia Aquilea,43,9,2,1
+Condromalacia Rotuliana,42,4,2,1
+Tendinopatia Aquilea,15,8,2,1
+Tendinopatia Aquilea,84,1,1,3
+Condromalacia Rotuliana,12,9,2,1
+Tendinopatia Aquilea,3,1,1,1
+Esguince de Tobillo,66,9,3,1
+Condromalacia Rotuliana,52,5,2,1
+Condromalacia Rotuliana,44,7,3,1
+Tendinopatia Aquilea,25,1,3,2
+Tendinopatia Aquilea,19,2,1,2
+Tendinopatia Aquilea,76,10,3,1
+Condromalacia Rotuliana,22,8,1,1
+Condromalacia Rotuliana,63,7,1,1
+Esguince de Tobillo,31,3,2,3
+Tendinopatia Aquilea,64,2,2,3
+Condromalacia Rotuliana,30,5,3,2
+Tendinopatia Aquilea,38,9,3,1
+Condromalacia Rotuliana,83,9,1,1
+Tendinopatia Aquilea,66,8,3,1
+Esguince de Tobillo,51,8,1,1
+Tendinopatia Aquilea,75,7,2,1
+Tendinopatia Aquilea,63,8,2,1
+Esguince de Tobillo,15,3,1,3
+Tendinopatia Aquilea,1,3,3,1
+Esguince de Tobillo,41,5,3,2
+Tendinopatia Aquilea,50,10,3,1
+Esguince de Tobillo,36,3,2,3
+Tendinopatia Aquilea,88,8,1,1
+Esguince de Tobillo,48,3,3,3
+Esguince de Tobillo,63,2,1,3
+Esguince de Tobillo,14,5,1,1
+Condromalacia Rotuliana,70,4,2,1
+Condromalacia Rotuliana,2,9,1,1
+Condromalacia Rotuliana,27,1,3,2
+Tendinopatia Aquilea,7,2,2,1
+Condromalacia Rotuliana,16,6,1,1
+Tendinopatia Aquilea,4,7,1,1
+Esguince de Tobillo,36,8,2,1
+Esguince de Tobillo,14,2,3,3
+Esguince de Tobillo,73,6,3,2
+Tendinopatia Aquilea,7,8,2,1
+Tendinopatia Aquilea,41,8,2,1
+Condromalacia Rotuliana,39,4,3,2
+Esguince de Tobillo,63,3,1,3
+Condromalacia Rotuliana,61,6,3,1
+Esguince de Tobillo,38,6,2,1
+Condromalacia Rotuliana,46,5,1,1
+Condromalacia Rotuliana,87,1,1,3
+Condromalacia Rotuliana,23,2,3,2
+Esguince de Tobillo,29,8,2,1
+Condromalacia Rotuliana,85,9,1,1
+Condromalacia Rotuliana,86,7,2,1
+Tendinopatia Aquilea,10,1,2,2
+Tendinopatia Aquilea,85,8,3,1
+Tendinopatia Aquilea,6,1,1,1
+Condromalacia Rotuliana,43,5,3,2
+Esguince de Tobillo,38,5,1,1
+Condromalacia Rotuliana,65,2,2,3
+Condromalacia Rotuliana,48,3,1,3
+Condromalacia Rotuliana,32,8,1,1
+Tendinopatia Aquilea,38,5,3,2
+Tendinopatia Aquilea,17,2,1,2
+Esguince de Tobillo,31,2,2,3
+Tendinopatia Aquilea,42,4,3,3
+Condromalacia Rotuliana,53,2,1,3
+Esguince de Tobillo,51,3,3,3
+Condromalacia Rotuliana,6,8,2,1
+Esguince de Tobillo,79,7,3,1
+Tendinopatia Aquilea,33,2,2,2
+Esguince de Tobillo,7,6,2,1
+Tendinopatia Aquilea,46,7,3,2
+Esguince de Tobillo,21,1,2,3
+Condromalacia Rotuliana,19,1,1,2
+Tendinopatia Aquilea,70,1,3,3
+Esguince de Tobillo,19,8,1,1
+Esguince de Tobillo,31,3,2,3
+Condromalacia Rotuliana,36,8,1,1
+Esguince de Tobillo,66,2,1,3
+Tendinopatia Aquilea,11,7,1,1
+Esguince de Tobillo,5,4,1,1
+Tendinopatia Aquilea,25,2,1,2
+Condromalacia Rotuliana,30,3,3,2
+Esguince de Tobillo,39,5,2,1
+Tendinopatia Aquilea,46,3,1,3
+Condromalacia Rotuliana,68,6,1,1
+Tendinopatia Aquilea,69,4,3,3
+Condromalacia Rotuliana,68,10,3,1
+Tendinopatia Aquilea,44,1,1,3
+Condromalacia Rotuliana,52,3,1,3
+Condromalacia Rotuliana,35,3,1,3
+Condromalacia Rotuliana,21,3,1,2
+Esguince de Tobillo,8,7,2,1
+Tendinopatia Aquilea,27,1,2,2
+Condromalacia Rotuliana,24,7,1,1
+Tendinopatia Aquilea,66,8,3,1
+Tendinopatia Aquilea,61,2,2,3
+Condromalacia Rotuliana,68,8,1,1
+Condromalacia Rotuliana,32,6,3,1
+Esguince de Tobillo,85,4,1,1
+Esguince de Tobillo,44,10,2,1
+Tendinopatia Aquilea,33,8,2,1
+Condromalacia Rotuliana,63,10,2,1
+Esguince de Tobillo,4,4,3,2
+Tendinopatia Aquilea,3,8,1,1
+Esguince de Tobillo,76,9,3,1
+Esguince de Tobillo,43,4,1,1
+Esguince de Tobillo,89,7,2,1
+Esguince de Tobillo,51,10,3,1
+Condromalacia Rotuliana,11,7,1,1
+Condromalacia Rotuliana,10,1,2,1
+Tendinopatia Aquilea,23,5,1,1
+Tendinopatia Aquilea,88,2,3,3
+Esguince de Tobillo,43,10,3,1
+Condromalacia Rotuliana,59,8,2,1
+Condromalacia Rotuliana,78,7,1,1
+Tendinopatia Aquilea,7,7,2,1
+Condromalacia Rotuliana,11,2,3,1
+Condromalacia Rotuliana,12,6,3,1
+Esguince de Tobillo,12,3,3,2
+Condromalacia Rotuliana,2,10,3,1
+Esguince de Tobillo,38,10,1,1
+Tendinopatia Aquilea,89,8,3,1
+Condromalacia Rotuliana,10,6,3,1
+Esguince de Tobillo,89,7,3,1
+Tendinopatia Aquilea,69,2,2,3
+Esguince de Tobillo,84,5,1,1
+Esguince de Tobillo,4,9,2,1
+Tendinopatia Aquilea,22,8,1,1
+Tendinopatia Aquilea,28,10,2,1
+Condromalacia Rotuliana,1,6,1,1
+Tendinopatia Aquilea,7,7,1,1
+Tendinopatia Aquilea,12,4,1,2
+Tendinopatia Aquilea,67,3,3,3
+Condromalacia Rotuliana,33,4,2,1
+Condromalacia Rotuliana,63,6,1,1
+Esguince de Tobillo,62,8,2,1
+Tendinopatia Aquilea,23,3,2,2
+Esguince de Tobillo,12,10,3,1
+Tendinopatia Aquilea,51,8,3,1
+Condromalacia Rotuliana,66,8,1,1
+Condromalacia Rotuliana,27,2,3,2
+Esguince de Tobillo,28,1,3,3
+Condromalacia Rotuliana,73,6,1,1
+Condromalacia Rotuliana,39,9,1,1
+Condromalacia Rotuliana,21,3,2,2
+Tendinopatia Aquilea,66,9,3,1
+Condromalacia Rotuliana,64,10,3,1
+Condromalacia Rotuliana,11,2,3,1
+Condromalacia Rotuliana,48,2,3,3
+Condromalacia Rotuliana,42,10,2,1
+Tendinopatia Aquilea,90,3,3,3
+Esguince de Tobillo,23,1,3,3
+Esguince de Tobillo,82,2,1,3
+Tendinopatia Aquilea,62,5,2,1
+Tendinopatia Aquilea,5,7,1,1
+Esguince de Tobillo,18,5,1,1
+Condromalacia Rotuliana,40,3,3,3
+Esguince de Tobillo,39,8,3,1
+Tendinopatia Aquilea,23,6,2,1
+Condromalacia Rotuliana,16,1,2,2
+Tendinopatia Aquilea,67,6,3,2
+Tendinopatia Aquilea,17,4,1,2
+Tendinopatia Aquilea,37,6,2,1
+Esguince de Tobillo,6,2,2,1
+Condromalacia Rotuliana,79,3,2,3
+Tendinopatia Aquilea,30,7,2,1
+Esguince de Tobillo,83,9,1,1
+Esguince de Tobillo,27,2,3,3
+Tendinopatia Aquilea,53,2,3,3
+Condromalacia Rotuliana,81,6,3,1
+Tendinopatia Aquilea,89,5,2,1
+Esguince de Tobillo,18,3,3,3
+Condromalacia Rotuliana,31,10,1,1
+Esguince de Tobillo,7,3,1,2
+Esguince de Tobillo,45,6,2,1
+Esguince de Tobillo,64,10,3,1
+Tendinopatia Aquilea,57,4,1,3
+Tendinopatia Aquilea,65,4,2,3
+Tendinopatia Aquilea,4,7,1,1
+Esguince de Tobillo,25,5,1,1
+Tendinopatia Aquilea,5,7,3,2
+Condromalacia Rotuliana,74,3,2,3
+Condromalacia Rotuliana,15,4,3,2
+Tendinopatia Aquilea,68,4,3,3
+Condromalacia Rotuliana,3,3,1,1
+Tendinopatia Aquilea,54,1,2,3
+Condromalacia Rotuliana,64,2,1,3
+Tendinopatia Aquilea,18,4,3,2
+Condromalacia Rotuliana,18,6,1,1
+Esguince de Tobillo,42,3,2,3
+Tendinopatia Aquilea,81,10,1,1
+Condromalacia Rotuliana,12,9,3,1
+Esguince de Tobillo,77,7,3,1
+Condromalacia Rotuliana,8,2,2,1
+Tendinopatia Aquilea,51,4,2,3
+Condromalacia Rotuliana,54,3,1,3
+Condromalacia Rotuliana,35,6,1,1
+Tendinopatia Aquilea,42,3,3,3
+Condromalacia Rotuliana,49,8,2,1
+Tendinopatia Aquilea,7,9,2,1
+Tendinopatia Aquilea,64,4,2,3
+Condromalacia Rotuliana,37,6,2,1
+Esguince de Tobillo,59,9,1,1
+Esguince de Tobillo,88,7,3,1
+Tendinopatia Aquilea,50,1,1,3
+Tendinopatia Aquilea,61,5,3,2
+Esguince de Tobillo,13,1,3,2
+Tendinopatia Aquilea,28,4,2,2
+Condromalacia Rotuliana,10,2,3,1
+Tendinopatia Aquilea,83,1,2,3
+Tendinopatia Aquilea,61,3,3,3
+Condromalacia Rotuliana,68,2,3,3
+Esguince de Tobillo,66,2,1,3
+Tendinopatia Aquilea,25,8,1,1
+Tendinopatia Aquilea,62,4,3,3
+Condromalacia Rotuliana,78,1,2,3
+Condromalacia Rotuliana,10,2,3,1
+Esguince de Tobillo,65,1,3,3
+Tendinopatia Aquilea,63,10,3,1
+Esguince de Tobillo,18,4,1,1
+Esguince de Tobillo,34,2,3,3
+Tendinopatia Aquilea,14,1,1,2
+Condromalacia Rotuliana,43,9,2,1
+Condromalacia Rotuliana,49,2,1,3
+Tendinopatia Aquilea,66,3,2,3
+Tendinopatia Aquilea,12,7,1,1
+Esguince de Tobillo,16,4,1,1
+Esguince de Tobillo,19,9,3,1
+Esguince de Tobillo,22,5,1,1
+Tendinopatia Aquilea,69,6,1,1
+Tendinopatia Aquilea,87,9,3,1
+Condromalacia Rotuliana,78,1,2,3
+Condromalacia Rotuliana,61,9,1,1
+Esguince de Tobillo,37,10,2,1
+Esguince de Tobillo,81,8,2,1
+Condromalacia Rotuliana,74,3,2,3
+Condromalacia Rotuliana,88,4,1,1
+Tendinopatia Aquilea,44,10,1,1
+Condromalacia Rotuliana,72,2,3,3
+Condromalacia Rotuliana,35,7,1,1
+Esguince de Tobillo,77,1,1,3
+Tendinopatia Aquilea,63,3,1,3
+Condromalacia Rotuliana,58,1,2,3
+Condromalacia Rotuliana,26,7,1,1
+Condromalacia Rotuliana,45,4,2,1
+Esguince de Tobillo,41,8,2,1
+Esguince de Tobillo,49,9,1,1
+Condromalacia Rotuliana,1,10,1,1
+Tendinopatia Aquilea,30,5,1,1
+Esguince de Tobillo,9,10,3,1
+Esguince de Tobillo,89,6,1,1
+Tendinopatia Aquilea,39,6,3,2
+Condromalacia Rotuliana,53,9,3,1
+Tendinopatia Aquilea,77,4,3,3
+Esguince de Tobillo,59,3,3,3
+Esguince de Tobillo,65,3,1,3
+Tendinopatia Aquilea,81,5,2,1
+Tendinopatia Aquilea,15,5,3,2
+Condromalacia Rotuliana,19,1,1,2
+Condromalacia Rotuliana,36,2,3,3
+Tendinopatia Aquilea,5,9,1,1
+Condromalacia Rotuliana,9,2,1,1
+Esguince de Tobillo,36,7,1,1
+Tendinopatia Aquilea,67,3,3,3
+Esguince de Tobillo,88,9,2,1
+Condromalacia Rotuliana,75,1,2,3
+Tendinopatia Aquilea,8,3,3,1
+Condromalacia Rotuliana,25,7,3,1
+Esguince de Tobillo,10,8,3,1
+Tendinopatia Aquilea,66,9,3,1
+Esguince de Tobillo,88,1,1,3
+Tendinopatia Aquilea,37,9,1,1
+Condromalacia Rotuliana,49,5,2,1
+Condromalacia Rotuliana,14,6,3,1
+Condromalacia Rotuliana,2,10,1,1
+Esguince de Tobillo,74,3,3,3
+Tendinopatia Aquilea,69,4,1,3
+Tendinopatia Aquilea,35,1,2,2
+Condromalacia Rotuliana,50,2,3,3
+Tendinopatia Aquilea,68,4,3,3
+Tendinopatia Aquilea,32,1,1,2
+Tendinopatia Aquilea,75,10,3,1
+Esguince de Tobillo,12,5,1,1
+Condromalacia Rotuliana,24,1,2,2
+Esguince de Tobillo,52,7,3,1
+Tendinopatia Aquilea,50,2,2,3
+Tendinopatia Aquilea,84,9,3,1
+Condromalacia Rotuliana,53,1,3,3
+Tendinopatia Aquilea,2,6,1,1
+Esguince de Tobillo,48,4,1,1
+Esguince de Tobillo,67,8,1,1
+Esguince de Tobillo,85,3,3,3
+Condromalacia Rotuliana,52,5,3,2
+Tendinopatia Aquilea,9,5,2,1
+Condromalacia Rotuliana,24,7,1,1
+Condromalacia Rotuliana,17,7,1,1
+Condromalacia Rotuliana,68,10,1,1
+Tendinopatia Aquilea,76,4,2,3
+Condromalacia Rotuliana,82,6,3,1
+Condromalacia Rotuliana,66,7,3,1
+Esguince de Tobillo,44,7,1,1
+Condromalacia Rotuliana,90,5,3,2
+Condromalacia Rotuliana,80,8,1,1
+Tendinopatia Aquilea,59,8,2,1
+Esguince de Tobillo,46,5,3,2
+Tendinopatia Aquilea,90,4,2,3
+Condromalacia Rotuliana,87,8,3,1
+Esguince de Tobillo,82,7,3,1

@@ -9,10 +9,16 @@ import SwiftData
 /// represente cada relación como UNA sola columna en SQLite (no dos).
 @Model
 final class RecoveryRoadmap {
-    @Attribute(.unique) var id: UUID
+    var id: UUID
     var createdAt: Date     // Fecha de creación del plan
     var estimatedWeeks: Int // Duración total estimada del plan
     var aiReasoning: String? // Explicación textual de la IA sobre este plan
+    var currentPhaseIndex: Int = 0 // Índice de la fase actual (1, 2, 3...)
+    
+    var progress: Double {
+        guard !phases.isEmpty else { return 0 }
+        return Double(currentPhaseIndex) / Double(phases.count)
+    }
 
     /// Lado inverso de la relación con InjuryProfile.
     /// SwiftData gestiona esta referencia automáticamente cuando se asigna
@@ -42,7 +48,7 @@ final class RecoveryRoadmap {
 /// Representa una etapa dentro del proceso de recuperación (ej. "Fase de Movilidad").
 @Model
 final class RecoveryPhase {
-    @Attribute(.unique) var id: UUID
+    var id: UUID
     var title: String           // Título de la fase
     var phaseDescription: String // Qué se espera lograr en esta fase
     var order: Int              // Orden cronológico (1, 2, 3…)
@@ -69,9 +75,11 @@ final class RecoveryPhase {
 /// Representa un día de entrenamiento específico dentro de una fase.
 @Model
 final class DailyRoutine {
-    @Attribute(.unique) var id: UUID
+    var id: UUID
     var dayTitle: String    // Título del día (ej. "Lunes (Semana 1)")
     var order: Int          // Orden dentro de la fase
+    var isCompleted: Bool = false // Marcador de que todo el día ha sido completado
+    var reportedPainLevel: Int?   // Nivel de dolor registrado en el Check-in (1-10)
 
     /// Lado inverso de la relación con RecoveryPhase.
     var phase: RecoveryPhase?

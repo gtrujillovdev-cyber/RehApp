@@ -1,0 +1,91 @@
+{
+    "id": "ankle_sprain",
+    "name": "Protocolo Esguince de Tobillo (Grado 1-2)",
+    "description": "Recuperación de la estabilidad articular centrada en reducir inflamación, recuperar arcos de movimiento (ROM) y fortalecimiento propioceptivo reactivo.",
+    "phases": [
+      {
+        "phaseId": 1,
+        "name": "Fase 1: Aguda (RICE y ROM sin Carga)",
+        "objective": "Disminuir edema. Movilidad activa en descarga.",
+        "recommendedDurationDays": 7,
+        "exercises": [
+          {
+            "id": "ankle_pumps",
+            "name": "Bombeo de Tobillo (Ankle Pumps)",
+            "description": "Tumbado sin carga, mueve el pie hacia arriba y hacia abajo repetidamente como si estuvieras pisando un acelerador. Ayuda al retorno venoso.",
+            "sets": 3,
+            "reps": 20,
+            "holdSeconds": 1,
+            "videoURL": "ankle_pumps_vid",
+            "isBilateral": true
+          },
+          {
+            "id": "abecedario",
+            "name": "Abecedario con el pie",
+            "description": "Con la pierna estirada, dibuja las letras del abecedario en el aire con la punta del pie. Utiliza todo el rango de movimiento que el dolor permita.",
+            "sets": 2,
+            "reps": 1,
+            "holdSeconds": 0,
+            "videoURL": "abecedario_vid",
+            "isBilateral": false
+          }
+        ]
+      },
+      {
+        "phaseId": 2,
+        "name": "Fase 2: Intermedia (Carga Parcial e Isométricos)",
+        "objective": "Fortalecimiento progresivo de eversos e inversores.",
+        "recommendedDurationDays": 14,
+        "exercises": [
+          {
+            "id": "iso_eversion",
+            "name": "Eversión Isométrica",
+            "description": "Empuja la cara externa del pie contra una pared o superficie fija y mantén la tensión sin que haya movimiento real.",
+            "sets": 3,
+            "reps": 1,
+            "holdSeconds": 10,
+            "videoURL": "iso_eversion_vid",
+            "isBilateral": false
+          },
+          {
+            "id": "calf_raises_both",
+            "name": "Elevación de gemelos (Bilateral)",
+            "description": "De pie, sujétate a una silla. Elévate sobre la punta de los dedos de AMBOS pies, y baja lentamente.",
+            "sets": 3,
+            "reps": 15,
+            "holdSeconds": 2,
+            "videoURL": "calf_raises_bi_vid",
+            "isBilateral": true
+          }
+        ]
+      },
+      {
+        "phaseId": 3,
+        "name": "Fase 3: Avanzada (Propiocepción Dinámica)",
+        "objective": "Recuperar la estabilidad neuromuscular y preparar para el retorno al deporte.",
+        "recommendedDurationDays": 14,
+        "exercises": [
+          {
+            "id": "single_leg_disc",
+            "name": "Equilibrio a una pierna en disco",
+            "description": "Párate sobre la pierna lesionada en una superficie inestable (Bosu o cojín gordo). Mantén la posición neutra del tobillo.",
+            "sets": 3,
+            "reps": 1,
+            "holdSeconds": 30,
+            "videoURL": "single_leg_disc_vid",
+            "isBilateral": false
+          },
+          {
+            "id": "lateral_hops",
+            "name": "Saltos laterales controlados",
+            "description": "Saltos muy pequeños y suaves de lado a lado sobre la pierna lesionada. Concéntrate en aterrizar de forma silenciosa y estable.",
+            "sets": 3,
+            "reps": 10,
+            "holdSeconds": 0,
+            "videoURL": "lateral_hops_vid",
+            "isBilateral": false
+          }
+        ]
+      }
+    ]
+  }

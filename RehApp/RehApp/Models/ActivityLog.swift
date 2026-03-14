@@ -5,7 +5,7 @@ import SwiftData
 /// Se utiliza para alimentar los gráficos de progreso y validar rachas.
 @Model
 final class ActivityLog {
-    @Attribute(.unique) var id: UUID
+    var id: UUID
     var date: Date          // Fecha en que se registró la actividad
     var scoreEarned: Int    // Puntos obtenidos en la sesión
     var durationMinutes: Int // Duración real de la sesión

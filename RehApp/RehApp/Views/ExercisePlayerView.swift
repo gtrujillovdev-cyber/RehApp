@@ -25,6 +25,7 @@ struct ExercisePlayerView: View {
                             
                             HStack(alignment: .top, spacing: 16) {
                                 instructionBlock
+                                    .transition(.blurReplace)
                                 metricsColumn
                             }
                             .padding(.horizontal, 24)
@@ -36,12 +37,19 @@ struct ExercisePlayerView: View {
                     }
                 }
             }
-            .background(AppTheme.adaptiveBackground(for: colorScheme).ignoresSafeArea())
+            .background(
+                ZStack {
+                    AppTheme.adaptiveBackground(for: colorScheme).ignoresSafeArea()
+                    sessionGlow
+                }
+            )
             
             controlBar // Fixed at bottom
             
             metricsOverlay
         }
+        .animation(.spring(response: 0.6, dampingFraction: 0.8), value: viewModel.sessionState)
+        .animation(.spring(response: 0.6, dampingFraction: 0.8), value: viewModel.currentBlock)
         .sheet(isPresented: $showClinicalAdvice) {
                 ClinicalAdviceView()
             }
@@ -215,24 +223,43 @@ struct ExercisePlayerView: View {
             AppTheme.glassBackground(for: colorScheme)
                 .glassCard(cornerRadius: 32)
             
-            VStack(alignment: .leading, spacing: 10) {
+            VStack(spacing: 0) {
                 switch viewModel.currentBlock {
                 case .exercise(let exercise):
-                    if let instructions = exercise.instructions, !instructions.isEmpty {
-                        ForEach(instructions, id: \.self) { instruction in
-                            HStack(alignment: .top) {
-                                Image(systemName: "checkmark.circle.fill")
-                                    .foregroundStyle(AppTheme.performanceBlue)
-                                Text(instruction)
-                                    .font(.system(size: 16, weight: .regular))
-                                    .foregroundStyle(AppTheme.primaryText(for: colorScheme))
-                            }
+                    VStack(spacing: 16) {
+                        // Media Zone
+                        ZStack {
+                            Rectangle()
+                                .fill(AppTheme.glassBackground(for: colorScheme))
+                                .opacity(0.3)
+                            
+                            Image(exercise.imageResourceName)
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .padding(20)
+                                .shadow(color: .black.opacity(0.2), radius: 10, x: 0, y: 5)
                         }
-                    } else {
-                        Text(NSLocalizedString("NO_DETAILED_INSTRUCTIONS", comment: ""))
-                            .font(.system(size: 16, weight: .regular))
-                            .foregroundStyle(AppTheme.secondaryText(for: colorScheme))
+                        .frame(maxHeight: .infinity)
+                        .clipShape(RoundedRectangle(cornerRadius: 24))
+                        
+                        // Mini Description Zone
+                        VStack(alignment: .leading, spacing: 6) {
+                            Text(NSLocalizedString("CLINICAL_OBJECTIVE_LABEL", comment: "Clinical objective section title, e.g. OBJETIVO CLÍNICO").uppercased())
+                                .font(.system(size: 8, weight: .black))
+                                .foregroundStyle(AppTheme.performanceBlue)
+                                .tracking(1)
+                            
+                            Text(exercise.technicalDescription ?? "")
+                                .font(.system(size: 13, weight: .bold))
+                                .foregroundStyle(AppTheme.primaryText(for: colorScheme))
+                                .lineLimit(2)
+                                .multilineTextAlignment(.leading)
+                        }
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(.horizontal, 20)
+                        .padding(.bottom, 20)
                     }
+                    
                 case .warmUp:
                     stateVisualPlaceholder(icon: "figure.walk", color: AppTheme.performanceBlue)
                 case .rest:
@@ -265,10 +292,10 @@ struct ExercisePlayerView: View {
     private var instructionBlock: some View {
         VStack(alignment: .leading, spacing: 14) {
             HStack(spacing: 8) {
-                Image(systemName: "text.book.closed.fill")
+                Image(systemName: "list.bullet.clipboard.fill")
                     .font(.system(size: 12, weight: .bold))
                     .foregroundStyle(AppTheme.athleteOrange)
-                Text(NSLocalizedString("TECHNICAL_DESCRIPTION", comment: ""))
+                Text(NSLocalizedString("INSTRUCTIONS", comment: ""))
                     .font(.system(size: 10, weight: .black))
                     .tracking(1)
                     .foregroundStyle(AppTheme.athleteOrange)
@@ -276,14 +303,29 @@ struct ExercisePlayerView: View {
             
             ScrollView(showsIndicators: false) {
                 if case .exercise(let exercise) = viewModel.currentBlock {
-                    Text(exercise.technicalDescription ?? NSLocalizedString("NO_TECHNICAL_DESCRIPTION", comment: ""))
-                        .font(.system(size: 15, weight: .medium))
-                        .foregroundStyle(AppTheme.primaryText(for: colorScheme))
-                        .lineSpacing(4)
-                        .frame(maxWidth: .infinity, alignment: .leading)
+                    VStack(alignment: .leading, spacing: 10) {
+                        if let instructions = exercise.instructions, !instructions.isEmpty {
+                            ForEach(instructions, id: \.self) { instruction in
+                                HStack(alignment: .top, spacing: 10) {
+                                    Circle()
+                                        .fill(AppTheme.performanceBlue)
+                                        .frame(width: 4, height: 4)
+                                        .padding(.top, 6)
+                                    Text(instruction)
+                                        .font(.system(size: 14, weight: .medium))
+                                        .foregroundStyle(AppTheme.primaryText(for: colorScheme))
+                                }
+                            }
+                        } else {
+                            Text(exercise.technicalDescription ?? NSLocalizedString("NO_TECHNICAL_DESCRIPTION", comment: ""))
+                                .font(.system(size: 14, weight: .medium))
+                                .foregroundStyle(AppTheme.primaryText(for: colorScheme))
+                        }
+                    }
+                    .frame(maxWidth: .infinity, alignment: .leading)
                 } else {
                     Text(NSLocalizedString("NOT_APPLICABLE", comment: ""))
-                        .font(.system(size: 15, weight: .medium))
+                        .font(.system(size: 14, weight: .medium))
                         .foregroundStyle(AppTheme.primaryText(for: colorScheme))
                         .frame(maxWidth: .infinity, alignment: .leading)
                 }
@@ -383,5 +425,24 @@ struct ExercisePlayerView: View {
                 .clipShape(RoundedRectangle(cornerRadius: 20))
                 .premiumShadow()
         }
+    }
+    
+    private var sessionGlow: some View {
+        let color: Color = {
+            switch viewModel.sessionState {
+            case .warmingUp: return AppTheme.performanceBlue
+            case .exercising: return AppTheme.athleteOrange
+            case .resting: return .green
+            case .coolingDown: return .purple
+            default: return .clear
+            }
+        }()
+        
+        return Circle()
+            .fill(color.opacity(0.12))
+            .blur(radius: 80)
+            .scaleEffect(1.5)
+            .offset(y: -400)
+            .ignoresSafeArea()
     }
 }

@@ -1,0 +1,81 @@
+{
+  "id": "cervicalgia_chronic",
+  "name": "Protocolo de Cervicalgia y Control Postural",
+  "description": "Enfocado en la liberación de trapecios, control motor de flexores profundos del cuello y corrección de la postura cifótica.",
+  "phases": [
+    {
+      "phaseId": 1,
+      "name": "Fase 1: Liberación y Movilidad",
+      "objective": "Disminuir la tensión muscular acumulada y mejorar el rango de giro sin dolor.",
+      "recommendedDurationDays": 7,
+      "exercises": [
+        {
+          "id": "neck_tilt",
+          "name": "Inclinación Lateral de Cuello",
+          "description": "Lleva la oreja hacia el hombro suavemente. Mantén el hombro contrario bajo para maximizar el estiramiento.",
+          "sets": 3,
+          "reps": 5,
+          "holdSeconds": 15,
+          "videoURL": "exercise_neck_tilt",
+          "isBilateral": true
+        },
+        {
+          "id": "neck_rotation_slow",
+          "name": "Rotaciones Cervicales Lentas",
+          "description": "Gira la cabeza de lado a lado como si dijeras 'no', buscando el límite del movimiento sin forzar.",
+          "sets": 3,
+          "reps": 10,
+          "holdSeconds": 2,
+          "videoURL": "exercise_neck_rot",
+          "isBilateral": true
+        }
+      ]
+    },
+    {
+      "phaseId": 2,
+      "name": "Fase 2: Activación Profunda",
+      "objective": "Fortalecer los flexores profundos que estabilizan las vértebras cervicales.",
+      "recommendedDurationDays": 14,
+      "exercises": [
+        {
+          "id": "chin_tuck",
+          "name": "Retracción Cervical (Chin-Tuck)",
+          "description": "Lleva la barbilla hacia atrás como sacando 'papada'. No inclines la cabeza, mantenla recta. Debes sentir estiramiento en la nuca.",
+          "sets": 3,
+          "reps": 12,
+          "holdSeconds": 5,
+          "videoURL": "exercise_neck_ret",
+          "isBilateral": false
+        },
+        {
+          "id": "shoulder_shrugs",
+          "name": "Encogimientos Escapulares",
+          "description": "Sube los hombros hacia las orejas y luego bájalos con control, centrándote en relajar el trapecio superior.",
+          "sets": 3,
+          "reps": 15,
+          "holdSeconds": 2,
+          "videoURL": "exercise_shoulder",
+          "isBilateral": false
+        }
+      ]
+    },
+    {
+      "phaseId": 3,
+      "name": "Fase 3: Estabilidad Escapular",
+      "objective": "Mejorar el soporte de la base del cuello mediante el fortalecimiento de la espalda alta.",
+      "recommendedDurationDays": 21,
+      "exercises": [
+        {
+          "id": "scapular_retraction",
+          "name": "Retracción de Escápulas",
+          "description": "Junta los omóplatos hacia atrás y hacia abajo, como si quisieras guardar tus escápulas en los bolsillos traseros del pantalón.",
+          "sets": 3,
+          "reps": 15,
+          "holdSeconds": 5,
+          "videoURL": "exercise_band_row",
+          "isBilateral": false
+        }
+      ]
+    }
+  ]
+}

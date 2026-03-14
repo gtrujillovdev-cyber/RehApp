@@ -52,11 +52,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A520692C2F63538F00E1A5D3 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				A5DAFBC12F50DDE900040E83 /* RehAppTests */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		A5DAFBA02F50DDE900040E83 = {
 			isa = PBXGroup;
 			children = (
 				A5DAFBAB2F50DDE900040E83 /* RehApp */,
 				A5DAFBAA2F50DDE900040E83 /* Products */,
+				A520692C2F63538F00E1A5D3 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -420,8 +429,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "";
 				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = RYRF22227J;
@@ -455,8 +464,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "";
 				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = RYRF22227J;

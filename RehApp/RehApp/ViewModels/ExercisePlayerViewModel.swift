@@ -71,18 +71,18 @@ final class ExercisePlayerViewModel {
     init(
         sessionBlocks: [SessionBlock],
         profile: InjuryProfile,
-        healthService: HealthKitServiceProtocol = HealthKitService(),
+        healthService: HealthKitServiceProtocol? = nil,
         gamificationEngine: (any GamificationEngineServiceProtocol)? = nil,
         repository: RecoveryRepositoryProtocol,
-        audioFeedbackService: AudioFeedbackServiceProtocol = AudioFeedbackService(),
+        audioFeedbackService: AudioFeedbackServiceProtocol? = nil,
         timerService: (any SessionTimerServiceProtocol)? = nil
     ) {
         self.sessionBlocks = sessionBlocks
         self.profile = profile
-        self.healthService = healthService
+        self.healthService = healthService ?? HealthKitService()
         self.gamificationEngine = gamificationEngine ?? GamificationEngineService()
         self.repository = repository
-        self.audioFeedbackService = audioFeedbackService
+        self.audioFeedbackService = audioFeedbackService ?? AudioFeedbackService()
         self.timerService = timerService ?? SessionTimerService()
     }
     
@@ -155,14 +155,15 @@ final class ExercisePlayerViewModel {
             guard case .exercise(let exercise) = self.currentBlock else { return }
             
             // Estimamos las repeticiones basadas en el tiempo para dar feedback de ritmo
-            if let estimatedDuration = exercise.estimatedDurationPerRep, estimatedDuration > 0 {
-                let potentialReps = Int(elapsedTime / estimatedDuration)
-                if potentialReps > self.currentRep && potentialReps <= exercise.reps {
-                    self.currentRep = potentialReps
-                    // Consejos de ritmo dinámicos
-                    if self.currentRep == exercise.reps / 3 {
-                        self.audioFeedbackService.playFeedback(for: .pacingGuidance(message: "Mantén un ritmo constante."))
-                    }
+            // Parche: Si el ejercicio no tiene duración (planes antiguos), usamos 4.0s por defecto
+            let repDuration = (exercise.estimatedDurationPerRep ?? 0) > 0 ? exercise.estimatedDurationPerRep! : 4.0
+            
+            let potentialReps = Int(elapsedTime / repDuration)
+            if potentialReps > self.currentRep && potentialReps <= exercise.reps {
+                self.currentRep = potentialReps
+                // Consejos de ritmo dinámicos
+                if self.currentRep == exercise.reps / 3 {
+                    self.audioFeedbackService.playFeedback(for: .pacingGuidance(message: "Mantén un ritmo constante."))
                 }
             }
             
@@ -209,7 +210,7 @@ final class ExercisePlayerViewModel {
         }
     }
     
-    /// Finaliza la sesión global, guarda en Salud y muestra el resumen.
+    /// Finaliza la sesión global, guarda en Salud, registra actividad y muestra el resumen.
     private func finishSession() async {
         // Cálculo estipulado de calorías (estimación simple para demo)
         let totalReps = sessionBlocks.reduce(0) { total, block in
@@ -217,6 +218,21 @@ final class ExercisePlayerViewModel {
             return total
         }
         let estimatedCalories = Double(totalReps) * 0.5
+        
+        let scoreEarned = sessionBlocks.reduce(0) { total, block in
+            if case .exercise(let exercise) = block, exercise.isCompleted {
+                return total + (exercise.pointsReward ?? 0)
+            }
+            return total
+        }
+        
+        // Guardar registro para Gamificación y Gráficas del Dashboard
+        let log = ActivityLog(date: Date(), scoreEarned: scoreEarned, durationMinutes: Int(elapsedTime / 60))
+        do {
+            try repository.saveActivityLog(log, for: profile)
+        } catch {
+            print("Error guardando el ActivityLog: \(error)")
+        }
         
         // Guardar entrenamiento en HealthKit
         try? await healthService.saveWorkout(duration: elapsedTime, calories: estimatedCalories)

@@ -1,0 +1,91 @@
+{
+  "id": "low_back_pain_standard",
+  "name": "Protocolo de Lumbalgia Mecánica",
+  "description": "Protocolo enfocado en la estabilización del core, estiramiento de cadena posterior y descompresión lumbar suave.",
+  "phases": [
+    {
+      "phaseId": 1,
+      "name": "Fase 1: Descompresión y Movilidad Lumbar",
+      "objective": "Aliviar la presión sobre los discos y relajar la musculatura paravertebral.",
+      "recommendedDurationDays": 10,
+      "exercises": [
+        {
+          "id": "cat_cow",
+          "name": "Gato-Vaca (Movilidad Columna)",
+          "description": "En cuadrupedm alterna entre arquear la espalda hacia arriba (gato) y hacia abajo (vaca) respirando profundamente.",
+          "sets": 3,
+          "reps": 12,
+          "holdSeconds": 3,
+          "videoURL": "exercise_cat_cow",
+          "isBilateral": false
+        },
+        {
+          "id": "child_pose_decomp",
+          "name": "Postura del Niño (Respiración)",
+          "description": "Siéntate sobre tus talones y estira los brazos hacia adelante en el suelo, relajando la espalda baja.",
+          "sets": 3,
+          "reps": 1,
+          "holdSeconds": 45,
+          "videoURL": "child_pose_vid",
+          "isBilateral": false
+        }
+      ]
+    },
+    {
+      "phaseId": 2,
+      "name": "Fase 2: Estabilidad de Tronco (Core)",
+      "objective": "Fortalecer el transverso del abdomen y multífidos para proteger la espalda.",
+      "recommendedDurationDays": 20,
+      "exercises": [
+        {
+          "id": "bird_dog",
+          "name": "Bird-Dog (Estabilidad Cruzada)",
+          "description": "En cuadrupedia, estira simultáneamente el brazo derecho y la pierna izquierda. Mantén la espalda recta sin arquearte.",
+          "sets": 3,
+          "reps": 10,
+          "holdSeconds": 5,
+          "videoURL": "exercise_bird_dog",
+          "isBilateral": true
+        },
+        {
+          "id": "dead_bug",
+          "name": "Dead-Bug Isométrico",
+          "description": "Tumbado boca arriba con rodillas a 90º. Baja lentamente brazo y pierna contrarios sin que la espalda baja se separe del suelo.",
+          "sets": 3,
+          "reps": 12,
+          "holdSeconds": 0,
+          "videoURL": "dead_bug_vid",
+          "isBilateral": true
+        }
+      ]
+    },
+    {
+      "phaseId": 3,
+      "name": "Fase 3: Carga Funcional y Glúteo",
+      "objective": "Fortalecer la musculatura extensora para evitar recaídas en el día a día.",
+      "recommendedDurationDays": 15,
+      "exercises": [
+        {
+          "id": "glute_bridge_adv",
+          "name": "Puente de Glúteo Unipodal",
+          "description": "Sube la pelvis usando solo una pierna, manteniendo la cadera nivelada. El glúteo es el principal protector lumbar.",
+          "sets": 3,
+          "reps": 10,
+          "holdSeconds": 3,
+          "videoURL": "bridge",
+          "isBilateral": true
+        },
+        {
+          "id": "superman_extension",
+          "name": "Superman (Extensión Lumbar)",
+          "description": "Tumbado boca abajo, levanta ligeramente pecho y piernas. Mantén la mirada al suelo para no forzar el cuello.",
+          "sets": 3,
+          "reps": 10,
+          "holdSeconds": 3,
+          "videoURL": "exercise_superman",
+          "isBilateral": false
+        }
+      ]
+    }
+  ]
+}

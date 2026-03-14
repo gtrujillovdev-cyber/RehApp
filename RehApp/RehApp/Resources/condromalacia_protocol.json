@@ -1,0 +1,91 @@
+{
+  "id": "condromalacia_grade2",
+  "name": "Protocolo Condromalacia Rotuliana Grado 2",
+  "description": "Protocolo conservador enfocado en descarga articular, fortalecimiento progresivo del cuádriceps (vasto medial) y reeducación propioceptiva.",
+  "phases": [
+    {
+      "phaseId": 1,
+      "name": "Fase 1: Aguda e Isométrica",
+      "objective": "Disminuir dolor e inflamación. Activar musculatura sin fricción femoropatelar.",
+      "recommendedDurationDays": 14,
+      "exercises": [
+        {
+          "id": "iso_quads",
+          "name": "Contracción Isométrica de Cuádriceps",
+          "description": "Con la pierna estirada, aprieta el muslo empujando la rodilla hacia abajo contra el suelo o una toalla enrollada.",
+          "sets": 3,
+          "reps": 10,
+          "holdSeconds": 5,
+          "videoURL": "iso_quads_vid",
+          "isBilateral": true
+        },
+        {
+          "id": "slr",
+          "name": "Elevación de Pierna Recta (SLR)",
+          "description": "Recostado, flexiona la pierna sana. Con la lesionada totalmente extendida, elévala a la altura de la otra rodilla y baja controladamente.",
+          "sets": 3,
+          "reps": 10,
+          "holdSeconds": 3,
+          "videoURL": "slr_vid",
+          "isBilateral": true
+        }
+      ]
+    },
+    {
+      "phaseId": 2,
+      "name": "Fase 2: Sub-Aguda (Cadena Cinética Cerrada)",
+      "objective": "Fortalecimiento del cuádriceps y glúteo en rangos articulares seguros (0 a 45 grados de flexión).",
+      "recommendedDurationDays": 21,
+      "exercises": [
+        {
+          "id": "mini_squat",
+          "name": "Mini-Sentadilla Isométrica (0-45º)",
+          "description": "Apoya la espalda en la pared. Desciende lentamente hasta un máximo de 45 grados (no 90) y mantén la posición. Siente el trabajo en el muslo.",
+          "sets": 3,
+          "reps": 1,
+          "holdSeconds": 15,
+          "videoURL": "mini_squat_vid",
+          "isBilateral": false
+        },
+        {
+          "id": "glute_bridge",
+          "name": "Puente de Glúteo Básico",
+          "description": "Tumbado boca arriba con rodillas flexionadas, levanta la pelvis apretando glúteos. Mantén la alineación rodilla-cadera-hombro.",
+          "sets": 3,
+          "reps": 15,
+          "holdSeconds": 3,
+          "videoURL": "glute_bridge_vid",
+          "isBilateral": true
+        }
+      ]
+    },
+    {
+      "phaseId": 3,
+      "name": "Fase 3: Avanzada y Propiocepción",
+      "objective": "Cargas excéntricas moderadas, mejora del equilibrio dinámico y preparación al alta médica.",
+      "recommendedDurationDays": 28,
+      "exercises": [
+        {
+          "id": "eccentric_step_down",
+          "name": "Bajón de Escalón Excéntrico (Step Down)",
+          "description": "De pie sobre un pequeño escalón, baja muy lentamente la otra pierna hasta rozar el suelo y vuelve a subir. El control está en la de arriba.",
+          "sets": 3,
+          "reps": 8,
+          "holdSeconds": 0,
+          "videoURL": "step_down_vid",
+          "isBilateral": false
+        },
+        {
+          "id": "single_leg_balance",
+          "name": "Equilibrio a una pierna (Propiocepción)",
+          "description": "Mantén el equilibrio sobre la pierna lesionada. Rodilla ligeramente flexionada. Si es muy fácil, cierra los ojos o párate sobre un cojín blando.",
+          "sets": 3,
+          "reps": 1,
+          "holdSeconds": 30,
+          "videoURL": "balance_vid",
+          "isBilateral": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+    "id": "achilles_tendinopathy",
+    "name": "Protocolo Tendinopatía Aquílea",
+    "description": "Rehabilitación basada en carga progresiva del tendón de Aquiles (Protocolo de Alfredson/Silbernagel), fundamental para revertir cambios degenerativos.",
+    "phases": [
+      {
+        "phaseId": 1,
+        "name": "Fase 1: Manejo del Dolor e Isométricos",
+        "objective": "Reducir dolor tendinoso y rigidez matutina. Iniciación de carga sin movimiento.",
+        "recommendedDurationDays": 14,
+        "exercises": [
+          {
+            "id": "iso_calf_hold",
+            "name": "Retención Isométrica de Gemelo",
+            "description": "Párate sobre ambos pies de puntillas. Transfiere el peso al pie lesionado y mantén la posición. El tendón debe trabajar duro pero sin moverse.",
+            "sets": 5,
+            "reps": 1,
+            "holdSeconds": 45,
+            "videoURL": "iso_calf_vid",
+            "isBilateral": false
+          },
+          {
+            "id": "seated_calf_raise",
+            "name": "Elevación de Sóleo Sentado",
+            "description": "Siéntate en una silla con peso sobre las rodillas. Levanta los talones lentamente. Enfatiza el sóleo bajo el gemelo.",
+            "sets": 3,
+            "reps": 15,
+            "holdSeconds": 2,
+            "videoURL": "seated_calf_vid",
+            "isBilateral": true
+          }
+        ]
+      },
+      {
+        "phaseId": 2,
+        "name": "Fase 2: Sobrecarga Excéntrica Lenta",
+        "objective": "Estimular la remodelación del colágeno en el tendón (Protocolo Excéntrico Pesado).",
+        "recommendedDurationDays": 42,
+        "exercises": [
+          {
+            "id": "eccentric_achilles_step",
+            "name": "Caída Excéntrica en Escalón",
+            "description": "De pie en un escalón, sube con los dos pies. Levanta el pie sano y baja el talón del pie lesionado MUY LENTAMENTE por debajo del escalón. Vuelve a subir con los dos.",
+            "sets": 3,
+            "reps": 15,
+            "holdSeconds": 0,
+            "videoURL": "ecc_achilles_step_vid",
+            "isBilateral": false
+          },
+          {
+            "id": "heavy_slow_resistance",
+            "name": "Elevación Lenta con Carga (HSR)",
+            "description": "Con algo de peso extra (mochila), haz elevaciones de gemelo en suelo. Sube en 3 segundos, baja en 3 segundos.",
+            "sets": 3,
+            "reps": 12,
+            "holdSeconds": 0,
+            "videoURL": "hsr_calf_vid",
+            "isBilateral": true
+          }
+        ]
+      },
+      {
+        "phaseId": 3,
+        "name": "Fase 3: Almacenamiento de Energía (Pliometría)",
+        "objective": "Preparar el tendón para cargas rápidas como saltos o running.",
+        "recommendedDurationDays": 28,
+        "exercises": [
+          {
+            "id": "pogo_jumps",
+            "name": "Saltos Pogo a dos pies",
+            "description": "Saltos consecutivos muy rígidos en el sitio. Las rodillas apenas se doblan, todo el rebote proviene de los tobillos.",
+            "sets": 3,
+            "reps": 20,
+            "holdSeconds": 0,
+            "videoURL": "pogo_jumps_vid",
+            "isBilateral": true
+          },
+          {
+            "id": "drop_jumps",
+            "name": "Saltos con caída (Drop Jumps)",
+            "description": "Déjate caer desde un escalón bajo e inmediatamente rebota hacia arriba al tocar el suelo. Tiempo de contacto mínimo.",
+            "sets": 3,
+            "reps": 8,
+            "holdSeconds": 0,
+            "videoURL": "drop_jumps_vid",
+            "isBilateral": true
+          }
+        ]
+      }
+    ]
+  }

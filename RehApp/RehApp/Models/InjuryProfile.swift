@@ -16,7 +16,7 @@ import SwiftData
 /// era redundante e inconsistente con el resto de modelos de la app.
 @Model
 final class InjuryProfile {
-    @Attribute(.unique) var id: UUID
+    var id: UUID
     var bodyPart: String        // Parte del cuerpo afectada (ej. "Rodilla")
     var painLevel: Int          // Nivel de dolor del 1 al 10 reportado por el usuario
     var sport: String           // Deporte principal para adaptar los ejercicios finales

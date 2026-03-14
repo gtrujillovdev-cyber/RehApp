@@ -23,9 +23,9 @@ final class DashboardViewModel {
     /// sobreescriba el resultado correcto del perfil nuevo.
     private var prehabTask: Task<Void, Never>?
     
-    init(repository: RecoveryRepositoryProtocol, inferenceService: LocalInferenceServiceProtocol = LocalInferenceService()) {
+    init(repository: RecoveryRepositoryProtocol, inferenceService: LocalInferenceServiceProtocol? = nil) {
         self.repository = repository
-        self.inferenceService = inferenceService
+        self.inferenceService = inferenceService ?? LocalInferenceService()
         fetchLatestData()
     }
     

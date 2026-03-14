@@ -15,8 +15,10 @@ struct OnboardingView: View {
     init(isSimplified: Bool = false, initialProfile: InjuryProfile? = nil, repository: RecoveryRepositoryProtocol, onComplete: (() -> Void)? = nil) {
         self.isSimplified = isSimplified
         self.onComplete = onComplete
-        _step = State(initialValue: isSimplified ? 2 : 0)
-        _viewModel = State(initialValue: OnboardingViewModel(initialProfile: initialProfile, repository: repository))
+        
+        let initialStep = isSimplified ? 2 : 0
+        self._step = State(initialValue: initialStep)
+        self._viewModel = State(initialValue: OnboardingViewModel(initialProfile: initialProfile, repository: repository))
     }
     
     var body: some View {
@@ -75,6 +77,22 @@ struct OnboardingView: View {
                     }
                 }
                 .animation(.spring(response: 0.6, dampingFraction: 0.8), value: step)
+            }
+        }
+        .onAppear {
+            if let profile = viewModel.initialProfile {
+                // Synchronize view model properties if they are empty and a profile is present
+                // This handles cases where state might be reused by SwiftUI but with different profile
+                if viewModel.bodyPart.isEmpty {
+                    viewModel.bodyPart = profile.bodyPart
+                    viewModel.painLevel = profile.painLevel
+                    viewModel.sport = profile.sport
+                    viewModel.symptomsDescription = profile.symptomsDescription
+                    viewModel.medicalReportText = profile.medicalReportText
+                    viewModel.daysPerWeek = profile.daysPerWeek
+                    viewModel.exercisesPerDay = profile.exercisesPerDay
+                    viewModel.targetDuration = profile.targetDuration
+                }
             }
         }
     }
@@ -257,7 +275,7 @@ struct OnboardingView: View {
                                 .foregroundStyle(AppTheme.performanceBlue)
                         }
                         
-                        Slider(value: .init(get: { Double(viewModel.targetDuration) }, set: { viewModel.targetDuration = Int($0) }), in: 5...45, step: 5)
+                        Slider(value: .init(get: { Double(viewModel.targetDuration) }, set: { viewModel.targetDuration = Int($0) }), in: 5...60, step: 5)
                             .tint(AppTheme.performanceBlue)
                     }
                     .padding(20)
@@ -288,7 +306,21 @@ struct OnboardingView: View {
                     }
                     .buttonStyle(PremiumButtonStyle())
                     .padding(.horizontal, 24)
-                    .padding(.bottom, 60) // Increased padding
+                    .padding(.bottom, viewModel.initialProfile != nil ? 16 : 60) // Adjusted padding
+                    
+                    if let profile = viewModel.initialProfile {
+                        Button(role: .destructive) {
+                            try? viewModel.repository.deleteInjuryProfile(profile)
+                            onComplete?()
+                            if isSimplified { dismiss() }
+                        } label: {
+                            Text("ELIMINAR PERFIL")
+                                .font(.system(size: 14, weight: .bold))
+                                .foregroundStyle(Color.red)
+                                .padding(.vertical, 16)
+                        }
+                        .padding(.bottom, 60)
+                    }
                 }
             }
         }

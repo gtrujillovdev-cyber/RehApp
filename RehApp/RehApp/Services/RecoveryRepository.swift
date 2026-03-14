@@ -20,7 +20,7 @@ protocol RecoveryRepositoryProtocol: Sendable {
     func fetchMilestones() throws -> [Milestone]
     
     /// Historial de actividad
-    func saveActivityLog(_ log: ActivityLog) throws
+    func saveActivityLog(_ log: ActivityLog, for profile: InjuryProfile) throws
     func fetchActivityLogs(for profileID: UUID, daysLimit: Int) throws -> [ActivityLog]
 }
 
@@ -89,7 +89,8 @@ final class RecoveryRepository: RecoveryRepositoryProtocol {
         }
     }
 
-    func saveActivityLog(_ log: ActivityLog) throws {
+    func saveActivityLog(_ log: ActivityLog, for profile: InjuryProfile) throws {
+        log.injuryProfile = profile
         context.insert(log)
         try context.save()
     }

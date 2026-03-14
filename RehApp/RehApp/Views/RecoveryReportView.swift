@@ -4,15 +4,48 @@ import SwiftUI
 /// Presenta el razonamiento clínico, las fases del plan y advertencias de seguridad.
 struct RecoveryReportView: View {
     @Environment(\.colorScheme) private var colorScheme
+    @State private var pdfURL: URL?
+    @State private var isSharing = false
+    
     let profile: InjuryProfile
     let roadmap: RecoveryRoadmap
     
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 32) {
-                headerSection // Título y metadatos de la lesión
-                
-                // Bloque de Razonamiento de la IA
+        NavigationStack {
+            ScrollView {
+                VStack(alignment: .leading, spacing: 32) {
+                    headerSection // Título y metadatos de la lesión
+                    
+                    // Contenido exportable
+                    exportableContent
+                }
+                .padding(24)
+            }
+            .background((colorScheme == .dark ? AppTheme.deepSlate : Color(white: 0.95)).ignoresSafeArea())
+            .navigationTitle("Estrategia")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button {
+                        generateAndSharePDF()
+                    } label: {
+                        Image(systemName: "square.and.arrow.up")
+                            .font(.system(size: 16, weight: .bold))
+                            .foregroundStyle(AppTheme.athleteOrange)
+                    }
+                }
+            }
+            .sheet(isPresented: $isSharing) {
+                if let url = pdfURL {
+                   ShareSheet(items: [url])
+                }
+            }
+        }
+    }
+    
+    private var exportableContent: some View {
+        VStack(alignment: .leading, spacing: 32) {
+            // Bloque de Razonamiento de la IA
                 VStack(alignment: .leading, spacing: 16) {
                     HStack(spacing: 8) {
                         Image(systemName: "brain.head.profile")
@@ -80,9 +113,37 @@ struct RecoveryReportView: View {
                 
                 Color.clear.frame(height: 60)
             }
-            .padding(24)
         }
-        .background((colorScheme == .dark ? AppTheme.deepSlate : Color(white: 0.95)).ignoresSafeArea())
+    
+    // MARK: - PDF Logic
+    
+    @MainActor
+    private func generateAndSharePDF() {
+        let renderer = ImageRenderer(content: 
+            VStack(spacing: 20) {
+                headerSection
+                exportableContent
+            }
+            .padding(40)
+            .background(Color.white)
+            .preferredColorScheme(.light)
+            .frame(width: 600) // Ancho fijo para el PDF
+        )
+        
+        let url = FileManager.default.temporaryDirectory.appendingPathComponent("RehApp_Report_Plan.pdf")
+        
+        renderer.render { size, context in
+            var box = CGRect(x: 0, y: 0, width: size.width, height: size.height)
+            guard let pdf = CGContext(url as CFURL, mediaBox: &box, nil) else { return }
+            
+            pdf.beginPDFPage(nil)
+            context(pdf)
+            pdf.endPDFPage()
+            pdf.closePDF()
+        }
+        
+        self.pdfURL = url
+        self.isSharing = true
     }
     
     /// Cabecera con el nombre de la parte del cuerpo y el deporte.

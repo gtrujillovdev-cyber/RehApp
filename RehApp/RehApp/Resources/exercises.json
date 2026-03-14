@@ -119,6 +119,266 @@
       "instructions": ["Ombligo hacia adentro.", "Espalda neutra."],
       "bodyParts": ["general"],
       "type": "secondary"
+    },
+    {
+      "name": "Rotación Cervical Suave",
+      "reps": 10,
+      "sets": 2,
+      "animationModelID": "neck_rot",
+      "technicalDescription": "Movilidad articular básica.",
+      "instructions": ["Gira lenta y controladamente.", "No fuerces en el tope articular."],
+      "bodyParts": ["cuello", "cervical", "neck"],
+      "type": "primary"
+    },
+    {
+      "name": "Retracción Cervical (Doble Mentón)",
+      "reps": 12,
+      "sets": 3,
+      "animationModelID": "neck_ret",
+      "technicalDescription": "Alineación postural profunda.",
+      "instructions": ["Empuja la barbilla hacia atrás.", "Mantén 3 segundos."],
+      "bodyParts": ["cuello", "cervical", "neck"],
+      "type": "primary"
+    },
+    {
+      "name": "Extensión Lumbar (Gato-Vaca)",
+      "reps": 15,
+      "sets": 3,
+      "animationModelID": "cat_cow",
+      "technicalDescription": "Movilidad de columna total.",
+      "instructions": ["Arquea la espalda.", "Hunde lentamente."],
+      "bodyParts": ["espalda", "lumbar", "back", "dorsal"],
+      "type": "primary"
+    },
+    {
+      "name": "Bird-Dog",
+      "reps": 10,
+      "sets": 3,
+      "animationModelID": "bird_dog",
+      "technicalDescription": "Estabilidad anti-rotación lumbo-pélvica.",
+      "instructions": ["Extiende brazo y pierna contraria.", "Mantén el core rígido sin arquear."],
+      "bodyParts": ["espalda", "lumbar", "back", "core"],
+      "type": "primary"
+    },
+    {
+      "name": "Superman Isométrico",
+      "reps": 5,
+      "sets": 3,
+      "animationModelID": "superman",
+      "technicalDescription": "Activación de cadena posterior.",
+      "instructions": ["Eleva el pecho y muslos del suelo.", "Pausa 5 segundos arriba."],
+      "bodyParts": ["espalda", "lumbar", "back"],
+      "type": "primary"
+    },
+    {
+      "name": "Remo con Banda",
+      "reps": 15,
+      "sets": 3,
+      "animationModelID": "band_row",
+      "technicalDescription": "Retracción escapular activa.",
+      "instructions": ["Junta las escápulas al tirar.", "Controla la fase excéntrica."],
+      "bodyParts": ["hombro", "shoulder", "espalda", "dorsal", "back"],
+      "type": "primary"
+    },
+    {
+      "name": "Elevación Frontal (Flexión)",
+      "reps": 12,
+      "sets": 3,
+      "animationModelID": "front_raise",
+      "technicalDescription": "Rango de movimiento anterior del deltoides.",
+      "instructions": ["Sube el brazo hasta los 90 grados.", "Baja con control."],
+      "bodyParts": ["hombro", "shoulder"],
+      "type": "secondary"
+    },
+    {
+      "name": "Elevación de Gemelo (Calf Raise)",
+      "reps": 15,
+      "sets": 3,
+      "animationModelID": "calf_raise",
+      "technicalDescription": "Fuerza de tríceps sural.",
+      "instructions": ["Sube de puntillas.", "Aguanta un segundo arriba."],
+      "bodyParts": ["tobillo", "ankle", "gemelo"],
+      "type": "primary"
+    },
+    {
+      "name": "Equilibrio Monopodálico",
+      "reps": 3,
+      "sets": 2,
+      "animationModelID": "single_leg",
+      "technicalDescription": "Propiocepción básica de tobillo.",
+      "instructions": ["Manténte sobre un pie.", "Abre brazos si pierdes equilibrio.", "Mantén 30s por repetición."],
+      "bodyParts": ["tobillo", "ankle", "rodilla", "knee"],
+      "type": "primary"
+    },
+    {
+      "name": "Inversión con Banda",
+      "reps": 15,
+      "sets": 3,
+      "animationModelID": "ankle_inv",
+      "technicalDescription": "Activación del tibial posterior.",
+      "instructions": ["Gira el pie hacia adentro.", "Lucha contra la resistencia de la banda."],
+      "bodyParts": ["tobillo", "ankle"],
+      "type": "secondary"
+    },
+    {
+      "name": "Estiramiento Inclinación Lateral",
+      "reps": 3,
+      "sets": 2,
+      "animationModelID": "neck_tilt",
+      "technicalDescription": "Elongación de trapecio superior.",
+      "instructions": ["Lleva la oreja al hombro.", "No subas el hombro opuesto.", "Mantén la tensión 30s."],
+      "bodyParts": ["cuello", "cervical", "neck"],
+      "type": "secondary"
+    },
+    {
+      "name": "Abducción de Cadera de Pie",
+      "reps": 15,
+      "sets": 3,
+      "animationModelID": "hip_abd_stand",
+      "technicalDescription": "Glúteo medio en carga.",
+      "instructions": ["Abre la pierna lateralmente.", "Mantén la rodilla recta.", "No inclines el tronco."],
+      "bodyParts": ["cadera", "hip"],
+      "type": "primary"
+    },
+    {
+      "name": "Estiramiento Psoas (Caballero)",
+      "reps": 3,
+      "sets": 2,
+      "animationModelID": "psoas_stretch",
+      "technicalDescription": "Elongación de flexores de cadera.",
+      "instructions": ["Rodilla al suelo, retroversión pélvica.", "Desplaza tu peso hacia adelante.", "Mantén 45s."],
+      "bodyParts": ["cadera", "hip"],
+      "type": "secondary"
+    },
+    {
+      "name": "Flexión Palmar de Muñeca",
+      "reps": 15,
+      "sets": 3,
+      "animationModelID": "wrist_flex",
+      "technicalDescription": "Fortalecimiento de flexores del carpo.",
+      "instructions": ["Apoya el antebrazo en una mesa.", "Flexiona la muñeca con resistencia ligera."],
+      "bodyParts": ["muñeca", "wrist", "antebrazo"],
+      "type": "primary"
+    },
+    {
+      "name": "Extensión Dorsal de Muñeca",
+      "reps": 15,
+      "sets": 3,
+      "animationModelID": "wrist_ext",
+      "technicalDescription": "Fortalecimiento de extensores del carpo.",
+      "instructions": ["Apoya el antebrazo, palma hacia abajo.", "Extiende la muñeca hacia arriba."],
+      "bodyParts": ["muñeca", "wrist", "antebrazo"],
+      "type": "primary"
+    },
+    {
+      "name": "Supinación y Pronación",
+      "reps": 12,
+      "sets": 3,
+      "animationModelID": "sup_pro",
+      "technicalDescription": "Movilidad radiocubital.",
+      "instructions": ["Codo pegado al cuerpo a 90 grados.", "Gira la palma arriba y abajo lentamente."],
+      "bodyParts": ["codo", "elbow", "antebrazo"],
+      "type": "secondary"
+    },
+    {
+      "name": "Aperturas Pectorales con Banda",
+      "reps": 15,
+      "sets": 3,
+      "animationModelID": "chest_fly",
+      "technicalDescription": "Expansión torácica y activación pectoral.",
+      "instructions": ["Brazos ligeramente flexionados.", "Junta las manos frente al pecho."],
+      "bodyParts": ["pecho", "chest", "pectoral"],
+      "type": "primary"
+    },
+    {
+      "name": "Dead Bug (Bicho Muerto)",
+      "reps": 12,
+      "sets": 3,
+      "animationModelID": "dead_bug",
+      "technicalDescription": "Estabilidad lumbopélvica avanzada.",
+      "instructions": ["Lumbar pegada al suelo en todo momento.", "Baja brazo y pierna contraria."],
+      "bodyParts": ["core", "abdominal", "lumbar"],
+      "type": "primary"
+    },
+    {
+      "name": "Sentadilla Búlgara",
+      "reps": 10,
+      "sets": 3,
+      "animationModelID": "bulgarian_squat",
+      "technicalDescription": "Fuerza unilateral de cadena anterior.",
+      "instructions": ["Pie trasero elevado en un banco.", "Baja controlando la rodilla delantera."],
+      "bodyParts": ["rodilla", "knee", "cadera", "hip"],
+      "type": "primary"
+    },
+    {
+      "name": "Peso Muerto Rumano Unilateral",
+      "reps": 10,
+      "sets": 3,
+      "animationModelID": "rdl_single",
+      "technicalDescription": "Fuerza unilateral de cadena posterior.",
+      "instructions": ["Bisagra de cadera manteniendo espalda recta.", "Siente el estiramiento en el isquiotibial."],
+      "bodyParts": ["cadera", "hip", "isquio", "hamstring"],
+      "type": "primary"
+    },
+    {
+      "name": "Curl de Bíceps con Banda",
+      "reps": 15,
+      "sets": 3,
+      "animationModelID": "bicep_curl",
+      "technicalDescription": "Fuerza de flexores del codo.",
+      "instructions": ["Codos pegados al cuerpo.", "Sube contrayendo el bíceps."],
+      "bodyParts": ["brazo", "arm", "biceps", "codo"],
+      "type": "primary"
+    },
+    {
+      "name": "Extensión de Tríceps con Banda",
+      "reps": 15,
+      "sets": 3,
+      "animationModelID": "tricep_ext",
+      "technicalDescription": "Fuerza de extensores del codo.",
+      "instructions": ["Mantén el codo fijo arriba.", "Extiende el brazo por completo."],
+      "bodyParts": ["brazo", "arm", "triceps", "codo"],
+      "type": "primary"
+    },
+    {
+      "name": "Press Militar con Banda",
+      "reps": 12,
+      "sets": 3,
+      "animationModelID": "shoulder_press",
+      "technicalDescription": "Empuje vertical y estabilidad escapular.",
+      "instructions": ["Sube los brazos por encima de la cabeza.", "Baja controladamente."],
+      "bodyParts": ["hombro", "shoulder", "brazo"],
+      "type": "primary"
+    },
+    {
+      "name": "Zancada Frontal (Lunge)",
+      "reps": 12,
+      "sets": 3,
+      "animationModelID": "lunge",
+      "technicalDescription": "Fuerza de cadena anterior en tijera.",
+      "instructions": ["Da un paso adelante.", "Baja hasta que la rodilla trasera roce el suelo."],
+      "bodyParts": ["rodilla", "knee", "cadera", "hip"],
+      "type": "primary"
+    },
+    {
+      "name": "Zancada Lateral",
+      "reps": 10,
+      "sets": 3,
+      "animationModelID": "side_lunge",
+      "technicalDescription": "Trabajo de aductores y glúteo medio.",
+      "instructions": ["Paso lateral amplio.", "Empuja la cadera hacia atrás."],
+      "bodyParts": ["cadera", "hip", "rodilla", "knee", "aductor"],
+      "type": "secondary"
+    },
+    {
+      "name": "Plancha Lateral",
+      "reps": 3,
+      "sets": 2,
+      "animationModelID": "side_plank",
+      "technicalDescription": "Estabilidad lateral del core.",
+      "instructions": ["Apoya el antebrazo y lateral del pie.", "Mantén el cuerpo rígido 20 segundos."],
+      "bodyParts": ["core", "oblicuo", "abdominal", "hombro"],
+      "type": "primary"
     }
   ]
 }

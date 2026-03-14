@@ -1,0 +1,81 @@
+{
+  "id": "plantar_fasciitis_standard",
+  "name": "Protocolo de Fascitis Plantar",
+  "description": "Enfoque en la flexibilización de la fascia, estiramiento del tríceps sural (gemelos) y fortalecimiento de la musculatura intrínseca del pie.",
+  "phases": [
+    {
+      "phaseId": 1,
+      "name": "Fase 1: Analgesia e Hidratación de la Fascia",
+      "objective": "Disminuir el dolor matutino y la rigidez de la planta del pie.",
+      "recommendedDurationDays": 10,
+      "exercises": [
+        {
+          "id": "fascia_roll",
+          "name": "Masaje con Pelota de Tenis/Bote",
+          "description": "Haz rodar una pelota de tenis o una botella de agua fría bajo el arco del pie con una presión moderada.",
+          "sets": 3,
+          "reps": 1,
+          "holdSeconds": 60,
+          "videoURL": "fascia_roll_vid",
+          "isBilateral": true
+        },
+        {
+          "id": "calf_stretch_wall",
+          "name": "Estiramiento de Gemelo en Pared",
+          "description": "Apoya las manos en la pared, adelanta una pierna flexionada y estira la trasera manteniendo el talón en el suelo.",
+          "sets": 3,
+          "reps": 3,
+          "holdSeconds": 30,
+          "videoURL": "calf_stretch_vid",
+          "isBilateral": true
+        }
+      ]
+    },
+    {
+      "phaseId": 2,
+      "name": "Fase 2: Fortalecimiento y Carga Tendinosa",
+      "objective": "Mejorar la capacidad del pie para absorber impactos mediante el fortalecimiento excéntrico.",
+      "recommendedDurationDays": 20,
+      "exercises": [
+        {
+          "id": "eccentric_calf_raise",
+          "name": "Elevación de Talón Excéntrica",
+          "description": "Sube con los dos pies elevados sobre un escalón. Levanta la pierna sana y baja el talón de la pierna lesionada lentamente por debajo del nivel del escalón.",
+          "sets": 3,
+          "reps": 12,
+          "holdSeconds": 0,
+          "videoURL": "exercise_calf_raise",
+          "isBilateral": false
+        },
+        {
+          "id": "towel_scrunch",
+          "name": "Arrugar Toalla con los Dedos",
+          "description": "Sentado, intenta recoger una toalla extendida en el suelo usando solo los dedos del pie lesionado.",
+          "sets": 3,
+          "reps": 15,
+          "holdSeconds": 2,
+          "videoURL": "towel_scrunch_vid",
+          "isBilateral": false
+        }
+      ]
+    },
+    {
+      "phaseId": 3,
+      "name": "Fase 3: Propiocepción y Saltos Suaves",
+      "objective": "Preparar el pie para el retorno a la carrera o actividad deportiva.",
+      "recommendedDurationDays": 14,
+      "exercises": [
+        {
+          "id": "y_balance_test",
+          "name": "Y-Balance (Estabilidad de Tobillo)",
+          "description": "A una pierna, intenta alcanzar con la otra los puntos más lejanos en forma de Y sin perder el equilibrio.",
+          "sets": 3,
+          "reps": 5,
+          "holdSeconds": 0,
+          "videoURL": "exercise_single_leg",
+          "isBilateral": true
+        }
+      ]
+    }
+  ]
+}

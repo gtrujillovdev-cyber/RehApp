@@ -18,7 +18,7 @@ import SwiftData
 /// práctica: `isUnlocked` se puede derivar de `!unlockedByProfiles.isEmpty`.
 @Model
 final class Milestone {
-    @Attribute(.unique) var id: UUID
+    var id: UUID
     var title: String               // Título del hito (ej. "Primer Paso")
     var milestoneDescription: String // Explicación de qué se ha logrado
     var requiredScore: Int          // Puntuación necesaria para desbloquearlo

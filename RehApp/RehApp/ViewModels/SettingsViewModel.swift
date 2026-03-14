@@ -21,7 +21,11 @@ final class SettingsViewModel {
     }
     
     var selectedLanguage: String = Locale.current.identifier
-    var selectedTheme: AppThemeSelection = .system
+    var selectedTheme: AppThemeSelection = .system {
+        didSet {
+            UserDefaults.standard.set(selectedTheme.rawValue, forKey: "selectedTheme")
+        }
+    }
     var isHealthKitEnabled: Bool = false
     var enableExerciseReminders: Bool = false
     var enableProgressUpdates: Bool = false

@@ -1,0 +1,71 @@
+{
+  "id": "carpal_tunnel_conservative",
+  "name": "Protocolo de Túnel Carpiano (Fase Inicial)",
+  "description": "Protocolo dirigido al deslizamiento neural del nervio mediano, estiramientos de flexores y fortalecimiento ligero de los intrínsecos de la mano.",
+  "phases": [
+    {
+      "phaseId": 1,
+      "name": "Fase 1: Neurodinamia y Apertura",
+      "objective": "Mejorar el deslizamiento del nervio mediano dentro del túnel para reducir hormigueos.",
+      "recommendedDurationDays": 10,
+      "exercises": [
+        {
+          "id": "nerve_glide_median",
+          "name": "Deslizamiento del Nervio Mediano",
+          "description": "Con el brazo al frente y palma arriba, extiende suavemente la muñeca hacia atrás mientras inclinas la cabeza al lado contrario.",
+          "sets": 3,
+          "reps": 12,
+          "holdSeconds": 2,
+          "videoURL": "nerve_glide_vid",
+          "isBilateral": true
+        },
+        {
+          "id": "wrist_flexor_stretch",
+          "name": "Estiramiento de Flexores de Muñeca",
+          "description": "Brazo estirado y palma hacia adelante. Tira de los dedos hacia ti hasta sentir tensión suave en el túnel carpiano.",
+          "sets": 3,
+          "reps": 5,
+          "holdSeconds": 15,
+          "videoURL": "exercise_wrist_flex",
+          "isBilateral": true
+        }
+      ]
+    },
+    {
+      "phaseId": 2,
+      "name": "Fase 2: Fortalecimiento de Oposición",
+      "objective": "Fortalecer los músculos de la base del pulgar que suelen atrofiarse en estados crónicos.",
+      "recommendedDurationDays": 14,
+      "exercises": [
+        {
+          "id": "thumb_opposition",
+          "name": "Oposición de Pulgar con Resistencia",
+          "description": "Toca cada dedo con el pulgar presionando con fuerza durante 3 segundos. Puedes usar una goma elástica alrededor de los dedos para mayor reto.",
+          "sets": 3,
+          "reps": 15,
+          "holdSeconds": 3,
+          "videoURL": "thumb_opp_vid",
+          "isBilateral": true
+        }
+      ]
+    },
+    {
+      "phaseId": 3,
+      "name": "Fase 3: Estabilidad Funcional",
+      "objective": "Integrar el uso de la mano en actividades de carga moderada con alineación correcta.",
+      "recommendedDurationDays": 14,
+      "exercises": [
+        {
+          "id": "wrist_proximal_stab",
+          "name": "Estabilidad Proximal de Muñeca",
+          "description": "Con una pesa muy ligera o una pelota, realiza pequeños movimientos rápidos de rebote manteniendo la muñeca fija y neutra.",
+          "sets": 3,
+          "reps": 1,
+          "holdSeconds": 30,
+          "videoURL": "wrist_stab_vid",
+          "isBilateral": true
+        }
+      ]
+    }
+  ]
+}
